@@ -1,0 +1,170 @@
+.Doctorimgsetmainvbox img {
+    margin-bottom: 0;
+}
+
+
+
+.UploadFormcontrolBox {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    padding-top: 3px;
+    min-height: 125px;
+    margin-bottom: 10px;
+}
+
+.UploadFormcontrolBox h6 {
+    color: #1F1F1F;
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 14px;
+}
+
+.UploadFormcontrol-img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.UploadFormcontrol-img img {
+    width: 108px;
+    height: 108px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+.UploadFormcontrolBox .drop-mainset {
+    display: block;
+    width: 120px;
+    border: 0;
+    background: var(--secondary-color);
+    border-radius: 6px;
+    cursor: pointer;
+    text-align: center;
+    padding: 3px;
+    position: relative;
+    height: auto;
+    float: left;
+}
+
+.UploadFormcontrolBox .drop-mainset h5 svg {
+    font-size: 22px;
+    float: left;
+    margin-right: 10px;
+}
+
+.UploadFormcontrolBox .drop-mainset h5 {
+    display: inline-flex;
+    width: 100%;
+    margin: 0;
+    font-size: 13px;
+    color: #ffffff;
+    font-weight: 400;
+    align-items: center;
+    margin-top: 5px;
+    padding-left: 10px;
+}
+
+.UploadFormcontrol-note {
+    display: block;
+    float: left;
+}
+
+.UploadFormcontrol-note p {
+    color: #838383;
+    margin: 0;
+    font-size: 13px;
+    margin-left: 22px;
+    padding-top: 5px;
+}
+
+.uploadDocumDrset {}
+
+.uploadDocumDrset .drop-mainset h5 {
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+}
+
+.uploadDocumDrset .drop-mainset h5 span {
+    display: inline-block;
+    width: 100%;
+    margin-top: 8px;
+}
+
+.uploadDocumDrset .drop-mainset {
+    text-align: center;
+    background: #F5F6FF;
+    height: 115px;
+    padding: 15px;
+    padding-top: 24px;
+}
+
+.uploadDocumDrset .drop-mainset h5 svg {
+    float: none;
+    margin: 0px;
+    font-size: 35px;
+    color: #838383;
+}
+
+
+
+@media (max-width: 767px) {
+
+    .UploadFormcontrolBox {
+        padding-top: 0px;
+    }
+
+    .UploadFormcontrol-note {
+        width: 100%;
+    }
+
+    .UploadFormcontrol-note p {
+        margin-left: 0px;
+        padding-top: 10px;
+    }
+}
+
+@media (max-width: 600px) {
+    .UploadFormcontrol-note p br {
+        display: none;
+    }
+}
+
+@media (max-width: 479px) {
+    .UploadFormcontrolBox {
+        padding-left: 112px !important;
+    }
+
+    .UploadFormcontrol-img img {
+        width: 90px;
+        height: 90px;
+    }
+}
+
+@media (max-width: 414px) {
+    .UploadFormcontrol-img img {
+        width: 75px;
+        height: 75px;
+    }
+
+    .UploadFormcontrolBox {
+        padding-left: 88px !important;
+    }
+}
+
+@media (max-width: 360px) {
+    .UploadFormcontrol-img {
+        position: relative;
+        margin-bottom: 18px;
+    }
+
+    .UploadFormcontrolBox {
+        padding-left: 0 !important;
+    }
+
+    .UploadFormcontrolBox h6 {
+        margin-bottom: 6px;
+    }
+}

@@ -1,0 +1,91 @@
+/***** Offerbanner CSS *****/
+
+.offbanner-cover {
+    display: inline-flex;
+    width: 100%;
+    padding: 45px 0;
+}
+
+.offerban-cover {
+    display: inline-flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.offerban-set {
+    display: inline-flex;
+    width: 100%;
+}
+
+.offerban-set img {
+    width: 100%;
+    border-radius: 16px;
+}
+
+.offerban-cover .slick-next {
+    right: -4px;
+}
+
+.offerban-cover .slick-prev {
+    left: -13px;
+}
+
+
+.offerban-cover .slick-dots li button {
+    border: 1px solid var(--secondary-color);
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background: #ffffff;
+}
+
+.offerban-cover .slick-dots li.slick-active button {
+    background: var(--button-bg-color-secondary);
+}
+
+.offerban-cover .slick-dots li button:before {
+    content: '' !important;
+    display: none;
+}
+
+.referearn-cover {
+    display: inline-flex;
+    width: 100%;
+    height: 100%;
+}
+
+.referearn-cover a {
+    display: inline-flex;
+    width: 100%;
+}
+
+.referearn-cover img {
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+}
+
+.offerban-det {
+    display: inline-flex;
+}
+
+/***** End Offerbanner CSS *****/
+@media (max-width: 767px) {
+    .offerban-cover {
+        margin-bottom: 48px;
+    }
+
+    .getsolution-set {
+        padding-top: 10px;
+    }
+}
+
+@media (max-width: 414px) {
+    .offerban-cover .slick-next {
+        right: 2px;
+    }
+
+    .offerban-cover .slick-prev {
+        left: -10px;
+    }
+}

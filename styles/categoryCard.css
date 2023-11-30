@@ -1,0 +1,56 @@
+.concernbox-cover {
+    display: inline-flex !important;
+    width: 100% !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    /* box-shadow: 0px 10px 20px rgb(0 0 0 / 4%); */
+    box-shadow: 0px 0px 10px rgb(222 222 222);
+    border-radius: 10px;
+    padding: 20px 15px;
+    text-align: center;
+}
+
+.concernbox-cover img {
+    width: 70px !important;
+    height: 70px !important;
+    object-fit: cover;
+    margin-bottom: 8px;
+    border-radius: 8px;
+}
+
+.concernbox-cover h5 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.concernbox-cover p {
+    font-size: 14px;
+    color: #7E7E7E;
+}
+
+.concernbox-cover a {
+    color: var(--secondary-color) !important;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+/***** Media Query *****/
+
+@media (max-width: 767px) {
+    .concernbox-cover {
+        padding: 15px 10px;
+    }
+}
+
+@media (max-width: 650px) {
+    .concernbox-cover img {
+        width: 55px !important;
+        height: 55px !important;
+    }
+
+}
+
+/***** Media Query *****/

@@ -1,0 +1,80 @@
+/***** Getsolution CSS *****/
+
+.getsolution-set {
+    display: inline-flex;
+    width: 100%;
+    padding: 25px 0;
+}
+
+.getsolution-title {
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.getsolution-title h2 {
+    font-size: 24px;
+    color: #172338;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.getsolution-list {
+    display: inline-flex;
+    width: 100%;
+    flex-direction: column;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 30px rgb(0 0 0 / 6%);
+    padding: 15px 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 8px;
+    min-height: 190px;
+    position: relative;
+}
+
+.getsolution-list .geticon-set {
+    width: 55px;
+    height: 55px;
+    margin-bottom: 12px;
+}
+
+.getsolution-list h5 {
+    font-size: 16px;
+    color: #172338;
+}
+
+.getsolution-list p {
+    font-size: 14px;
+    color: #636363;
+    margin-bottom: 0;
+}
+
+.numberimg {
+    position: absolute;
+    right: 7px;
+    top: 8px;
+}
+
+.numberimg img {
+    width: 45px !important;
+    height: auto !important;
+}
+
+/***** End Getsolution CSS *****/
+
+@media (max-width: 991px) {
+
+    .getsolution-list {
+        margin-bottom: 15px;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .getsolution-title h2 {
+        font-size: 22px;
+        margin-bottom: 18px;
+    }
+}

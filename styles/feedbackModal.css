@@ -1,0 +1,110 @@
+.ShareFeedbackModal {}
+
+
+.ShareFeedbackModal .modal-dialog {
+    max-width: 640px;
+}
+
+.ShareFeedbCovmod {
+    display: inline-block;
+    width: 100%;
+    padding-top: 12px;
+}
+
+.ShareFeedbCovmod h6 {
+    display: inline-block;
+    width: 100%;
+    margin: 0px;
+    color: #686868;
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 28px;
+}
+
+.rateexperredremar {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 28px;
+}
+
+.rateexperredremar label {
+    display: inline-block;
+    width: 100%;
+    color: #2D2424;
+    font-size: 14px;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+.rateexperredremar textarea {
+    color: #000000;
+    background: #ffffff;
+    border: 1px solid #E8E8E8;
+    border-radius: 8px;
+    font-size: 14px;
+    height: 112px;
+    padding: 16px;
+    resize: none;
+}
+
+.submitfidrefullbtn {
+    display: inline-block;
+    width: 100%;
+}
+
+.submitfidrefullbtn button {
+    display: inline-block;
+    width: 100%;
+    background: var(--button-bg-color-secondary) !important;
+    color: var(--button-text-color-secondary) !important;
+    border-radius: 5px;
+    border: 0px !important;
+    font-weight: 500;
+    padding: 10px 15px 10px;
+    font-size: 16px;
+}
+
+.ThabksFeedbmodlmain .modal-dialog {
+    max-width: 370px;
+}
+
+.ThabksFeedbmodlmain .modal-content {
+    padding: 20px;
+    background-color: #5DFFBB;
+}
+
+.ThabksFeedbmodlcov {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+
+.ThabksFeedbmodlcov img {
+    width: 80px;
+}
+
+.ThabksFeedbmodlcov p {
+    display: inline-block;
+    width: 100%;
+    font-weight: 600;
+    color: #242424;
+    font-size: 18px;
+    margin-top: 22px;
+}
+.feedbackRating{
+    margin-top: -10px;
+    margin-bottom: 15px;
+}
+.feedbackRating .outlineStart{
+    font-size: 45px;
+    color: gray;
+    cursor: pointer;
+}
+
+.feedbackRating .fillStar{
+    font-size: 45px;
+    color: #FFAA45;
+    cursor: pointer;
+}

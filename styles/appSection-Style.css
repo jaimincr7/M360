@@ -1,0 +1,146 @@
+.appsect-cover{
+    display: inline-flex;
+    width: 100%;
+    /* background-image: url(../public/assets/images/home/appsection/vectorpattern.png); */
+    padding-top: 30px;
+    background: #E3EEFF;
+}
+
+.appsect-set{
+    display: inline-flex;
+    width: 100%;
+    flex-direction: row;
+}
+
+.appsect-left{
+    display: inline-flex;
+    width: 60%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.appsect-left h2{
+    font-size: 24px;
+    color: #172338;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.appsect-left p{
+    font-size: 15px;
+    color: #6f6b6b;
+    margin-bottom: 40px;
+}
+
+.downloadapp-set{
+    display: inline-flex;
+    width: 45%;
+    flex-direction: column;
+    border: 1px solid var(--primary-color);
+    border-radius: 8px;
+    align-items: center;
+    padding: 20px 15px;
+    position: relative;
+}
+
+.downloadapp-set span{
+    font-size: 13px;
+    font-weight: 500;
+    color: #172338;
+    background: #E3EEFF;
+    padding: 0 5px;
+    position: absolute;
+    top: -10px;
+}
+
+.appicon-img{
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.appicon-img a:first-child{
+    display: inline-flex;
+    margin-right: 18px;
+}
+
+.appicon-img a img{
+    width: 135px;
+    height: auto;
+}
+
+.appsect-right{
+    display: inline-flex;
+    width: 40%;
+    justify-content: center;
+}
+
+.appsect-right img{
+    width: 45%;
+}
+
+.appsect-right.footer-mobile-image img {
+    height: 100%;
+}
+
+
+
+
+
+
+
+/**** Media Query ****/
+
+@media (max-width: 1199px){
+    .downloadapp-set{
+        width: 75%;
+        padding: 22px 15px 20px;
+    }
+}
+
+@media (max-width: 991px){
+    .appsect-right img {
+        width: 60%;
+    }
+    .appsect-left p br{
+        display: none;
+    }
+    .downloadapp-set{
+        padding: 22px 15px 13px;
+    }
+}
+
+@media (max-width: 767px){
+    .appsect-right{
+        display: none;
+    }
+    .appsect-left{
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+    .appsect-cover{
+        padding-bottom: 30px;
+    }
+    .appsect-left p{
+        margin-bottom: 25px;
+    }
+}
+
+@media (max-width: 480px){
+    .appsect-left h2{
+        font-size: 22px;
+        margin-bottom: 15px;
+    }
+    .appicon-img a img {
+        width: 115px;
+    }
+    .downloadapp-set {
+        width: 100%;
+    }
+    .appsect-cover {
+        padding: 15px;
+    }
+}
+
+/****End Media Query ****/

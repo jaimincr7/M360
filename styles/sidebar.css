@@ -1,0 +1,111 @@
+.SidebarSettingsCov {
+    display: inline-block;
+    width: 100%;
+    background: var(--primary-color);
+    border-radius: 14px;
+}
+
+.SidebarSetgsusername {
+    display: inline-block;
+    width: 100%;
+    padding: 28px;
+    padding-bottom: 18px;
+}
+
+.SidebarSetgsusername hr {
+    border-top: 2px solid rgba(255, 255, 255, 0.5);
+    width: 100%;
+    margin: 0;
+    margin-top: 20px;
+}
+
+.SidebarSetgsuserIner {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    min-height: 62px;
+    padding-left: 77px;
+    padding-top: 4px;
+}
+
+.SidebarSetgsuIcon {
+    width: 52px;
+    height: 52px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    text-align: center;
+    color: #4285F4;
+    font-size: 22px;
+    padding-top: 6px;
+    position: absolute;
+    left: 10px;
+    top: 5px;
+}
+
+.SidebarSetgsuserIner h3 {
+    display: inline-block;
+    width: 100%;
+    color: #FFFFFF;
+    font-size: 16px;
+    margin: 0;
+    font-weight: 500;
+    margin-bottom: 1px;
+    margin-top: 4px;
+}
+
+.SidebarSetgsuserIner p {
+    display: inline-block;
+    width: 100%;
+    color: #FFFFFF;
+    font-size: 14px;
+    margin: 0;
+    font-weight: 300;
+}
+
+.SidebarSettCovNav {
+    display: inline-block;
+    width: 100%;
+}
+
+.SidebarSettCovNav ul {
+    display: inline-block;
+    width: 100%;
+    padding-bottom: 18px;
+}
+
+.SidebarSettCovNav ul {
+    padding-left: 0px;
+}
+
+.SidebarSettCovNav ul li {
+    display: inline-block;
+    width: 100%;
+}
+
+
+.SidebarSettCovNav ul li a {
+    display: inline-block;
+    width: 100%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 28px;
+    padding-right: 28px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.SidebarSettCovNav ul li.active a {
+    background: rgba(0, 0, 0, 0.35);
+}
+
+.SidebarSettCovNav ul li a:hover {
+    background: rgba(0, 0, 0, 0.35);
+}
+
+
+@media (max-width: 991px) {
+    .UsersettiLeftSide {
+        width: 100%;
+    }
+}

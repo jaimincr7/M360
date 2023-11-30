@@ -1,0 +1,283 @@
+.LoginFormmaincov {
+    display: inline-block;
+    width: 100%;
+    margin-top: 8px;
+}
+
+.RemembforgotCover {
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.RemembforgotLeft {
+    display: inline-block;
+}
+
+.RemembforgotLeft .form-check .form-check-label {
+    color: #686868;
+    display: block;
+    font-size: 13px;
+    float: left;
+    margin-top: 4px;
+}
+
+.RemembforgotRight {
+    display: inline-block;
+}
+
+.RemembforgotRight a {
+    color: #686868 !important;
+    display: inline-block;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.chboxlogotpcheckbox {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+.chboxlogotpcheckbox .form-check .form-check-label {
+    color: #686868;
+    display: block;
+    font-size: 13px;
+    float: left;
+    margin-top: 4px;
+}
+
+.noyettextctnewbox {
+    display: inline-block;
+    width: 100%;
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+
+.noyettextctnewbox p {
+    color: #2D2424;
+    display: inline-block;
+    width: 100%;
+    font-size: 16px;
+    margin: 0px;
+}
+
+.noyettextctnewbox p a {
+    color: var(--secondary-color) !important;
+    display: inline-block;
+    font-weight: 700;
+    cursor: pointer !important;
+}
+
+.SaveButtonComsetbox {
+    display: inline-block;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.SaveButtonComsetbox button {
+    display: inline-block;
+    width: 100%;
+    font-size: 18px;
+    color: var(--button-text-color-secondary) !important;
+    background: var(--button-bg-color-secondary) !important;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    border: 0px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-weight: 500;
+}
+
+.LinOrcovlist {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+.LinOrcovlist::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    border-bottom: 1px solid #d5d5d5;
+    top: 13px;
+}
+
+.LinOrcovlist p {
+    display: inline-block;
+    margin: 0px;
+    color: #858585;
+    background: #ffffff;
+    z-index: 1;
+    position: relative;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.loginwidthmaincovbtn {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.loginwidthmaincovbtn a {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgb(0 0 0 / 8%);
+    width: 48px;
+    height: 48px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.loginwidthmaincovbtn a svg {
+    width: 26px;
+    height: 26px;
+    margin-top: 12px;
+}
+
+.passboxincovbtn {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+}
+
+.passboxincovbtn a {
+    position: absolute;
+    top: 9px;
+    right: 14px;
+    color: #AFAFAF;
+    font-size: 20px;
+}
+
+.passboxincovbtn input {
+    padding-right: 40px !important;
+}
+
+/* .passboxincovbtn a svg {}
+
+.PassShow {}
+
+.PassHide {} */
+
+.VerifyCodeboxcov {
+    display: inline-block;
+    width: 100%;
+}
+
+.VerifyCodeboxcov h3 {
+    display: inline-block;
+    width: 100%;
+    color: #2D2424;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+
+.VerifyCodeboxcov p {
+    display: inline-block;
+    width: 100%;
+    color: #686868;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.VerifyCodeboxcov h6 {
+    display: inline-block;
+    width: auto;
+    color: #686868;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.VerifyCodeboxcov h6 a {
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    color: var(--button-text-color-secondary) !important;
+    background: var(--button-bg-color-secondary) !important;
+    text-align: center;
+    line-height: 1;
+    float: right;
+    font-size: 13px;
+    padding-top: 3px;
+    margin-top: 1px;
+    margin-left: 6px;
+}
+
+.VerifyCodeboxcov .ComsetFormAddIn .FormInputcovermain {
+    min-height: auto;
+}
+
+.agreeconditbox {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    padding-left: 26px;
+}
+
+.agreeconditbox .form-check {
+    display: block;
+    width: auto;
+    float: left;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.agreeconditbox p {
+    display: block;
+    width: auto;
+    float: left;
+    color: #686868;
+    margin: 0;
+    font-size: 15px;
+    padding-top: 2px;
+}
+
+.agreeconditbox p a {
+    color: var(--secondary-color);
+    text-decoration: underline !important;
+}
+
+
+
+.forrogonoteboxcov {
+    display: inline-block;
+    width: 100%;
+}
+
+.forrogonoteboxcov p {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 15px;
+    color: #686868;
+}
+
+.ComLoginmainModalsetcov .modal-dialog {
+    max-width: 480px;
+}
+
+.ComLoginmainModalsetcov .modal-content {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+@media (max-width: 479px) {
+    .ComLoginmainModalsetcov .modal-content {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}

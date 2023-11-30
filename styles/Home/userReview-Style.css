@@ -1,0 +1,102 @@
+.toppatients-cover {
+    display: inline-flex;
+    width: 100%;
+    background-image: url(../../public/assets/home/patientbgimg.png);
+    padding: 30px 0;
+}
+
+
+.toppatientbox-cover {
+    display: inline-flex !important;
+    width: 100% !important;
+    flex-direction: column;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 15px rgb(0 0 0 / 5%);
+    border-radius: 12px;
+    padding: 28px 15px 15px 15px;
+    position: relative;
+}
+
+.toppatientbox-cover h3 {
+    font-size: 15px;
+    color: #172338;
+    padding-right: 40px;
+}
+
+.toppatientbox-cover p {
+    font-size: 14px;
+    color: #7E7E7E;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1.5;
+    min-height: 105px;
+}
+
+.toppatientbox-cover h5 {
+    font-size: 16px;
+    color: #172338;
+    margin-bottom: 10px;
+}
+
+.patientrate-set {
+    display: inline-flex;
+    width: 100%;
+}
+
+.patientrate-set svg {
+    font-size: 17px;
+    color: #FFAA45;
+}
+
+.toppatientbox-cover img {
+    width: 35px !important;
+    height: auto !important;
+    opacity: 0.06;
+    position: absolute;
+    top: 17px;
+    right: 15px;
+}
+
+
+.consultnamedet-set {
+    display: inline-flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.consultnamedet-set img {
+    width: 100%;
+    height: 180px !important;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.toppatients-cover .slick-slider .slick-prev {
+    top: -36px;
+}
+
+.toppatients-cover .slick-slider .slick-next {
+    top: -36px;
+}
+
+
+/**** Media Query ****/
+
+@media (max-width: 767px) {
+    .toppatients-cover .slick-slider .slick-prev {
+        top: 50% !important;
+    }
+
+    .toppatients-cover .slick-slider .slick-next {
+        top: 50% !important;
+    }
+}
+
+@media (max-width: 767px) {}
+
+@media (max-width: 650px) {}
+
+/**** End Media Query ****/

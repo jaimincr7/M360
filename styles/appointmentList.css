@@ -1,0 +1,397 @@
+.AppointmentListCov {
+    display: inline-block;
+    width: 100%;
+}
+
+.AppottListTitle {
+    display: inline-block;
+    width: 100%;
+}
+
+.AppottListTitLeft {
+    display: inline-block;
+    width: auto;
+}
+
+.AppottListTitRight {
+    display: block;
+    width: auto;
+    float: right;
+    padding-top: 5px;
+}
+
+.AppottListTitLeft ul {
+    display: inline-block;
+    width: 100%;
+    border-bottom: 2px solid #EBEAEA;
+}
+
+.AppottListTitLeft ul li {
+    display: block;
+    float: left;
+}
+
+.AppottListTitLeft ul li a {
+    display: inline-block;
+    color: #686868;
+    padding: 12px 25px 12px;
+    font-size: 15px;
+    text-transform: uppercase;
+    position: relative;
+    font-weight: 600;
+    margin-bottom: -2px;
+}
+
+.AppottListTitLeft ul li.active {}
+
+.AppottListTitLeft ul li.active a {
+    color: var(--secondary-color);
+}
+
+.AppottListTitLeft ul li.active a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 3px;
+    background: var(--secondary-color);
+    left: 0;
+}
+
+.AppottListTitRight .react-select__control {
+    border: 0;
+    width: 138px;
+}
+
+.AppottListTitRight .react-select__control .react-select__single-value {
+    color: #686868;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.AppontdataList {
+    display: inline-block;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.AppointmentListtbl {
+    display: inline-flex;
+    align-items: center;
+    /* display: inline-flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center; */
+    width: 100%;
+    background: #FFFFFF;
+    border: 2px solid #EBEAEA;
+    border-radius: 15px;
+    padding: 6px 6px 6px;
+    margin-bottom: 15px;
+}
+
+.AppointIDfolupbox {
+    display: block;
+    width: 13%;
+    float: left;
+    padding-left: 5px;
+    padding-right: 10px;
+}
+
+.AppointIDfolupbox h6 {
+    display: inline-block;
+    width: 100%;
+    color: #2D2424;
+    margin-bottom: 0;
+    font-size: 15px;
+}
+
+.AppointIDfolupbox span {
+    background: #E7F4FF;
+    border-radius: 5px;
+    color: #174799;
+    font-size: 12px;
+    padding: 3px 9px 3px;
+    display: inline-block;
+    margin-top: 3px;
+}
+
+.ServiceListapointBox {
+    display: inline-block;
+    width: 178px;  
+}
+.ServiceListapointBox p{
+    font-size: 13px;
+    font-weight: 500;
+    margin: 0px;
+}
+.VideoConsultapoint {
+    color: #3FC27B;
+}
+
+.HospitalVisitapoint {
+    color: #00C5C5;
+}
+
+.HomeVisitapoint {
+    color: #9D52FF;
+}
+
+.DateAppointbox {
+    display: block;
+    width: 13%;
+    float: left;
+}
+
+.DateAppointbox h3 {
+    display: inline-block;
+    margin: 0;
+    background: #E9E9E9;
+    color: #636363;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 14px;
+    padding: 12px;
+    font-weight: 400;
+}
+
+.DateAppointbox h3 span {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.NameptAppointbox {
+    display: block;
+    width: 30%;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.NameptAppointbox p {
+    margin: 0;
+    display: inline-block;
+    width: 100%;
+    color: #2D2424;
+    font-size: 14px;
+    font-weight: 400;
+    float: left;
+}
+
+.TimeAppointbox {
+    display: block;
+    width: 22%;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.TimeAppointbox p {
+    margin: 0;
+    display: inline-block;
+    width: 100%;
+    color: #2D2424;
+    font-size: 14px;
+    font-weight: 400;
+    float: left;
+}
+
+.StatusAppointbox {
+    display: block;
+    width: 16%;
+    float: left;
+}
+
+.StatusAppointbox span {
+    margin: 0;
+    display: inline-block;
+    padding: 4px 12px 4px;
+    border-radius: 28px;
+    font-size: 13px;
+}
+
+.ActionAppointbox {
+    display: block;
+    width: 18%;
+    float: left;
+    padding-right: 6px;
+}
+
+
+.TableAppointDeormnav {}
+
+.TableAppointDeormnav {
+    display: block;
+    width: auto;
+    float: right;
+}
+
+.TableAppointDeormnav .dropdown-toggle {
+    background: #ffffff;
+    border: 1px solid var(--secondary-color);
+    color: var(--secondary-color);
+    font-weight: 500;
+    position: relative;
+    padding: 8px 9px 8px;
+    font-size: 12px;
+    padding-right: 28px;
+}
+
+.TableAppointDeormnav .dropdown-toggle svg {
+    font-size: 18px;
+    position: absolute;
+    left: 0;
+    top: 3px;
+}
+
+.TableAppointDeormnav .dropdown-toggle::after {
+    content: '';
+    top: 15px;
+    position: absolute;
+    right: 9px;
+    font-size: 15px;
+}
+
+.TableAppointDeormnav .dropdown-toggle:active {
+    background-color: transparent !important;
+    color: var(--secondary-color) !important;
+}
+
+.TableAppointDeormnav .dropdown-menu {
+    background: #FFFFFF;
+    border-radius: 6px;
+    padding: 8px 10px 8px;
+    min-width: 118px !important;
+    margin-top: 5px;
+}
+
+.TableAppotDeormLink {}
+
+.TableAppotDeormLink .dropdown-item {
+    color: #172338;
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.TableAppotDeormLink .dropdown-item:hover,
+.TableAppotDeormLink .dropdown-item:hover,
+.TableAppotDeormLink .dropdown-item:focus {
+    background-color: transparent;
+    color: var(--secondary-color);
+}
+
+.TableAppotDeormLink hr {
+    width: 100%;
+    margin: 0;
+    border-top: 1px solid #E5E5E5;
+    opacity: 1;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+
+@media (max-width: 1199px) {
+    .NameptAppointbox {
+        width: 23%;
+    }
+
+    .ActionAppointbox {
+        width: 22%;
+    }
+
+    .StatusAppointbox {
+        width: 18%;
+    }
+}
+
+@media (max-width: 767px) {
+    .AppontdataList {
+        overflow: auto;
+    }
+
+    .AppointmentListtbl {
+        width: 810px;
+    }
+
+    .AppottListTitLeft ul li a {
+        padding: 10px 12px 10px;
+        font-size: 14px;
+    }
+
+    .AppottListTitRight {
+        padding-top: 1px;
+    }
+}
+
+@media (max-width: 650px) {
+    .AppointmentListtbl {
+        width: 750px;
+    }
+
+    .AppottListTitLeft {
+        width: 100%;
+    }
+
+    .AppottListTitLeft ul {
+        display: inline-flex;
+        justify-content: space-around;
+    }
+
+    .AppottListTitRight {
+        padding-top: 20px;
+    }
+}
+
+@media (max-width: 479px) {
+    .TableAppointDeormnav .dropdown-menu {
+        padding: 6px 7px 6px;
+        min-width: 124px !important;
+    }
+
+    .TableAppotDeormLink .dropdown-item {
+        font-size: 12px;
+    }
+
+    .TableAppointDeormnav .dropdown-toggle::after {
+        top: 17px;
+        right: 10px;
+    }
+
+    .TableAppointDeormnav .dropdown-toggle {
+        font-size: 13px;
+        padding-right: 25px;
+    }
+
+    .TimeAppointbox p {
+        font-size: 13px;
+    }
+
+    .NameptAppointbox p {
+        font-size: 13px;
+    }
+
+    .DateAppointbox h3 span {
+        font-size: 15px;
+    }
+
+    .DateAppointbox h3 {
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    .AppottListTitRight {
+        float: left;
+    }
+
+    .AppottListTitLeft ul li a {
+        text-align: center;
+    }
+
+    .AppottListTitLeft ul li a {
+        font-size: 12px;
+        padding: 10px;
+    }
+}

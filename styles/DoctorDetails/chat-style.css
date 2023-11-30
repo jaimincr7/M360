@@ -1,0 +1,124 @@
+.chatboxMaincovBox {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 26px #e7f4ff;
+    border-radius: 6px;
+    display: inline-block;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 25px;
+}
+
+.chatboxMaincovIner {
+    display: inline-block;
+    width: 100%;
+}
+
+.chatboxDashb {
+    display: inline-block;
+    width: 100%;
+    min-height: 522px;
+    max-height: 522px;
+    overflow: auto;
+    padding-right: 12px;
+}
+
+.chatboxaction {
+    display: inline-block;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.userdrchtboxlist {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    min-height: 52px;
+    padding-left: 54px;
+    margin-bottom: 10px;
+}
+
+.userdrchtlistImg {
+    display: inline-block;
+    width: auto;
+    position: absolute;
+    top: 5px;
+    left: 0;
+}
+
+.userdrchtlistImg img {
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.userdrchtlistText {
+    display: inline-block;
+    width: 100%;
+    padding-right: 48px;
+}
+
+.userdrchtlistText h6 {
+    display: inline-block;
+    width: 100%;
+    color: #AFAFAF;
+    font-size: 12px;
+    margin: 0px;
+    font-weight: 400;
+}
+
+.userdrchtlistText h4 {
+    display: inline-block;
+    width: 100%;
+    color: #25293B;
+    font-size: 14px;
+    margin: 0px;
+}
+
+.userdrchtlistText p {
+    position: absolute;
+    right: 0;
+    top: 6px;
+    margin: 0;
+    color: #A8A8A8;
+    font-size: 11px;
+    font-weight: 400;
+}
+
+.Chatboxsendbox {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+}
+
+.Chatboxsendbox .form-control {
+    background: #F6F6F6;
+    border: 0;
+    height: 48px;
+    padding: 18px;
+    border-radius: 26px;
+    color: #000000;
+    font-size: 13px;
+    padding-right: 50px;
+}
+
+.Chatboxsendbox button {
+    background: #3064A2;
+    color: #ffffff;
+    position: absolute;
+    right: 7px;
+    top: 5px;
+    padding: 0px;
+    border: 0;
+    height: 38px;
+    width: 38px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 20px;
+    line-height: 1;
+    padding-bottom: 3px;
+}
+
+.Chatboxsendbox button:hover {
+    background: #0F4FBC;
+}

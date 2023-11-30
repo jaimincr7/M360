@@ -1,0 +1,1081 @@
+.patientdetialTitle {
+    display: inline-block;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.patientdetialTitle h1 {
+    display: inline-block;
+    width: 100%;
+    font-size: 22px;
+    color: #2D2424;
+}
+
+.patientdetialTitle svg {
+    color: #2D2424;
+    float: left;
+    font-size: 18px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.patientdetialCover {
+    display: inline-block;
+    width: 100%;
+}
+
+.PatientdeLeft {
+    display: inline-block;
+    width: 60%;
+    float: left;
+    padding-right: 45px;
+}
+
+.PatientdeRight {
+    display: inline-block;
+    width: 40%;
+    float: left;
+}
+
+.patientdetialCard {
+    display: inline-block;
+    width: 100%;
+    background: #F2F2F2;
+    border-radius: 10px;
+    padding: 22px;
+    margin-bottom: 20px;
+}
+
+.hospitdetailsPati {
+    display: inline-block;
+    width: 100%;
+}
+
+.addnewmemberbtn {
+    display: inline-block;
+    width: 100%;
+}
+
+.addnewmemberbtn a {
+    display: inline-block;
+    width: 100%;
+    background: #FFFFFF;
+    border: 1px solid var(--secondary-color);
+    border-radius: 10px;
+    padding: 14px;
+    margin-top: 12px;
+    position: relative;
+    color: var(--secondary-color);
+    text-align: center;
+}
+
+.addnewmemberbtn a svg {}
+
+.patientdetialCard h6 {
+    display: inline-block;
+    width: 100%;
+    color: #7E7E7E;
+    margin: 0px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.patientdetialCard h6 a {
+    display: inline-block;
+}
+
+.patientdetialCard h6 a svg {
+    color: var(--primary-color);
+    font-size: 17px;
+    margin-left: 6px;
+}
+
+.hospitdetailsIner {
+    display: inline-block;
+    width: 100%;
+    max-height: 300px;
+    overflow: auto;
+}
+
+.hopismemeberIn {
+    display: inline-block;
+    width: 99%;
+    background: #FFFFFF;
+    border: 2px solid #EBEAEA;
+    border-radius: 10px;
+    padding: 14px;
+    margin-top: 12px;
+    position: relative;
+    padding-right: 80px;
+    float: left;
+}
+
+.hopismemebereditdelt {
+    display: inline-block;
+    width: auto;
+    position: absolute;
+    top: 13px;
+    right: 16px;
+
+}
+
+.hopismemebereditdelt button {
+    background: transparent !important;
+}
+
+.hopismemebereditdelt a {
+    display: inline-block;
+    float: left;
+    color: #9b9b9b;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.hopismemebereditdelt a svg {}
+
+.custChboxcov {
+    display: inline-block;
+    width: 100%;
+    float: left;
+    margin: 0;
+}
+
+.custChboxcov .form-check-input:checked {
+    background-color: var(--button-bg-color-secondary);
+    border-color: var(--button-border-color-secondary);
+}
+
+.custChboxcov .form-check-input {
+    float: left;
+}
+
+.custChboxcov .form-check-label {
+    color: #172338;
+    font-size: 16px;
+    font-weight: 500;
+    float: left;
+    margin-top: 1px;
+}
+
+.healthrecodelist {
+    display: inline-flex;
+    width: 100%;
+    float: left;
+}
+
+.healthrecodeCov {
+    display: inline-block;
+    width: 100%;
+    background: #FFFFFF;
+    border: 2px solid #EBEAEA;
+    border-radius: 10px;
+    margin-top: 12px;
+    margin-bottom: 14px;
+    float: left;
+}
+
+.healthrecodeCov form {
+    display: block;
+    float: left;
+    width: 100%;
+}
+
+.healthrecodeIn {
+    display: inline-block;
+    width: 50%;
+    float: left;
+    position: relative;
+    padding: 14px;
+}
+
+.RigthBorderrbbtn::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    border-right: 2px solid #EBEAEA;
+}
+
+.formrecorsnmecov {
+    display: inline-block;
+    width: 100%;
+}
+
+.Compastdetauilsmain {
+    display: inline-block;
+    width: 100%;
+}
+
+.Compastdetauilsmain input {
+    width: 100%;
+    background: #FFFFFF;
+    border: 1px solid #EBEAEA;
+    border-radius: 10px;
+    height: 55px;
+    padding: 15px;
+    font-size: 16px;
+    color: #7E7E7E;
+}
+
+.typerofrecode {
+    display: inline-block;
+    width: 100%;
+    margin-top: 16px;
+    margin-bottom: 10px;
+}
+
+.typerofrecode h4 {
+    display: inline-block;
+    width: 100%;
+    color: #172338;
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+.typerofrecode a {
+    display: inline-block;
+    background: #E5E5E5;
+    border: 1px solid #7E7E7E;
+    border-radius: 6px;
+    text-align: center;
+    width: 118px;
+    height: 70px;
+    margin-right: 16px;
+    color: #7E7E7E;
+    padding-top: 11px;
+    margin-bottom: 12px;
+}
+
+.typerofrecode a svg {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.typerofrecode a span {
+    display: inline-block;
+    width: 100%;
+    font-size: 15px;
+}
+
+.typerofrecode a:hover {
+    background: #EBF3FF;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+.typerofrecode a.active {
+    background: #EBF3FF;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+.UploadHealthrecov {
+    display: inline-block;
+    width: 100%;
+}
+
+.UploadHealthrecov .drop-mainset {
+    background: #EBF3FF;
+    border: 2px dashed #4285F4;
+    border-radius: 10px;
+    padding: 32px 32px;
+    cursor: pointer;
+}
+
+.UploadHealthrecov .drop-mainset .drop-updata {
+    position: relative;
+    text-align: left;
+    padding-left: 118px;
+}
+
+.UploadHealthrecov .drop-mainset .drop-updata img {
+    width: 56px;
+    position: absolute;
+    left: 26px;
+    top: 2px;
+}
+
+.UploadHealthrecov .drop-mainset p {
+    display: inline-block;
+    width: 100%;
+    font-size: 18px;
+    color: #686868;
+    font-weight: 400;
+    margin-bottom: 2px;
+}
+
+.UploadHealthrecov .drop-mainset p span {
+    color: #1A0DAE;
+}
+
+.UploadHealthrecov .drop-mainset h4 {
+    display: inline-block;
+    width: 100%;
+    color: #ABA6A6;
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 0;
+}
+
+.UploadHealthrecov button {
+    color: var(--button-text-color-primary) !important;
+    background: var(--button-bg-color-primary) !important;
+    font-size: 16px;
+    padding: 8px 28px 8px;
+    margin-top: 20px;
+    border: 0px;
+    font-weight: 600;
+}
+
+.orlineset {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    margin-top: 24px;
+    margin-bottom: 22px;
+}
+
+.orlineset::after {
+    content: '';
+    border-bottom: 1px solid #EBEAEA;
+    position: absolute;
+    left: 0;
+    top: 13px;
+    width: 100%;
+}
+
+.orlineset p {
+    display: inline-block;
+    width: auto;
+    color: #7E7E7E;
+    font-weight: 600;
+    font-size: 18px;
+    background: #f2f2f2;
+    position: relative;
+    z-index: 1;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0px;
+}
+
+.patienthltrecodata {
+    display: inline-block;
+    width: 100%;
+}
+
+.patienthltrecodata h6 {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 18px;
+}
+
+
+.Compastdetauilsmain .form-control:focus {
+    border-color: var(--secondary-color) !important;
+}
+
+.MobnumbInourset .form-control {
+    padding-left: 125px;
+}
+
+.findbtnnumbernotecov {
+    display: inline-block;
+    width: 100%;
+}
+
+.findbtnnumbernotecov p {
+    display: inline-block;
+    width: 100%;
+    color: #7E7E7E;
+    margin: 0px;
+    font-size: 16px;
+    position: relative;
+    padding-left: 25px;
+    padding-top: 2px;
+}
+
+.findbtnnumbernotecov p a {
+    display: inline-block;
+    width: auto;
+    float: left;
+    color: var(--primary-color);
+    font-size: 17px;
+    margin-right: 6px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.VerifyHealthrecodbtn {
+    display: inline-block;
+    background: var(--button-bg-color-secondary) !important;
+    color: var(--button-text-color-secondary) !important;
+    border: 0px;
+    font-size: 16px;
+    padding: 8px 28px 8px;
+    margin-top: 20px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.RemasltsmptBox {
+    display: inline-block;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.FormComSelectSet {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    min-height: 70px;
+    margin-bottom: 5px;
+}
+
+.FormComSelectSet .react-select__control {
+    padding: 10px 5px;
+    width: 100%;
+    border: 1px solid #EBEAEA;
+    border-radius: 8px;
+    font-size: 16px;
+    padding-left: 4px;
+}
+
+.uploadedRecordCov {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 18px;
+}
+
+.uploadedRecordCov h6 {
+    margin-bottom: 2px;
+}
+
+.uploadedRecordIner {
+    display: inline-block;
+    width: 100%;
+    background: #EBF3FF;
+    border: 2px dashed #4285F4;
+    border-radius: 10px;
+    padding: 13px;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.uploadedRecordIner p {
+    width: 100%;
+    color: #4285F4;
+    font-size: 18px;
+    margin: 0;
+    padding-left: 40px;
+    padding-right: 35px;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1.5;
+}
+
+.uploadedRecordIner p svg {
+    position: absolute;
+    top: 14px;
+    left: 17px;
+    font-size: 24px;
+}
+
+.uploadedRecordIner a {
+    position: absolute;
+    top: 9px;
+    right: 14px;
+    color: #8f8f8f;
+    font-size: 22px;
+}
+
+.uploadedRecordIner a svg {}
+
+.SelectadderTitle {
+    display: inline-block;
+    width: 100%;
+}
+
+.SelectadderTitle h6 {
+    display: block;
+    width: auto;
+    float: left;
+}
+
+.SelectadderTitle a {
+    display: block;
+    float: right;
+    color: #686868;
+    font-size: 16px;
+}
+
+.SelectadderSelect {
+    display: inline-block;
+    width: 100%;
+    margin-top: 8px;
+}
+
+.SelectadderSelect .react-select__control {
+    height: 55px;
+    width: 100%;
+    border: 1px solid #EBEAEA;
+    border-radius: 8px;
+    font-size: 16px;
+    padding-left: 4px;
+}
+
+.PreviousConsBox {
+    display: inline-block;
+    width: 100%;
+}
+
+.PreviousConsBox .accordion {
+    border: 0;
+}
+
+.PreviousConsBox .accordion-item {
+    border: 0;
+    margin-bottom: 5px;
+    margin-top: 12px;
+    border: 1px solid #EBEAEA;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.PreviousConsBox .accordion-item .accordion-header .accordion-button {
+    background: transparent;
+    box-shadow: inherit !important;
+}
+
+.PreviousConsBox .accordion-item .accordion-header .accordion-button:focus {
+    box-shadow: inherit !important;
+}
+
+.PreviousConsBox .accordion-item .accordion-header .form-check-label {
+    color: #2D2424;
+}
+
+.PreviousConsBox .accordion-item .accordion-header .form-check {
+    padding-left: 36px;
+    position: relative;
+}
+
+.PreviousConsBox .accordion-item .accordion-header .form-check .form-check-input {
+    margin: 0px;
+    position: absolute;
+    left: 6px;
+    top: 4px;
+}
+
+.PreviousConsBox .accordion-body {
+    padding-top: 0;
+}
+
+.ConsultApointMain {
+    display: inline-block;
+    width: 100%;
+    padding-left: 35px;
+}
+
+.ConsultApointCov {
+    display: inline-block;
+    width: 100%;
+    border-top: 1px solid #E5E5E5;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.ConsultApointTitle {
+    display: inline-block;
+    width: 100%;
+}
+
+.ConsultApointTitle .form-check {
+    display: block;
+    width: auto;
+    float: left;
+    position: relative;
+}
+
+.ConsultApointTitle .form-check .form-check-input {
+    margin: 0;
+    position: absolute;
+    left: 0;
+    top: 4px;
+}
+
+.ConsultApointTitle .form-check .form-check-label {
+    color: var(--primary-color);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.ConsultApointTitle p {
+    display: block;
+    float: right;
+    color: #172338;
+    font-size: 16px;
+    margin: 0px;
+}
+
+.ConsultApointIner {
+    display: inline-block;
+    width: 100%;
+    padding-left: 25px;
+}
+
+.ConsultApointIner p {
+    display: inline-block;
+    width: 100%;
+    font-size: 16px;
+    color: #686868;
+    margin: 0px;
+}
+
+.ConsultApointIner p a {
+    color: var(--secondary-color);
+    display: inline-block;
+}
+
+.DoctHospitright {
+    display: inline-block;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+.OfferDetailsboxbtn {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 17px;
+    margin-top: 5px;
+}
+
+.OfferDetailsboxbtn button {
+    width: 100%;
+    background: #FFFFFF !important;
+    border: 2px solid #EBEAEA;
+    border-radius: 10px;
+    height: 55px;
+    padding: 15px;
+    font-size: 16px;
+    color: #7E7E7E !important;
+    text-align: left;
+    font-weight: 600;
+    position: relative;
+    padding-left: 56px;
+    padding-top: 14px;
+}
+
+.OfferDetailsboxbtn button:hover,
+.OfferDetailsboxbtn button:active {
+    border-color: var(--secondary-color) !important;
+}
+
+.OfferDetailsboxbtn button svg {
+    color: var(--secondary-color);
+    float: left;
+    font-size: 20px;
+    position: absolute;
+    top: 18px;
+    left: 22px;
+}
+
+.PatdetaiWalletbla {
+    display: inline-block;
+    width: 100%;
+    background: #FFFFFF !important;
+    border: 2px solid #EBEAEA;
+    border-radius: 10px;
+    min-height: 55px;
+    padding: 15px;
+    text-align: left;
+    font-weight: 600;
+    position: relative;
+    padding-top: 14px;
+    padding-left: 38px;
+}
+
+.PatdetaiWalletbla .form-check {
+    display: inline-block;
+    float: left;
+    width: auto;
+    margin: 0;
+    padding-left: 30px;
+    position: absolute;
+    top: 13px;
+    left: 10px;
+}
+
+.PatdetaiWalletbla p {
+    display: block;
+    width: auto;
+    float: left;
+    margin: 0;
+    font-weight: 500;
+    color: #7E7E7E;
+    font-size: 16px;
+    margin-right: 10px;
+    padding-left: 3px;
+}
+
+.PatdetaiWalletbla h5 {
+    display: block;
+    float: left;
+    color: #2D2424;
+    font-size: 16px;
+}
+
+.PatdetaiWalletbla h5 span {
+    display: block;
+    float: left;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1;
+    margin-top: 4px;
+}
+
+.PedtdetaiPaybookapoi {
+    display: inline-block;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.PedtdetaiPaybookapoi h3 {
+    display: inline-block;
+    width: 100%;
+    color: #7E7E7E;
+    margin: 0px;
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.PedtdetaiPaybookapoi .findbtnnumbernotecov p {
+    font-size: 13px;
+    padding-left: 26px;
+}
+
+.PedtdetaiPaybookapoi .findbtnnumbernotecov p a {
+    font-size: 14px;
+    margin-right: 0px;
+    left: 5px;
+}
+
+.PedtdetaiPaybookaIner {
+    display: block;
+    width: 100%;
+    background: #FFFFFF !important;
+    border: 2px solid #EBEAEA;
+    border-radius: 10px;
+    height: 55px;
+    padding: 15px;
+    text-align: left;
+    font-weight: 600;
+    position: relative;
+    padding-top: 14px;
+    margin-bottom: 12px;
+    float: left;
+}
+
+.PedtdetaiPaybookaIner h3 {
+    width: auto;
+    display: block;
+    float: left;
+    color: #2D2424;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+    margin-left: 13px;
+    margin-right: 10px;
+}
+
+.PedtdetaiPaybookaIner h3 span {
+    display: block;
+    float: left;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1;
+    margin-top: 4px;
+    margin-right: 4px;
+}
+
+.PedtdetaiPaybookaIner p {
+    display: block;
+    float: left;
+    color: #2D2424;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.CustReadiocom {
+    display: block;
+    width: auto;
+    float: left;
+}
+
+.FormConfirmPay {
+    display: inline-block;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.FormConfirmPay button {
+    width: 100%;
+    font-size: 15px;
+    color: var(--button-text-color-secondary) !important;
+    background: var(--button-bg-color-secondary) !important;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    border: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 500;
+}
+
+.bookappointagreTerms {
+    display: inline-block;
+    width: 100%;
+}
+
+.bookappointagreTerms p {
+    color: #7E7E7E;
+    display: inline-block;
+    width: 100%;
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+
+.bookappointagreTerms p a {
+    color: var(--secondary-color);
+    text-decoration: underline !important;
+}
+
+
+@media (max-width: 1100px) {
+    .PatientdeLeft {
+        width: 52%;
+    }
+
+    .PatientdeRight {
+        width: 48%;
+    }
+
+    .UploadHealthrecov .drop-mainset .drop-updata {
+        padding-left: 60px;
+    }
+
+    .UploadHealthrecov .drop-mainset .drop-updata img {
+        width: 46px;
+        left: 0px;
+        top: 12px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .typerofrecode a {
+        width: 108px;
+    }
+}
+
+@media (max-width: 991px) {
+    .PatientdeLeft {
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .PatientdeRight {
+        width: 100%;
+    }
+
+    .UploadHealthrecov .drop-mainset {
+        padding: 18px;
+    }
+
+    .UploadHealthrecov .drop-mainset .drop-updata img {
+        width: 40px;
+    }
+
+    .UploadHealthrecov .drop-mainset h4 {
+        font-size: 13px;
+    }
+
+    .UploadHealthrecov .drop-mainset p {
+        font-size: 15px;
+    }
+
+    .typerofrecode a {
+        width: 98px;
+        height: 60px;
+        padding-top: 6px;
+    }
+
+    .typerofrecode a span {
+        font-size: 14px;
+    }
+
+    .typerofrecode a svg {
+        font-size: 15px;
+        margin-bottom: 0px;
+    }
+
+    .patientdetialCard {
+        padding: 15px;
+    }
+
+
+
+
+
+
+
+
+
+    .ConsultApointMain {
+        padding-left: 6px;
+    }
+
+    .patientdetialTitle h1 {
+        font-size: 18px;
+    }
+
+    .patientdetialTitle svg {
+        font-size: 15px;
+        margin-top: 6px;
+        margin-right: 3px;
+    }
+
+    .uploadedRecordIner {
+        border: 1px dashed #4285F4;
+        border-radius: 7px;
+        padding: 10px;
+    }
+
+    .uploadedRecordIner p {
+        font-size: 16px;
+        padding-left: 30px;
+    }
+
+    .uploadedRecordIner p svg {
+        left: 15px;
+        font-size: 18px;
+    }
+
+    .uploadedRecordIner a {
+        font-size: 18px;
+    }
+}
+
+
+
+@media (max-width: 414px) {
+    .patientdetialCard h6 {
+        font-size: 14px;
+    }
+
+    .custChboxcov .form-check-label {
+        font-size: 14px;
+    }
+
+    .hopismemebereditdelt a {
+        font-size: 16px;
+    }
+
+    .addnewmemberbtn a {
+        font-size: 14px;
+        padding: 12px;
+    }
+
+    .custChboxcov .form-check-label {
+        font-size: 13px;
+    }
+
+    .typerofrecode h4 {
+        font-size: 15px;
+    }
+
+    .patientdetialCard h6 {
+        font-size: 14px;
+    }
+
+    .patientdetialCard h6 a svg {
+        font-size: 13px;
+    }
+
+    .findbtnnumbernotecov p {
+        font-size: 13px;
+    }
+
+    .ConsultApointIner p {
+        font-size: 13px;
+    }
+
+
+
+
+
+    .OfferDetailsboxbtn button {
+        padding-left: 41px;
+        padding-top: 13px;
+    }
+
+    .OfferDetailsboxbtn button svg {
+        font-size: 19px;
+        top: 19px;
+        left: 14px;
+    }
+
+    .PedtdetaiPaybookapoi h3 {
+        font-size: 14px;
+    }
+
+    .PedtdetaiPaybookaIner p {
+        font-size: 14px;
+    }
+
+    .PedtdetaiPaybookaIner h3 span {
+        font-size: 18px;
+        margin-top: 3px;
+        margin-right: 2px;
+    }
+
+    .PedtdetaiPaybookapoi .CustReadiocom input {
+        margin-top: 2px;
+    }
+
+    .PedtdetaiPaybookaIner {
+        height: 50px;
+    }
+}
+
+.DiscountDetail {
+    display: inline-block;
+    width: 100%;
+    background: #FFFFFF !important;
+    border: 2px solid #EBEAEA;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: left;
+    font-weight: 600;
+    position: relative;
+    padding-top: 14px;
+}

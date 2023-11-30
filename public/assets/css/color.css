@@ -1,0 +1,13 @@
+:root {
+  --secondary-color: #3064A2;
+  --button-bg-color-secondary: #3064A2;
+  --button-text-color-secondary: #ffffff;
+  --button-border-color-secondary: #3064A2;
+
+  --primary-color: #3064A2;
+  --button-bg-color-primary: #3064A2;
+  --button-text-color-primary: #ffffff;
+  --button-border-color-primary: #3064A2;
+
+  --warning-color-color: #FF5959;
+}

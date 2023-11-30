@@ -1,0 +1,201 @@
+.OfferdetailsCov {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.OfferdetailsIner {
+    display: inline-block;
+    width: 600px;
+    text-align: left;
+    background: #FFFFFF;
+    border: 1px dashed #E0E0E0;
+    box-shadow: 0px 7.37255px 24.5752px rgba(0, 0, 0, 0.08);
+    border-radius: 14px;
+    overflow: hidden;
+    margin-top: 45px;
+    margin-bottom: 35px;
+}
+
+.OfferdetailsImg {
+    display: inline-block;
+    width: 100%;
+}
+
+.OfferdetailsImg img {
+    width: 100%;
+}
+
+.OfferdetailsData {
+    display: inline-block;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.OfferdetasdataTitle {
+    display: inline-flex;
+    width: 100%;
+    border-bottom: 1px solid #E5E5E5;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.OfferdetastitleLeft {
+    display: block;
+    width: auto;
+    float: left;
+}
+
+.OfferdetastitleRight {
+    display: block;
+    width: auto;
+    float: right;
+}
+
+.OfferdetastitleLeft h1 {
+    display: inline-block;
+    width: 100%;
+    color: #172338;
+    margin: 0px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+
+.OfferdetastitleLeft p {
+    display: inline-block;
+    width: 100%;
+    color: #7E7E7E;
+    margin: 0px;
+    font-size: 17px;
+}
+
+.OfferdetastitleRight button {
+    color: var(--secondary-color);
+    display: inline-block;
+    border: 1px solid var(--secondary-color) !important;
+    background: #FFE8E9;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 8px 15px 8px;
+}
+
+.OfferdetastitleRight button:hover {
+    color: var(--button-text-color-secondary);
+    background: var(--button-bg-color-secondary);
+}
+
+.OfferdetasDetailsbox {
+    display: inline-block;
+    width: 100%;
+    padding-top: 18px;
+}
+
+.OfferdetasDetailsbox h2 {
+    display: inline-block;
+    width: 100%;
+    margin: 0px;
+    font-size: 18px;
+    color: #172338;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.OfferdetasDetailsbox p {
+    display: inline-block;
+    width: 100%;
+    margin: 0px;
+    font-size: 15px;
+    color: #7E7E7E;
+    padding-bottom: 10px;
+}
+
+.OfferdetasDetailsbox h6 {
+    display: inline-block;
+    width: 100%;
+    margin: 0px;
+    font-size: 16px;
+    color: var(--button-bg-color-secondary);
+    margin-top: 8px;
+}
+
+@media (max-width: 767px) {
+    .OfferdetailsIner {
+        width: 100%;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .OfferdetailsCov {
+        padding-left: 22px;
+        padding-right: 22px;
+    }
+}
+
+@media (max-width: 479px) {
+    .OfferdetastitleLeft h1 {
+        font-size: 18px;
+    }
+
+    .OfferdetastitleLeft p {
+        font-size: 15px;
+    }
+
+    .OfferdetastitleRight button {
+        font-size: 13px;
+        padding: 6px 10px 6px;
+    }
+
+    .OfferdetasDetailsbox h2 {
+        font-size: 16px;
+    }
+
+    .OfferdetasDetailsbox p {
+        font-size: 14px;
+    }
+
+    .OfferdetasDetailsbox h6 {
+        font-size: 14px;
+    }
+
+    .OfferdetasdataTitle {
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+}
+
+@media (max-width: 380px) {
+    .OfferdetastitleRight button {
+        font-size: 12px;
+    }
+
+    .OfferdetastitleLeft h1 {
+        font-size: 16px;
+    }
+
+    .OfferdetastitleLeft p {
+        font-size: 14px;
+    }
+
+    .OfferdetasDetailsbox h2 {
+        font-size: 14px;
+    }
+
+    .OfferdetasDetailsbox p {
+        font-size: 13px;
+    }
+
+    .OfferdetasDetailsbox h6 {
+        font-size: 13px;
+    }
+
+    .OfferdetailsData {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+    }
+}

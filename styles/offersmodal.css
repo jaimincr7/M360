@@ -1,0 +1,244 @@
+.latHedartTitle {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.latHedartTitle .btn-close {
+    position: absolute;
+    top: 16px;
+    right: 3px;
+    padding: 0;
+    font-size: 14px !important;
+}
+
+.LatestOfferModal .modal-dialog {
+    max-width: 600px;
+}
+
+.CouponsBoxCov {
+    display: inline-block;
+    width: 100%;
+}
+
+.CouponsBoxApply {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+.CouponsBoxApplform {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+}
+
+.CouponsBoxApplform input {
+    background: #F2F2F2;
+    border: 2px solid #EBEAEA;
+    border-radius: 10px;
+    width: 100%;
+    height: 56px;
+    padding: 18px;
+    padding-right: 112px;
+    font-size: 16px;
+}
+
+.CouponsBoxApplform button {
+    display: inline-block;
+    color: var(--button-text-color-secondary) !important;
+    background: var(--button-bg-color-secondary) !important;
+    border-radius: 8px;
+    border: 0px;
+    padding: 10px 30px 10px;
+    position: absolute;
+    top: 7px;
+    right: 7px;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+
+
+/**** Offer Card ****/
+
+.OfferCouponsCardmain {
+    display: inline-block;
+    width: 100%;
+    max-height: 550px;
+    overflow: auto;
+}
+
+.OfferCouponsCardbox {
+    display: inline-block;
+    width: 100%;
+    background: #FFFFFF;
+    border: 2px solid #EBEAEA;
+    border-radius: 10px;
+    padding: 22px 22px 20px;
+    margin-bottom: 18px;
+    position: relative;
+}
+
+.OfrCoonsCardTop {
+    display: inline-block;
+    width: 100%;
+}
+
+.OfrCoosCardtopLeft {
+    display: block;
+    width: auto;
+    float: left;
+}
+
+.OfrCoosCardtopRight {
+    display: block;
+    width: auto;
+    float: right;
+    position: absolute;
+    top: 20px;
+    right: 22px;
+}
+
+.OfrCoosCardtopRight button {
+    background: #FFFFFF !important;
+    border: 1px solid var(--secondary-color) !important;
+    color: var(--secondary-color) !important;
+    border-radius: 6px;
+    padding: 8px 20px 8px;
+    position: relative;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 4px;
+}
+
+.OfrCoosCardtopRight button:hover {
+    background: var(--button-bg-color-secondary) !important;
+    color: var(--button-text-color-secondary) !important;
+}
+
+.OfrCoosCardtopLeft h6 {
+    display: inline-block;
+    position: relative;
+    margin: 0;
+    background: #dde6ff;
+    border-radius: 6px;
+    border: 2px solid #99B5FF;
+    padding: 8px;
+    padding-left: 60px;
+    height: 44px;
+    min-width: 150px;
+}
+
+.OfrCoosCardtopLeft h6::after {
+    content: '';
+    position: absolute;
+    top: -8px;
+    left: 42px;
+    width: 15px;
+    height: 15px;
+    border: 2px solid #99B5FF;
+    border-radius: 50%;
+    background: #ffffff;
+}
+
+.OfrCoosCardtopLeft h6::before {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 42px;
+    width: 15px;
+    height: 15px;
+    border: 2px solid #99B5FF;
+    border-radius: 50%;
+    background: #ffffff;
+}
+
+.OfrCoosCardtopLeft h6 svg {
+    position: absolute;
+    left: 11px;
+    top: 10px;
+    width: 22px;
+    height: 22px;
+}
+
+.OfrCoosCardtopLeft h6 span {
+    float: left;
+    color: #2D2424;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.offerdotboxtop {
+    position: absolute;
+    top: -17px;
+    left: 42px;
+    width: 15px;
+    height: 15px;
+    background: #ffffff;
+    z-index: 1;
+}
+
+.offerdotboxbot {
+    position: absolute;
+    bottom: -17px;
+    left: 42px;
+    width: 15px;
+    height: 15px;
+    background: #ffffff;
+    z-index: 1;
+}
+
+.OfrCoonsCardData {
+    display: inline-block;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.OfrCoonsCardData h3 {
+    display: inline-block;
+    width: 100%;
+    color: #2D2424;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.OfrCoonsCardData p {
+    display: inline-block;
+    width: 100%;
+    color: #454545;
+    font-size: 15px;
+    margin-bottom: 8px;
+}
+
+.OfrCoonsCardData a {
+    display: inline-block;
+    width: auto;
+    color: #257400;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/**** Offer Card ****/
+
+@media (max-width: 450px) {
+    .OfferCouponsCardbox {
+        border-radius: 6px;
+        padding: 18px 18px 15px;
+    }
+
+    .OfrCoosCardtopRight {
+        position: relative;
+        top: 0;
+        right: 0;
+        margin-top: 10px;
+        float: left;
+    }
+
+    .OfrCoonsCardData {
+        margin-top: 2px;
+    }
+}

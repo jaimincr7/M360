@@ -1,0 +1,348 @@
+.docbookapp-cover {
+    display: inline-flex;
+    width: 100%;
+    flex-direction: column;
+    background: #ffffff;
+    border: 2px solid #EBEAEA;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.tabbingdatabox-set {
+    display: inline-flex;
+    width: 100%;
+    flex-direction: column;
+    background: var(--secondary-color);
+    padding: 12px 8px;
+    border-radius: 10px;
+}
+
+.tabbingdatabox-set ul {
+    /* display: inline-flex; */
+    display: inline-flex;
+    width: 100%;
+    text-align: center;
+    border-bottom: 0;
+    padding-left: 0;
+    margin-bottom: 0;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-around;
+}
+
+.tabbingdatabox-set ul li {
+    display: block;
+    padding: 0;
+    width: 33.33%;
+    float: left;
+}
+
+.tabbingdatabox-set ul li .ourservices-set {
+    display: inline-flex;
+    font-size: 12px;
+    font-weight: 600;
+    position: relative;
+    border-radius: 8px;
+    border: 0;
+    padding: 13px 13px 13px 35px;
+    color: #fff;
+}
+
+.tabbingdatabox-set ul li a svg {
+    position: absolute;
+    left: 8px;
+    width: 18px;
+    height: 18px;
+    top: 13px;
+}
+
+.tabbingdatabox-set ul li .active {
+    background: #fff;
+    color: var(--secondary-color) !important;
+}
+
+.tabbingdatabox-set ul li a:hover {
+    background: #fff;
+    color: var(--secondary-color) !important;
+}
+
+.selectdaytext-set {
+    display: inline-flex;
+    width: 100%;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.selectday-title {
+    font-size: 16px;
+    color: #7E7E7E;
+    display: inline-block;
+    width: 100%;
+    margin-top: 8px;
+}
+
+.bookaslotbox-set {
+    display: inline-flex;
+    width: 100%;
+    margin-bottom: 26px;
+}
+
+.bookaslotbox-set .nav-pills {
+    display: inline-flex;
+    width: 100%;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.bookaslotbox-set .nav-item {
+    display: inline-flex;
+    width: 100%;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.bookaslotbox-set .nav-item .nav-link {
+    display: inline-flex;
+    width: 100%;
+    flex-direction: column;
+    padding: 15px 5px 15px;
+    border: 1.5px solid #E1E1E1;
+    color: #2D2424;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.bookaslotbox-set .nav-item .active {
+    background-color: var(--button-bg-color-primary) !important;
+    color: var(--button-text-color-primary) !important;
+    border-color: var(--button-border-color-primary) !important;
+}
+
+.bookaslotbox-set .nav-item .nav-link:hover {
+    background-color: var(--button-bg-color-primary) !important;
+    color: var(--button-text-color-primary) !important;
+    border-color: var(--button-border-color-primary) !important;
+}
+
+.bookaslotbox-set .nav-item .nav-link span {
+    font-weight: 300;
+}
+
+.timesolttitle-set {
+    font-size: 15px;
+    color: #7E7E7E;
+    margin-bottom: 10px;
+}
+
+.timeslothg-set {
+    max-height: 200px;
+    overflow: auto;
+    margin-bottom: 15px;
+    padding-right: 12px;
+}
+
+.ourtimeing-solt {
+    display: inline-flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.ourtimeing-solt .time-slot {
+    display: inline-flex;
+    width: 100%;
+    margin-bottom: 18px;
+}
+
+.ourtimeing-solt .time-slot .clearfix {
+    display: inline-block;
+    width: 100%;
+    padding-left: 0;
+}
+
+.ourtimeing-solt ul li {
+    display: block;
+    padding-bottom: 8px;
+    padding-right: 8px;
+    width: auto;
+    float: left;
+}
+
+.ourtimeing-solt .doc-slot-list {
+    display: inline-block;
+    width: 82px;
+    padding: 8px 5px 7px;
+    border: 1.5px solid #E1E1E1;
+    border-radius: 5px;
+    font-size: 13px;
+    color: #2D2424;
+    text-align: center;
+}
+
+.ourtimeing-solt .doc-slot-list:hover {
+    background: var(--button-bg-color-primary);
+    color: var(--button-text-color-primary);
+}
+
+.ourtimeing-solt .slotactive {
+    background: var(--button-bg-color-primary);
+    color: var(--button-text-color-primary);
+}
+
+.soltdayamount-set {
+    display: inline-flex;
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+.soltdayamount-set p {
+    font-size: 15px;
+    color: #172338;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.soltdayamount-set p span {
+    color: var(--primary-color);
+}
+
+.soltdayamount-set h5 {
+    font-size: 16px;
+    color: var(--secondary-color);
+    margin-left: auto;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.soltdayamount-set h5 span {
+    display: block;
+    float: left;
+    font-size: 19px;
+    margin-right: 3px;
+    line-height: 1;
+    padding-top: 3px;
+}
+
+.booknowappo-btn {
+    display: inline-flex;
+    width: 100%;
+}
+
+.booknowappo-btn a,
+.booknowappo-btn button {
+    display: inline-flex;
+    width: 100%;
+    font-size: 15px;
+    color: var(--button-text-color-secondary) !important;
+    background: var(--button-bg-color-secondary) !important;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    border: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.noslotimg-set {
+    display: inline-flex;
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.noslotimg-set img {
+    width: 220px;
+    margin-bottom: 15px;
+}
+
+.noslotimg-set p {
+    font-size: 15px;
+    color: #7E7E7E;
+}
+
+
+/*** Media Query CSS***/
+
+@media (max-width: 1299px) {
+    .bookaslotbox-set .nav-pills {
+        width: 500px;
+    }
+
+    .bookaslotbox-set {
+        overflow: auto;
+        padding-bottom: 20px;
+        margin-bottom: 8px;
+    }
+}
+
+@media (max-width: 991px) {
+    .bookaslotbox-set .nav-pills {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .selectdaytext-set {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .bookaslotbox-set .nav-item .nav-link {
+        padding: 5px 4px 5px;
+        font-size: 14px;
+        border-radius: 4px;
+    }
+
+    .tabbingdatabox-set {
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+
+    .bookaslotbox-set .nav-pills {
+        width: 500px;
+    }
+
+    .tabbingdatabox-set ul li a svg {
+        width: 14px;
+        height: 14px;
+        top: 12px;
+        left: 6px;
+    }
+
+    .tabbingdatabox-set ul li .ourservices-set {
+        padding-left: 24px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 12px;
+        padding-right: 9px;
+    }
+}
+
+@media (max-width: 430px) {
+    .tabbingdatabox-set ul li .ourservices-set {
+        padding-left: 6px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-right: 6px;
+        border-radius: 6px;
+    }
+
+    .tabbingdatabox-set ul li a svg {
+        display: none;
+    }
+
+    .tabbingdatabox-set {
+        padding: 12px 6px;
+        border-radius: 7px;
+    }
+}
+
+@media (max-width: 365x) {
+    .bookappointmodMain .modal-header h5 {
+        font-size: 14px;
+    }
+}
+
+/*** End Media Query CSS***/

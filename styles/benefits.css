@@ -1,0 +1,97 @@
+/***** Online consult CSS *****/
+
+.benefitcon-set {
+    display: inline-flex;
+    width: 100%;
+    flex-direction: row;
+    background: #F3FFFF;
+    padding: 30px 0;
+}
+
+.benefitcon-left {
+    display: inline-flex;
+    width: 100%;
+}
+
+.benefitcon-left img {
+    width: 100% !important;
+}
+
+.benefitcon-right {
+    display: inline-flex;
+    width: 100%;
+    flex-direction: column;
+    padding-top: 23px;
+}
+
+.benefitcon-right h2 {
+    font-size: 26px;
+    color: #172338;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.ourbenefit-set {
+    display: inline-flex;
+    width: 100%;
+    flex-direction: column;
+    position: relative;
+}
+
+.ourbenefit-set svg {
+    font-size: 18px;
+    color: var(--secondary-color);
+    position: absolute;
+    left: 0;
+    top: 3px;
+}
+
+.ourbenefit-text {
+    display: inline-flex;
+    width: 100%;
+    flex-direction: column;
+    padding: 0 0 30px 30px;
+}
+
+.ourbenefit-text h5 {
+    font-size: 16px;
+    color: #172338;
+    margin-bottom: 8px;
+}
+
+.ourbenefit-text p {
+    font-size: 14px;
+    color: #7E7E7E;
+    margin-bottom: 0;
+}
+
+/***** End Online consult CSS *****/
+
+@media (max-width: 991px) {
+    .benefitcon-right h2 {
+        font-size: 22px;
+        margin-bottom: 18px;
+    }
+
+    .benefitcon-right {
+        padding-top: 0;
+    }
+
+    .ourbenefit-text {
+        padding: 0 0 15px 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    .benefitcon-set {
+        padding: 20px 0;
+    }
+
+    .benefitcon-left {
+        display: none;
+    }
+
+    .benefitcon-right h2 {
+        font-size: 20px;
+    }
+}

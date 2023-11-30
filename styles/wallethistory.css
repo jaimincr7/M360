@@ -1,0 +1,262 @@
+.InsmartwalletbalanceBox {
+    display: inline-block;
+    width: 100%;
+    background: #020663;
+    border-radius: 15px;
+    padding: 20px;
+    position: relative;
+    padding-left: 95px;
+    min-height: 70px;
+    padding-bottom: 12px;
+    padding-top: 24px;
+    padding-right: 95px;
+    margin-bottom: 12px;
+}
+
+.InsmartwalletbalanceBox img {
+    width: 33px;
+    position: absolute;
+    left: 35px;
+    top: 18px;
+}
+
+.InsmartwalletbalanceBox p {
+    display: block;
+    color: #FFFFFF;
+    float: left;
+    margin: 0px;
+    font-size: 16px;
+}
+
+.InsmartwalletbalanceBox h3 {
+    display: block;
+    color: #FFFFFF;
+    float: right;
+    margin: 0px;
+    font-size: 16px;
+    font-weight: 600;
+    top: 24px;
+    right: 28px;
+    position: absolute;
+}
+
+.InsmartwalletbalanceBox h3 span {
+    font-weight: 600;
+    font-size: 20px;
+    margin-right: 3px;
+    float: left;
+    line-height: 1;
+    margin-top: 4px;
+}
+
+.WallethitorboxTitle {
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 14px;
+    margin-top: 8px;
+}
+
+.WallethitorboxTitle h1 {
+    display: inline-block;
+    width: auto;
+    margin: 0;
+    font-size: 18px;
+    color: #2D2424;
+    font-weight: 600;
+}
+
+.WallethitorboxTitle .montfltmaindahtlrec {
+    margin-right: 0px;
+}
+
+.WallethitorboxTablediv {
+    display: inline-block;
+    width: 100%;
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+.WallethitorTableIner {
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+    background: #FFFFFF;
+    border: 2px solid #EBEAEA;
+    border-radius: 15px;
+    padding: 6px 6px 6px;
+    margin-bottom: 15px;
+    flex-direction: row;
+}
+
+.DateWellethittor {
+    display: block;
+    width: 15%;
+    float: left;
+}
+
+.DateWellethittor h3 {
+    display: inline-block;
+    margin: 0;
+    background: #E9E9E9;
+    color: #636363;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 14px;
+    padding: 12px;
+    font-weight: 400;
+}
+
+.DateWellethittor h3 span {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.DataWellethittor {
+    display: block;
+    width: 68%;
+    float: left;
+    padding-right: 15px;
+}
+
+.DataWellethittor p {
+    margin: 0;
+    display: inline-block;
+    width: 100%;
+    color: #2D2424;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.AmountWellethittor {
+    display: block;
+    width: 17%;
+    float: left;
+    text-align: right;
+    padding-right: 15px;
+}
+
+.AmountWellethittor p {
+    margin: 0;
+    display: inline-block;
+    width: auto;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.AmountWellethittor p span {
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 1;
+    float: left;
+    margin-top: 3px;
+    margin-right: 4px;
+}
+
+.DebitAmount {
+    color: #F91738;
+}
+
+.CreditAmount {
+    color: #04C200;
+}
+
+
+@media (max-width: 1100px) {
+    .DateWellethittor {
+        width: 20%;
+    }
+
+    .DataWellethittor {
+        width: 63%;
+    }
+}
+
+@media (max-width: 650px) {
+    .WallethitorboxTablediv {
+        overflow: auto;
+    }
+
+    .WallethitorTableIner {
+        width: 580px;
+    }
+}
+
+@media (max-width: 550px) {
+    .InsmartwalletbalanceBox h3 span {
+        margin-top: 2px;
+    }
+
+    .montfltmaindahtlrec {
+        width: auto;
+    }
+
+    .WallethitorboxTitle .montfltmaindahtlrec {
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+
+    .InsmartwalletbalanceBox {
+        padding-left: 55px;
+    }
+
+    .InsmartwalletbalanceBox img {
+        width: 25px;
+        left: 18px;
+        top: 23px;
+    }
+
+    .InsmartwalletbalanceBox p {
+        font-size: 14px;
+    }
+
+    .InsmartwalletbalanceBox h3 {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 479px) {
+    .InsmartwalletbalanceBox img {
+        width: 24px;
+        left: 20px;
+        top: 22px;
+    }
+
+    .InsmartwalletbalanceBox {
+        padding: 22px;
+        padding-left: 55px;
+        padding-right: 85px;
+        min-height: auto;
+    }
+
+    .InsmartwalletbalanceBox h3 {
+        right: 15px;
+    }
+
+    .InsmartwalletbalanceBox h3 span {
+        font-size: 17px;
+        margin-top: 3px;
+    }
+
+    .WallethitorboxTitle h1 {
+        font-size: 16px;
+    }
+
+    .DateWellethittor h3 {
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    .DataWellethittor p {
+        font-size: 14px;
+    }
+
+    .DateWellethittor {
+        width: 16%;
+    }
+
+    .AmountWellethittor {
+        width: 21%;
+    }
+}

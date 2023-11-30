@@ -1,0 +1,510 @@
+.VideocallBgcov {
+    display: inline-block;
+    width: 100%;
+    background: #F6FAFF;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.VideocallInerdata {
+    display: inline-block;
+    width: 100%;
+}
+
+.VideocallInerLeft {
+    display: block;
+    width: 70%;
+    float: left;
+}
+
+.VideocallInerRight {
+    display: block;
+    width: 30%;
+    float: right;
+    padding-left: 30px;
+}
+
+.VideocallBoxmain {
+    display: inline-block;
+    width: 100%;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 26px #E7F4FF;
+    border-radius: 12px;
+    padding: 20px;
+    padding-bottom: 5px;
+}
+
+.VideocallBoxTop {
+    display: inline-flex;
+    width: 100%;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 18px;
+}
+
+.VideocallBoxTop p {
+    display: block;
+    width: auto;
+    color: #1F1F1F;
+    margin: 0px;
+    font-size: 16px;
+    font-weight: 600;
+    /* float: left; */
+}
+
+.VideocallBoxTop h3 {
+    display: inline-block;
+    width: auto;
+    color: #ffffff;
+    margin: 0px;
+    font-size: 16px;
+    background: #575757;
+    font-weight: 400;
+    padding: 8px 18px 8px;
+    border-radius: 7px;
+    position: relative;
+    padding-left: 42px;
+    padding-right: 15px;
+}
+
+.VideocallBoxTop h3 svg {
+    position: absolute;
+    left: 12px;
+    top: 9px;
+}
+
+.VideocallBoxTop h6 {
+    display: block;
+    /* float: right; */
+    color: var(--primary-color);
+    margin: 0px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.VideocallBoxMid {
+    display: inline-block;
+    width: 100%;
+    height: 545px;
+    position: relative;
+    background: #000000;
+}
+
+.small-video-box {
+    /* position: absolute;
+    bottom: 20px;
+    right: 20px;
+    height: 170px !important;
+    width: 195px !important; */
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 98px !important;
+    height: 98px !important;
+    border: 4px solid #f6f6f6;
+    border-radius: 8px;
+    z-index: 1;
+    background: #ffffff;
+}
+
+.VideocallBoxMid img {
+    width: 100%;
+}
+
+#self-view-video,
+#self-view-canvas,
+#participants-canvas,
+#participants-screen-canvas,
+#participants-video,
+#screen-share-video,
+#screen-share-canvas {
+    width: 100%;
+    height: 100%;
+    display: none;
+    object-fit: contain;
+}
+
+.SelfViewVideoBox {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 98px !important;
+    height: 98px !important;
+    border: 4px solid #f6f6f6;
+    border-radius: 8px;
+    z-index: 1;
+    background: #ffffff;
+}
+
+.SelfViewCanvasBox {}
+
+.ParticipantsCanvasBox {
+    width: 0 !important;
+    height: 0 !important;
+}
+
+.myScreenShareVideoBox {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+#participants-video {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.myScreenSharecanvasBox {
+    width: 0 !important;
+    height: 0 !important;
+}
+
+/* .small-video-box {
+    height: 150px;
+    width: 150px;
+    background: #000;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+} */
+
+.VideocallBoxBot {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+.VideocallBoxBot a {
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.VideocallBoxBot a img {
+    width: 40px;
+}
+
+.VideocallBoxBot a span {
+    display: block;
+    width: 100%;
+    color: #838383;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.VideocallBoxBot button.VideoEndcallbtn {
+    background: #EB5757 !important;
+    color: #ffffff !important;
+    float: right;
+    border: 0px;
+    padding: 10px 28px 10px;
+    border-radius: 42px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 8px;
+}
+
+.InfoandChatbox {
+    display: inline-block;
+    width: 100%;
+}
+
+.InfoadChatboxLink {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 26px #e7f4ff;
+    border-radius: 6px;
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    padding: 12px;
+    margin-bottom: 22px;
+}
+
+.InfoadChatboxLink .nav-item {
+    width: 50%;
+    text-align: center;
+}
+
+.InfoadChatboxLink .nav-item a {
+    display: inline-block;
+    width: 100%;
+    color: #B73F45;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 8px 10px 8px;
+}
+
+.InfoadChatboxLink .nav-item a.active {
+    background: #AF1F24;
+    color: #ffffff;
+}
+
+.basicandchatboxCov {}
+
+.basicandchatboxCov .tab-pane {}
+
+.Vidcallinfobox {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 26px #e7f4ff;
+    border-radius: 6px;
+    display: inline-block;
+    width: 100%;
+    padding: 20px;
+}
+
+.Vidcallinfosettop {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+.Vidcallinfosettop h3 {
+    display: inline-block;
+    width: 100%;
+    font-size: 16px;
+    margin: 0px;
+    color: #1F1F1F;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.Vidcallinfosettop p {
+    display: inline-block;
+    width: 100%;
+    font-size: 15px;
+    margin: 0px;
+    color: #838383;
+    font-weight: 500;
+    margin-bottom: 2px;
+}
+
+.VidcallinfosetSymp {
+    display: inline-block;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 18px;
+}
+
+.VidcallinfosetSymp h3 {
+    display: inline-block;
+    width: 100%;
+    font-size: 17px;
+    margin: 0px;
+    color: #1F1F1F;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.VidcallinfosetSymp p {
+    display: inline-block;
+    width: 100%;
+    font-size: 17px;
+    margin: 0px;
+    color: var(--primary-color);
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.VidcallsetHeaRecoList {
+    display: inline-block;
+    width: 100%;
+    background: #F1F3FF;
+    border: 1px dashed #5969FB;
+    border-radius: 4px;
+    position: relative;
+    padding: 8px 10px 8px;
+    padding-left: 45px;
+    padding-right: 35px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.VidcallsetHeaRecoList svg {
+    color: #5969FB;
+    position: absolute;
+    top: 12px;
+    left: 13px;
+    font-size: 19px;
+}
+
+.VidcallsetHeaRecoList span {
+    color: #5969FB;
+    font-size: 14px;
+    font-weight: 500;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1.5;
+    margin-top: 2px;
+}
+
+.VidcallsetHeaRecoList a {
+    display: inline-block;
+    position: absolute;
+    top: 8px;
+    right: 15px;
+}
+
+.VidcallsetHeaRecoList a svg {
+    color: var(--secondary-color);
+    position: relative;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    font-size: 19px;
+}
+
+.VidcallinfosetHeaReco h3 {
+    display: inline-block;
+    width: 100%;
+    font-size: 17px;
+    margin: 0px;
+    color: #1F1F1F;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+@media (max-width: 1024px) {
+    .VideocallBoxTop h3 svg {
+        left: 7px;
+        top: 4px;
+        width: 15px;
+    }
+
+    .VideocallBoxTop h3 {
+        font-size: 13px;
+        padding-left: 27px;
+        padding-right: 11px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+
+    .VideocallInerLeft {
+        width: 100%;
+    }
+
+    .VideocallInerRight {
+        width: 100%;
+        padding-left: 0px;
+        margin-top: 35px;
+    }
+
+    .VideocallBoxTop h6 {
+        font-size: 14px;
+    }
+
+    .VideocallBoxTop p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 767px) {
+    .small-video-box {
+        bottom: 10px;
+        right: 10px;
+        width: 80px !important;
+        height: 80px !important;
+        border: 2px solid #f6f6f6;
+    }
+
+    .VideocallBoxMid {
+        height: 405px;
+    }
+}
+
+@media (max-width: 479px) {
+    .VidcallinfosetSymp {
+        margin-top: 4px;
+        margin-bottom: 10px;
+    }
+
+    .Vidcallinfosettop p {
+        font-size: 14px;
+    }
+
+    .VidcallsetHeaRecoList a {
+        right: 8px;
+    }
+
+    .VidcallsetHeaRecoList svg {
+        left: 10px;
+    }
+
+    .VidcallsetHeaRecoList {
+        padding-left: 36px;
+        padding-right: 25px;
+    }
+
+    .VidcallinfosetHeaReco h3 {
+        font-size: 15px;
+    }
+
+    .VidcallinfosetSymp h3 {
+        font-size: 15px;
+    }
+
+    .VidcallinfosetSymp p {
+        font-size: 15px;
+    }
+
+    .InfoadChatboxLink .nav-item a {
+        font-size: 15px;
+    }
+
+    .VideocallBoxBot button.VideoEndcallbtn {
+        padding: 6px 16px 6px;
+        font-size: 13px;
+    }
+
+    .VideocallBoxBot a {
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+
+    .VideocallBoxBot a span {
+        font-size: 10px;
+    }
+
+    .VideocallBoxBot a img {
+        width: 30px;
+    }
+
+    .VideocallBoxBot button.VideoEndcallbtn {
+        margin-top: 7px;
+    }
+}
+
+@media (max-width: 414px) {
+    .VideocallBoxTop h6 {
+        display: none;
+    }
+}
+
+@media (max-width: 360px) {
+    .VideocallBoxBot button.VideoEndcallbtn {
+        margin-top: 10px;
+    }
+
+    .VideocallBoxBot a {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .VideocallBoxBot a span {
+        font-size: 9px;
+    }
+
+    .VideocallBoxBot button.VideoEndcallbtn {
+        padding: 4px 13px 4px;
+        font-size: 11px;
+    }
+
+    .VideocallBoxBot a img {
+        width: 25px;
+    }
+}

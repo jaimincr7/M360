@@ -1,0 +1,64 @@
+.specialitymaiCov {
+    display: inline-block;
+    width: 100%;
+    background: #FFF4F4;
+    padding-top: 24px;
+    padding-bottom: 38px;
+    margin-top: 20px;
+}
+
+.specialitymaTitle {
+    display: inline-block;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.specialitymaTitle h1 {
+    color: #172338;
+    display: inline-block;
+    width: 100%;
+    font-size: 22px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.specialitymaMain {
+    display: inline-flex;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.specialitymaIner {
+    display: inline-block;
+    width: 25%;
+    padding: 15px;
+    float: left;
+}
+
+@media (max-width: 991px) {
+    .specialitymaIner {
+        width: 33.33%;
+    }
+}
+
+@media (max-width: 767px) {
+    .specialitymaTitle h1 {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+}
+
+@media (max-width: 650px) {
+    .specialitymaIner {
+        width: 50%;
+    }
+}
+
+@media (max-width: 414px) {
+    .specialitymaIner {
+        width: 100%;
+    }
+}

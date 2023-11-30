@@ -1,0 +1,159 @@
+.footertop-cover {
+    display: inline-flex;
+    width: 100%;
+    background-color: var(--primary-color);
+}
+
+.footercont-set {
+    display: inline-flex;
+    width: 100%;
+    flex-direction: column;
+    padding: 40px 0 15px;
+    border-bottom: 1px solid #E3E3E3;
+}
+
+.footerlogo-cover {
+    display: inline-flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.footerlogo-cover img {
+    width: 200px;
+    height: auto;
+    margin-bottom: 35px;
+}
+
+.socialicon-set {
+    display: inline-flex;
+    width: 100%;
+    flex-direction: row;
+}
+
+.socialicon-set a {
+    display: inline-flex;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    padding: 8px;
+    margin-right: 15px;
+    width: 40px;
+    height: 40px;
+}
+
+.socialicon-set a svg {
+    font-size: 22px;
+    color: #ffffff;
+}
+
+.footerlink-set {
+    display: inline-flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.footertitle-set {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 18px;
+    color: #ffffff;
+}
+
+.footerlist-set {
+    display: inline-flex;
+    width: 100%;
+}
+
+.footerlist-set ul {
+    display: inline-block;
+    width: 100%;
+    padding-left: 0px;
+}
+
+.footerlist-set ul li a {
+    display: inline-flex;
+    font-size: 13px;
+    color: #ffffff;
+    padding-bottom: 6px;
+}
+
+.contactinfo-set {
+    display: inline-flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.contactinfo-set p {
+    display: inline-flex;
+    font-size: 14px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.contactinfo-set a {
+    font-size: 14px;
+    color: #ffffff !important;
+    font-weight: 600;
+    position: relative;
+    padding: 0 0 8px 22px;
+}
+
+.contactinfo-set a svg {
+    font-size: 15px;
+    position: absolute;
+    top: 4px;
+    left: 0;
+}
+
+.copyrightsec-set {
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+    padding: 12px 0;
+    text-align: center;
+}
+
+.copyrightsec-set p {
+    font-size: 14px;
+    color: #ffffff;
+    margin-bottom: 0;
+}
+
+.zaloiconsetfot{
+    padding: 0 !important;
+    overflow: hidden;
+}
+
+.zaloiconsetfot svg{
+    width: 40px;
+    height: 39px;
+    font-size: inherit !important;
+}
+
+/*** Media Query ***/
+
+@media (max-width: 991px) {
+    .footerlink-set {
+        margin-bottom: 22px;
+    }
+
+    .footertitle-set {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 575px) {
+    .footerlogo-cover {
+        margin-bottom: 15px;
+    }
+
+    .footerlogo-cover img {
+        margin-bottom: 20px;
+    }
+
+    .footercont-set {
+        padding: 15px 0;
+    }
+}
+
+/*** End Media Query ***/

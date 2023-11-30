@@ -1,0 +1,70 @@
+.SymptomsCov {
+    display: inline-block;
+    width: 100%;
+    background-color: #F3FFFF;
+    padding-top: 24px;
+    padding-bottom: 38px;
+    /* margin-top: 20px; */
+}
+
+.SymptomsTitle {
+    display: inline-block;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.SymptomsTitle h1 {
+    color: #172338;
+    display: inline-block;
+    width: 100%;
+    font-size: 22px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.SymptomsMain {
+    display: inline-block;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.SymptomsIner {
+    display: inline-block;
+    width: 25%;
+    padding: 15px;
+    float: left;
+}
+
+@media (max-width: 991px) {
+    .SymptomsIner {
+        width: 33.33%;
+    }
+}
+
+@media (max-width: 767px) {
+    .SymptomsIner {
+        width: 50%;
+    }
+
+    .SymptomsTitle h1 {
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+}
+
+@media (max-width: 414px) {
+    .specialitymaiCov {
+        padding-top: 12px;
+        padding-bottom: 20px;
+    }
+
+    .SymptomsIner {
+        width: 100%;
+    }
+
+    .SymptomsCov {
+        padding-top: 12px;
+        padding-bottom: 20px;
+    }
+}

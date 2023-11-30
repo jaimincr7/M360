@@ -1,0 +1,194 @@
+.RecodedataBoxcov {
+    display: inline-block;
+    width: 100%;
+}
+
+.RecodedataBoxcov p {
+    display: inline-block;
+    width: 100%;
+    color: #172338;
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+.RecodedataBoxcov a {
+    display: inline-block;
+    background: #E5E5E5;
+    border: 1px solid #7E7E7E;
+    border-radius: 6px;
+    text-align: center;
+    width: 118px;
+    height: 70px;
+    margin-right: 16px;
+    color: #7E7E7E;
+    padding-top: 11px;
+    margin-bottom: 12px;
+}
+
+.RecodedataBoxcov svg {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.RecodedataBoxcov span {
+    display: inline-block;
+    width: 100%;
+    font-size: 15px;
+}
+
+.RecodedataBoxcov a.active {
+    background: #EBF3FF;
+    border: 1px solid #4285F4;
+    color: #174799;
+}
+
+.RecodedataBoxcov a:hover {
+    background: #EBF3FF;
+    border: 1px solid #4285F4;
+    color: #174799;
+}
+
+.UploadHealthreTwo {
+    display: inline-block;
+    width: 100%;
+    margin-top: 8px;
+    margin-bottom: 22px;
+}
+
+.UploadHealthreTwo .drop-mainset {
+    background: #EBF3FF;
+    border: 2px dashed #4285F4;
+    border-radius: 10px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.UploadHealthreTwo .drop-mainset .drop-updata {
+    position: relative;
+    text-align: left;
+    padding-left: 58px;
+}
+
+.UploadHealthreTwo .drop-mainset .drop-updata img {
+    width: 38px;
+    position: absolute;
+    left: 4px;
+    top: 12px;
+}
+
+.UploadHealthreTwo .drop-mainset p {
+    display: inline-block;
+    width: 100%;
+    font-size: 15px;
+    color: #686868;
+    font-weight: 400;
+    margin-bottom: 2px;
+}
+
+.UploadHealthreTwo .drop-mainset p span {
+    color: #1A0DAE;
+}
+
+.UploadHealthreTwo .drop-mainset h4 {
+    display: inline-block;
+    width: 100%;
+    color: #ABA6A6;
+    font-weight: 400;
+    font-size: 13px;
+    margin-bottom: 0;
+}
+
+.HealthRecordListdata {
+    display: inline-block;
+    width: 100%;
+}
+
+.HealthRecordListIner {
+    display: block;
+    width: 33.33%;
+    float: left;
+    position: relative;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.HealthRecordListIner img {
+    width: 100%;
+    height: 120px;
+    border-radius: 12px;
+    object-fit: cover;
+    border: 1px solid #d2d2d2;
+}
+
+.Deleteviewboximg {
+    display: inline-block;
+    width: 100%;
+    position: absolute;
+    bottom: 12px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    opacity: 0;
+}
+
+.HealthRecordListIner:hover .Deleteviewboximg {
+    opacity: 1;
+}
+
+.Deleteviewboximg a {
+    border-radius: 4px;
+    display: inline-block;
+    padding: 2px 7px 2px;
+    margin-left: 4px;
+    margin-right: 4px;
+    font-size: 16px;
+}
+
+.Deleteviewboximg a svg {}
+
+.DeleteImgBtn {
+    background: #FFE2E2 !important;
+    color: #FF4040 !important;
+}
+
+.ViewImgBtn {
+    background: #D9FFDD !important;
+    color: #51C05D !important;
+}
+
+@media (max-width: 767px) {
+    .RecodedataBoxcov a {
+        width: 98px;
+        height: 60px;
+        padding-top: 6px;
+    }
+
+    .RecodedataBoxcov a svg {
+        font-size: 15px;
+        margin-bottom: 0px;
+    }
+
+    .RecodedataBoxcov a span {
+        font-size: 14px;
+    }
+
+    .Deleteviewboximg {
+        opacity: 1;
+    }
+}
+
+@media (max-width: 479px) {
+    .HealthRecordListIner{
+        margin-top: 8px;
+        margin-bottom: 0px;
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+}
+@media (max-width: 414px) {
+    .HealthRecordListIner {
+        width: 50%;
+    }
+}

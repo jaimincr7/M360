@@ -1,0 +1,1201 @@
+.DetailsAppointdataCov {
+    display: inline-block;
+    width: 100%;
+}
+
+.DetailsApontdataTitle {
+    display: inline-block;
+    width: 100%;
+}
+
+.DetailsApontdataTitle h1 {
+    display: inline-block;
+    width: 100%;
+    margin: 0px;
+    color: #2D2424;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.DetailsApontdataIner {
+    display: inline-block;
+    width: 100%;
+}
+
+.DetailsApontdatanLeft {
+    display: inline-block;
+    width: 50%;
+    float: left;
+    padding-right: 15px;
+}
+
+.DetailsApontdatanRight {
+    display: inline-block;
+    width: 50%;
+    float: left;
+    padding-left: 15px;
+}
+
+.AppontmentCompletedBox {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    background: #FFFFFF;
+    border: 2px solid #EBEAEA;
+    border-radius: 10px;
+    padding: 25px 25px 25px;
+    margin-bottom: 15px;
+}
+
+.AppontmentCompletedBox img {
+    width: 38px;
+}
+
+.AppontmentCompletedBox h4 {
+    display: inline-block;
+    width: 100%;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+
+.AppontmentCompletedBox button {
+    display: inline-block;
+    width: auto;
+    font-size: 16px;
+    color: var(--button-text-color-secondary) !important;
+    background: var(--button-bg-color-secondary) !important;
+    border-radius: 8px;
+    border: 0px;
+    font-weight: 500;
+    padding: 10px 15px 10px;
+}
+
+.DetailsAppointdataBg {
+    display: inline-block;
+    width: 100%;
+    background: #F2F2F2;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.ApondeltaDrcov {
+    display: inline-block;
+    width: 100%;
+    background: #FFFFFF;
+    border: 2px solid #EBEAEA;
+    border-radius: 10px;
+    position: relative;
+    margin-bottom: 16px;
+    padding-left: 148px;
+    min-height: 140px;
+    padding-top: 26px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+}
+
+.ApondeltaDrcov img {
+    width: 98px;
+    height: 98px;
+    border-radius: 12px;
+    object-fit: cover;
+    position: absolute;
+    top: 20px;
+    left: 28px;
+}
+
+.ApondeltaDrcov h4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #172338;
+    margin-bottom: 4px;
+}
+
+.ApondeltaDrcov p {
+    font-size: 14px;
+    color: var(--primary-color);
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.ApondeltaDrcovStar {
+    display: inline-block;
+    width: 100%;
+}
+
+.ApondeltaDrcovStar svg {
+    font-size: 16px;
+    color: #FFAA45;
+    float: left;
+}
+
+.ApondeltaDrcovStar span {
+    color: #7E7E7E;
+    margin: 0 0 0 6px;
+    font-weight: 600;
+    font-size: 13px;
+    float: left;
+}
+
+
+
+.Userapointremarkcancell {
+    display: inline-block;
+    width: 100%;
+    background: #FFFFFF;
+    border: 2px solid #EBEAEA;
+    border-radius: 10px;
+    padding: 15px 28px 12px;
+    margin-bottom: 20px;
+}
+
+.Userapointremarkcancell h6 {
+    display: inline-block;
+    width: 100%;
+    color: #F44242;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.Userapointremarkcancell h6 svg {
+    width: 11px;
+    height: 11px;
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.Userapointremarkcancell p {
+    display: inline-block;
+    width: 100%;
+    color: #7E7E7E;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+
+.AppointInsuranceClaimed {
+    display: inline-block;
+    width: 100%;
+}
+
+.ApptInsurClaBtn {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.ApptInsurClaBtn button {
+    display: inline-block;
+    width: 100%;
+    border-radius: 10px;
+    background: var(--button-bg-color-primary) !important;
+    color: var(--button-text-color-primary) !important;
+    border: 0;
+    padding: 10px 12px 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.ApptInsurClaBtn button svg {
+    font-size: 20px;
+    position: relative;
+    top: -1px;
+    margin-right: 6px;
+}
+
+.InsuranceClaimedData {
+    display: inline-flex;
+    width: 100%;
+    background: #DCE1E9;
+    padding: 20px;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.InsuceCladdataLeft {
+    display: block;
+    width: auto;
+    float: left;
+}
+
+.InsuceCladdataLeft h5 {
+    display: inline-block;
+    width: 100%;
+    margin: 0px;
+    color: var(--primary-color);
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.InsuceCladdataLeft h5 svg {
+    width: 26px;
+    height: 26px;
+}
+
+.InsuceCladdataLeft p {
+    color: #2D2424;
+    margin: 0px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 12px;
+}
+
+.InsuceCladdataRight {
+    display: block;
+    width: auto;
+    float: left;
+}
+
+.InsuceCladdataRight p {
+    color: #FFB623;
+    margin: 0px;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.InsuceCladdataRight p svg {
+    float: left;
+    font-size: 21px;
+    margin-top: 2px;
+    margin-right: 5px;
+}
+
+
+
+
+.ApondeltaDrcovAction {
+    display: inline-flex;
+    width: 100%;
+    background: #FFFFFF;
+    border: 2px solid #EBEAEA;
+    border-radius: 10px;
+    padding: 25px 13px 25px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.ApondeltaDrcovAction a {
+    border-radius: 10px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding: 14px 12px 14px;
+    margin-left: 12px;
+    margin-right: 12px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.ApondeltaDrcovAction a img {
+    width: 20px;
+    height: 22px;
+    margin-right: 6px;
+    margin-top: -1px;
+}
+
+.CancelAppointbtn {
+    background: #FFD8D6;
+    color: #F44242 !important;
+}
+
+.RescheduleAppointbtn {
+    background: #C7F5FF;
+    color: #00ACD1 !important;
+}
+
+.StartcallAppointbtn {
+    background: #00BC78;
+    color: #FFFFFF !important;
+}
+
+.RescheduleDataCov {
+    display: inline-block;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 18px;
+}
+
+.RescheduleDataCov h2 {
+    display: inline-block;
+    width: 100%;
+    margin: 0px;
+    color: #2D2424;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.RescheduleDataCard {
+    display: inline-block;
+    width: 100%;
+    background: #FFFFFF;
+    border: 2px solid #EBEAEA;
+    border-radius: 10px;
+    padding: 30px 35px 30px;
+}
+
+.RescheduleDataCard h6 {
+    display: inline-block;
+    width: 100%;
+    color: #1F1F1F;
+    margin: 0px;
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+.RescheduleDataCard h5 {
+    display: inline-block;
+    width: 100%;
+    color: #172338;
+    margin: 0px;
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.RescheduleDataCard p {
+    display: inline-block;
+    width: 100%;
+    color: #919191;
+    margin: 0px;
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.RescheduleDataCard h4 {
+    display: inline-block;
+    width: 100%;
+    color: #919191;
+    margin: 0px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.RescheduleDataCard h4 span {
+    color: #1F1F1F;
+    font-weight: 500;
+}
+
+.BookAppointfollowbtn {
+    display: inline-block;
+    width: 100%;
+}
+
+.BookAppointfollowbtn button {
+    display: inline-block;
+    width: 100%;
+    border-radius: 10px;
+    background: var(--button-bg-color-secondary) !important;
+    color: var(--button-text-color-secondary) !important;
+    border: 0;
+    padding: 10px 12px 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.AcppointrightdataCov {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    background: #FFFFFF;
+    border: 2px solid #EBEAEA;
+    border-radius: 10px;
+    padding: 20px 22px 20px;
+    margin-bottom: 10px;
+}
+
+.AcppointrightdaLeft {
+    display: block;
+    width: auto;
+    float: left;
+}
+
+.AcppointrightdaLeft p {
+    display: inline-block;
+    width: auto;
+    font-size: 16px;
+    color: #676767;
+    margin: 0px;
+    text-align: left;
+}
+
+.AcppointrightdaRight {
+    display: block;
+    width: auto;
+    float: right;
+}
+
+.AcppointrightdaRight p {
+    display: inline-block;
+    width: auto;
+    font-size: 16px;
+    color: #2D2424;
+    margin: 0px;
+    font-weight: 500;
+    text-align: right;
+}
+
+.presdataMainCovbox {
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+    background: #EBF3FF;
+    border: 2px dashed #4285F4;
+    border-radius: 10px;
+    padding: 20px 22px 20px;
+    margin-bottom: 6px;
+    margin-top: 6px;
+    position: relative;
+    padding-right: 85px;
+}
+
+.presdataMainCovbox p {
+    color: #4285F4;
+    font-size: 18px;
+    font-weight: 500;
+    position: relative;
+    padding-left: 25px;
+    margin: 0px;
+}
+
+.presdataMainCovbox p svg {
+    position: absolute;
+    top: 3px;
+    left: 0;
+}
+
+.presdataMainCovBtn {
+    position: absolute;
+    top: 17px;
+    right: 8px;
+}
+
+.presdataMainCovBtn button {
+    border: 0;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    background: transparent !important;
+    color: var(--secondary-color) !important;
+    line-height: 1;
+    font-size: 24px;
+    margin-right: 12px;
+}
+
+.presdataMainCovBtn button svg {}
+
+.paripaymeAcodCov {
+    display: inline-block;
+    width: 100%;
+}
+
+.paripaymeAcodCov .accordion-item {
+    margin-bottom: 5px;
+    margin-top: 10px;
+    border: 2px solid #EBEAEA;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.paripaymeAcodCov .accordion-item .accordion-header .accordion-button {
+    background: transparent;
+    box-shadow: inherit !important;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.paripaymeAcodCov .accordion-item .accordion-header .accordion-button h4 {
+    color: #676767;
+    display: inline-block;
+    width: auto;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0px;
+}
+
+.paripaymeAcodCov .accordion-item .accordion-header .accordion-button h4 span {
+    color: #2D2424;
+    font-weight: 600;
+}
+
+.paripaymeAcodCov .accordion-body {
+    padding-top: 0;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 20px;
+}
+
+.paripaymeAcodInerdata {
+    display: inline-block;
+    width: 100%;
+}
+
+.paripaymeAcodInerdata h5 {
+    display: inline-block;
+    width: 100%;
+    color: #1F1F1F;
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.paripaymeAcodInerdata h6 {
+    display: inline-block;
+    width: 100%;
+    color: #1F1F1F;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 14px;
+    margin-top: 6px;
+}
+
+.paripaymeAcodInerdata h6 span {
+    display: inline-block;
+    width: 100%;
+    color: #7E7E7E;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+.paripaymeAcodInerdata p {
+    display: inline-block;
+    width: 100%;
+    font-size: 15px;
+    font-weight: 400;
+    color: #7E7E7E;
+    margin-bottom: 6px;
+}
+
+.paripaymeAcodInerdata p span {
+    color: #1F1F1F;
+}
+
+.parieAcodSymHelthdata {
+    display: inline-block;
+    width: 100%;
+}
+
+.parieAcodSymHelthdata h3 {
+    display: inline-block;
+    width: 100%;
+    color: #1F1F1F;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.parieAcodSymHelthdata p {
+    display: inline-block;
+    width: 100%;
+    font-size: 16px;
+    color: #7E7E7E;
+    margin-bottom: 22px;
+}
+
+.parieAcodSymHelthdata h5 {}
+
+.ConsultNoteboxapoinCov {
+    display: inline-block;
+    width: 100%;
+    margin-top: 24px;
+}
+
+.ConsultNoteboxapoinCov h3 {
+    display: inline-block;
+    width: 100%;
+    color: #1F1F1F;
+    margin: 0px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+
+.ConsultNoteboxapoinCov p {
+    display: inline-block;
+    width: 100%;
+    color: #7E7E7E;
+    margin: 0px;
+    font-size: 16px;
+}
+
+.AaapointRecordIner {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background: #EBF3FF;
+    border: 2px dashed #4285F4;
+    border-radius: 10px;
+    padding: 13px;
+    position: relative;
+    margin-top: 4px;
+    margin-bottom: 0;
+}
+
+.AaapointRecordIner p {
+    width: 100%;
+    color: #4285F4;
+    font-size: 18px;
+    margin: 0;
+    padding-left: 40px;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1.5;
+}
+
+.AaapointRecordIner div svg {
+    font-size: 24px;
+    color: #4285F4
+}
+
+.AaapointRecordIner p svg {
+    position: absolute;
+    top: 14px;
+    left: 17px;
+    font-size: 24px;
+}
+
+.AppointmentPaymentBox {
+    display: inline-block;
+    width: 100%;
+}
+
+.AppointmentPaymentBox hr {
+    border-top: 2px solid #cbcbcb;
+    width: 100%;
+}
+
+.ApntmentPayetblCov {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 8px;
+    margin-top: 4px;
+}
+
+.ApntmentPayetblLeft {
+    display: block;
+    float: left;
+}
+
+.ApntmentPayetblRight {
+    display: block;
+    float: right;
+}
+
+.ApntmentPayetblLeft p {
+    display: block;
+    width: auto;
+    font-size: 17px;
+    color: #1F1F1F;
+    margin: 0px;
+    font-weight: 500;
+    float: left;
+}
+
+.ApntmentPayetblLeft h5 {
+    color: #174799;
+    background: #D7E6FF;
+    border: 1px dashed #3267c2;
+    border-radius: 4px;
+    float: left;
+    margin: 0px;
+    font-size: 16px;
+    padding: 3px 10px 3px;
+    margin-left: 14px;
+}
+
+.ApntmentPayetblRight p {
+    display: inline-block;
+    width: 100%;
+    font-size: 17px;
+    color: #7E7E7E;
+    margin: 0px;
+    font-weight: 500;
+}
+
+.ApntmentPayetblRight p span {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 0.5;
+    position: relative;
+    top: 4px;
+}
+
+.ApntmentPayetblRight h5 {
+    display: inline-block;
+    width: 100%;
+    font-size: 17px;
+    color: #1F1F1F;
+    margin: 0px;
+    font-weight: 500;
+}
+
+.ApntmentPayetblRight h5 span {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 0.5;
+    position: relative;
+    top: 4px;
+    font-weight: 500;
+}
+
+@media (max-width: 1199px) {
+    .ApondeltaDrcovAction a {
+        margin-left: 4px;
+        margin-right: 4px;
+    }
+
+    .ApondeltaDrcovAction {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width: 1080px) {
+    .InsuceCladdataRight p svg {
+        font-size: 19px;
+        margin-right: 3px;
+    }
+
+    .InsuceCladdataLeft h5 svg {
+        width: 20px;
+        height: 20px;
+    }
+
+    .InsuceCladdataLeft p {
+        font-size: 16px;
+    }
+
+    .InsuceCladdataLeft h5 {
+        font-size: 18px;
+    }
+
+    .InsuceCladdataRight p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .DetailsApontdatanLeft {
+        width: 100%;
+        padding-right: 0px;
+        margin-bottom: 26px;
+    }
+
+    .DetailsApontdatanRight {
+        width: 100%;
+        padding-left: 0px;
+    }
+}
+
+@media (max-width: 550px) {
+    .ApondeltaDrcovAction a {
+        font-size: 14px;
+        padding: 12px 10px 12px;
+    }
+
+    .ApondeltaDrcovAction a img {
+        width: 18px;
+        height: 18px;
+        margin-right: 2px;
+        margin-top: -1px;
+    }
+}
+
+@media (max-width: 479px) {
+    .DetailsAppointdataBg {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .BookAppointfollowbtn button {
+        font-size: 16px;
+    }
+
+    .ApptInsurClaBtn button {
+        font-size: 16px;
+    }
+
+    .ApptInsurClaBtn button svg {
+        font-size: 18px;
+    }
+
+    .AppontmentCompletedBox {
+        padding: 20px 20px 20px;
+    }
+
+    .DetailsApontdataTitle h1 {
+        font-size: 18px;
+    }
+
+    .RescheduleDataCov h2 {
+        font-size: 18px;
+    }
+
+    .AppointmentPaymentBox hr {
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+
+    .ApntmentPayetblLeft h5 {
+        font-size: 12px;
+        padding: 2px 5px 2px;
+    }
+
+    .ApntmentPayetblRight h5 span {
+        font-size: 20px;
+        top: 3px;
+    }
+
+    .ApntmentPayetblRight h5 {
+        font-size: 15px;
+    }
+
+    .ApntmentPayetblRight p span {
+        font-size: 19px;
+        top: 3px;
+    }
+
+    .ApntmentPayetblLeft p {
+        font-size: 15px;
+    }
+
+    .ApntmentPayetblRight p {
+        font-size: 15px;
+    }
+
+    .AaapointRecordIner p {
+        font-size: 16px;
+        padding-left: 30px;
+    }
+
+    .AaapointRecordIner p svg {
+        top: 13px;
+        left: 13px;
+        font-size: 17px;
+    }
+
+    .AaapointRecordIner {
+        padding: 10px;
+        border: 1px dashed #4285F4;
+        margin-bottom: 10px;
+    }
+
+    .parieAcodSymHelthdata p {
+        font-size: 14px;
+    }
+
+    .parieAcodSymHelthdata h3 {
+        font-size: 16px;
+    }
+
+    .paripaymeAcodCov .accordion-item .accordion-header .accordion-button h4 {
+        font-size: 16px;
+    }
+
+    .paripaymeAcodInerdata h6 span {
+        font-size: 16px;
+    }
+
+    .paripaymeAcodInerdata h5 {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+
+    .paripaymeAcodCov .accordion-body {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 15px;
+    }
+
+    .paripaymeAcodCov .accordion-item .accordion-header .accordion-button {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .AcppointrightdaRight p {
+        font-size: 16px;
+    }
+
+    .AcppointrightdaLeft p {
+        font-size: 16px;
+    }
+
+    .AcppointrightdataCov {
+        padding: 20px 20px 20px;
+    }
+
+    .RescheduleDataCard {
+        padding: 20px 20px 20px;
+    }
+
+    .InsuceCladdataRight p svg {
+        font-size: 16px;
+    }
+
+    .InsuceCladdataRight p {
+        font-size: 14px;
+    }
+
+    .InsuceCladdataLeft p {
+        font-size: 14px;
+    }
+
+    .InsuceCladdataLeft h5 svg {
+        width: 18px;
+        height: 18px;
+    }
+
+    .InsuceCladdataLeft h5 {
+        font-size: 15px;
+    }
+
+    .AppontmentCompletedBox img {
+        width: 35px;
+    }
+
+    .AppontmentCompletedBox h4 {
+        font-size: 16px;
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+
+    .AppontmentCompletedBox button {
+        font-size: 14px;
+    }
+
+    .ApondeltaDrcov img {
+        width: 70px;
+        height: 75px;
+        border-radius: 8px;
+        top: 15px;
+        left: 15px;
+    }
+
+    .ApondeltaDrcov {
+        margin-bottom: 16px;
+        padding-left: 100px;
+        min-height: 110px;
+        padding-top: 12px;
+    }
+
+    .ApondeltaDrcov h4 {
+        font-size: 16px;
+    }
+
+    .ApondeltaDrcov p {
+        margin-bottom: 8px;
+        font-size: 13px;
+    }
+
+    .ApondeltaDrcovStar svg {
+        font-size: 14px;
+    }
+
+    .ApondeltaDrcovStar span {
+        font-size: 11px;
+    }
+
+    .ApondeltaDrcovAction a {
+        font-size: 14px;
+        padding: 10px 6px 10px;
+    }
+
+    .ApondeltaDrcovAction {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+
+    .ApondeltaDrcovAction a img {
+        width: 15px;
+        height: 15px;
+        margin-right: 1px;
+    }
+}
+
+@media (max-width: 425px) {
+    .ApondeltaDrcovAction a {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 414px) {
+    .paripaymeAcodCov .accordion-item {
+        margin-top: 0px;
+    }
+
+    .paripaymeAcodCov .accordion-body {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .ApntmentPayetblLeft h5 {
+        font-size: 11px;
+        padding: 2px 3px 2px;
+    }
+
+    .ApntmentPayetblRight h5 {
+        font-size: 14px;
+    }
+
+    .ApntmentPayetblRight p span {
+        font-size: 18px;
+        top: 2px;
+    }
+
+    .ApntmentPayetblRight h5 span {
+        font-size: 18px;
+        top: 3px;
+    }
+
+    .ApntmentPayetblRight p {
+        font-size: 13px;
+    }
+
+    .ApntmentPayetblLeft p {
+        font-size: 13px;
+    }
+
+    .parieAcodSymHelthdata h3 {
+        font-size: 14px;
+    }
+
+    .paripaymeAcodCov .accordion-item .accordion-header .accordion-button h4 {
+        font-size: 14px;
+    }
+
+    .paripaymeAcodCov .accordion-item .accordion-header .accordion-button {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .paripaymeAcodInerdata h5 {
+        font-size: 14px;
+    }
+
+    .paripaymeAcodInerdata h6 {
+        font-size: 14px;
+    }
+
+    .paripaymeAcodInerdata h6 span {
+        font-size: 14px;
+    }
+
+    .paripaymeAcodInerdata p {
+        font-size: 14px;
+    }
+
+    .AcppointrightdaRight p {
+        font-size: 14px;
+    }
+
+    .AcppointrightdaLeft p {
+        font-size: 14px;
+    }
+
+    .AcppointrightdataCov {
+        padding: 15px;
+    }
+
+    .RescheduleDataCard h6 {
+        font-size: 14px;
+        margin-bottom: 6px;
+    }
+
+    .RescheduleDataCard h5 {
+        font-size: 14px;
+        margin-bottom: 3px;
+    }
+
+    .RescheduleDataCard p {
+        font-size: 14px;
+        margin-bottom: 12px;
+    }
+
+    .RescheduleDataCard h4 {
+        font-size: 14px;
+    }
+
+    .RescheduleDataCard {
+        padding: 15px;
+    }
+
+    .InsuceCladdataLeft h5 svg {
+        width: 16px;
+        height: 16px;
+    }
+
+    .InsuceCladdataLeft p {
+        font-size: 12px;
+    }
+
+    .InsuceCladdataLeft h5 {
+        font-size: 13px;
+    }
+
+    .InsuceCladdataRight p svg {
+        font-size: 14px;
+    }
+
+    .InsuranceClaimedData {
+        padding: 15px;
+    }
+
+    .InsuceCladdataRight p {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 390px) {
+    .InsuranceClaimedData {
+        display: inline-block;
+    }
+
+    .InsuceCladdataLeft {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .InsuceCladdataRight {
+        width: 100%;
+    }
+
+    .ApondeltaDrcovAction {
+        justify-content: space-between;
+        align-items: center;
+        display: inline-flex;
+        flex-wrap: wrap;
+    }
+
+    .ApondeltaDrcovAction a {
+        margin-top: 4px;
+        margin-bottom: 4px;
+    }
+
+    .ApondeltaDrcovAction {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}

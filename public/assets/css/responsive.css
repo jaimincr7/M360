@@ -1,0 +1,305 @@
+@media (max-width: 1399px) {
+
+    /* Container CSS */
+    .CustContainer {
+        width: 1250px;
+    }
+
+    /* Container CSS */
+}
+
+@media (max-width: 1299px) {
+
+    /* Container CSS */
+    .CustContainer {
+        width: 1230px;
+    }
+
+    /* Container CSS */
+}
+
+@media (max-width: 1199px) {
+
+    /* Container CSS */
+    .CustContainer {
+        width: 100%;
+    }
+
+    /* Container CSS */
+}
+
+
+@media (max-width: 1024px) {
+    .searchbar-left {
+        width: 30%;
+    }
+
+    .searchbar-right {
+        width: 70%;
+    }
+}
+
+@media (max-width: 991px) {
+
+    /**** Hospital Details ****/
+    .DoctHospiDetTime {
+        padding: 15px;
+    }
+
+    .DoctHospitDrcov h4 {
+        font-size: 16px;
+    }
+
+    .DoctHospitDrcov {
+        padding-left: 110px;
+        min-height: 112px;
+        padding-top: 14px;
+        padding-right: 15px;
+    }
+
+    .DoctHospitDrcov img {
+        width: 80px;
+        height: 80px;
+        border-radius: 10px;
+        top: 14px;
+        left: 16px;
+    }
+
+    .DoctHospitDrcov p {
+        font-size: 13px;
+    }
+
+    .HospiDetailCov {
+        padding: 15px;
+    }
+
+    /**** Hospital Details ****/
+
+    .container,
+    .container-md,
+    .container-sm {
+        max-width: 96%;
+    }
+
+    .searchcitydoc-cover {
+        padding-bottom: 20px;
+    }
+
+}
+
+@media (max-width: 800px) {
+    .searchbar-left {
+        width: 40%;
+    }
+
+    .searchbar-right {
+        width: 60%;
+    }
+}
+
+@media (max-width: 767px) {
+
+    /** Table Com Style **/
+    .ComallTblcovlst table {
+        width: 650px;
+    }
+
+    /** Table Com Style **/
+
+    .ComArrowSlidercs .slick-prev {
+        width: 30px;
+        height: 30px;
+    }
+
+    .ComArrowSlidercs .slick-next {
+        width: 30px;
+        height: 30px;
+    }
+
+    .ComArrowSlidercs .slick-prev {
+        right: 0;
+        top: 50%;
+        left: 0;
+    }
+
+    .slick-prev:before {
+        width: 30px;
+        height: 30px;
+    }
+
+    .slick-next:before {
+        width: 30px;
+        height: 30px;
+    }
+
+    .ComArrowSlidercs .slick-next {
+        top: 50%;
+        right: 0;
+    }
+
+    .ComHomeTitle-cover {
+        padding: 0 0 15px 0;
+    }
+
+    .ComHomeTitle-cover h2 {
+        font-size: 20px;
+    }
+
+    .ComHomeTitle-cover p {
+        font-size: 15px;
+    }
+
+    .viewall-btn {
+        padding: 25px 0 0 !important;
+    }
+
+    /* Pagination CSS */
+    .totalpaglist-set {
+        width: 100%;
+        justify-content: center;
+        padding-bottom: 15px;
+    }
+
+    .pagelistnum-set {
+        width: 100%;
+        justify-content: center;
+    }
+
+    /* Pagination CSS */
+}
+
+
+@media (max-width: 650px) {
+    .ComArrowSlidercs .slick-slide {
+        padding: 8px;
+    }
+
+    .ComHomeTitle-cover {
+        text-align: center;
+    }
+
+    .ComHomeTitle-cover h2 {
+        font-size: 18px;
+    }
+
+}
+
+@media (max-width: 575px) {
+    .searchcitydoc-cover {
+        flex-wrap: wrap;
+    }
+
+    .searchbar-left {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .searchbar-right {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 550px) {
+
+    .paginationlist-cover .px-3 {
+        padding-left: 0px !important;
+        margin-bottom: 15px;
+    }
+
+    .paginationlist-cover .pagination {
+        width: 100%;
+    }
+
+    .paginationlist-cover {
+        display: inline-block !important;
+    }
+
+    .montfltmaindahtlrec {
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 482px) {
+    .sortby-filter {
+        padding-bottom: 0px;
+    }
+}
+
+@media (max-width: 479px) {
+
+    /**** modal CSS ****/
+    .CustModalComcovermain .modal-content {
+        padding: 22px;
+    }
+
+    /**** modal CSS ****/
+
+    /******** Com Flt. CSS ********/
+    .doclist-title h1 {
+        font-size: 18px;
+    }
+
+    /******** Com Flt. CSS ********/
+}
+
+@media (max-width: 460px) {
+
+    /**** Hospital Details ****/
+    .DoctHospiDetTime hr {
+        display: none;
+    }
+
+    .DoctHospiDetTime p {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .DoctHospiDetTime a {
+        margin-top: 0px;
+    }
+
+    /**** Hospital Details ****/
+}
+
+@media (max-width: 414px) {
+
+    /**** Hospital Details ****/
+    .DoctHospitDrcov img {
+        width: 65px;
+        height: 70px;
+    }
+
+    .DoctHospitDrcov {
+        padding-left: 95px;
+        min-height: 106px;
+    }
+
+    .DoctHospitDrcov p {
+        margin-bottom: 5px;
+    }
+
+    .HospiDetailCov h3 {
+        font-size: 14px;
+        margin-bottom: 4px;
+    }
+
+    .HospiDetailCov p {
+        font-size: 13px;
+    }
+
+    /**** Hospital Details ****/
+}
+
+@media (max-width: 360px) {
+
+    /* Container CSS */
+    .CustContainer {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    /* Container CSS */
+}

@@ -1,0 +1,71 @@
+.ContactusFormcov {
+    display: inline-block;
+    width: 100%;
+}
+
+.ContactusFormcov .modal-content {
+    padding: 18px;
+}
+
+.ContactusFormcov .modal-dialog {
+    max-width: 760px;
+}
+
+.ContactusFormcov .ComsetmodlaForm {
+    margin-top: 0px;
+}
+
+.ContactusFormcov .modal-header {
+    padding-bottom: 0;
+    position: relative;
+}
+
+.ContactusFormcov .modal-header .btn-close {
+    padding: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.ContactusFormMap {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+.ContactusFormMap iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+}
+
+.ContactusTitle {
+    display: inline-block;
+    width: 100%;
+}
+
+.ContactusTitle h3 {
+    display: inline-block;
+    width: 100%;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+@media (max-width: 767px) {
+    .ContactusTitle {
+        margin-top: 18px;
+    }
+
+    .ContactusFormMap iframe {
+        height: 250px;
+    }
+
+    .ContactusFormcov .modal-content {
+        padding: 26px;
+    }
+
+    .ContactusFormcov .modal-header .btn-close {
+        right: -9px;
+        top: -5px;
+    }
+}

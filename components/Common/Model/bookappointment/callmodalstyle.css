@@ -1,0 +1,58 @@
+.CallmodalBoxCovset .modal-dialog {
+    max-width: 406px;
+}
+
+.CallmodalBoxCovset .modal-content {
+    background: var(--primary-color);
+    border-radius: 30px;
+}
+
+.CallmodalBoxCovset .modal-header .btn-close {
+    font-size: 8px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    padding: 6px;
+}
+
+.Callactionbtncovbox {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.Callactionbtncovbox img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.Callactionbtncovbox p {
+    display: inline-block;
+    width: 100%;
+    margin: 0px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+.Callactionbtncovbox button {
+    border: 0 !important;
+    background: transparent !important;
+    padding: 0 !important;
+    display: inline-block;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.Callactionbtncovbox button svg {
+    width: 48px;
+}
+
+@media (max-width: 575px) {
+    .CallmodalBoxCovset .modal-dialog{
+        margin: 10px auto;
+    }
+}

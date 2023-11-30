@@ -1,0 +1,32 @@
+.bannerdata-cover .slick-prev {
+    left: 20px;
+    top: 50%;
+}
+
+.bannerdata-cover .slick-next {
+    right: 35px;
+    top: 50%;
+}
+
+.headerban-set {
+    display: inline-block;
+    width: 100%;
+}
+
+.headerban-set img {
+    width: 100%;
+}
+
+
+.mobileban-set {
+    display: none;
+}
+
+@media (max-width: 767px) {
+    .desktopban-set {
+        display: none;
+    }
+    .mobileban-set {
+        display: block;
+    }
+}

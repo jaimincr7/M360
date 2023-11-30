@@ -1,0 +1,68 @@
+.FamilyMemberboxCov {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.FamilyMemberboxTitle {
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.FamilyMemberboxTitle h1 {
+    display: inline-block;
+    width: auto;
+    margin: 0;
+    font-size: 18px;
+    color: #2D2424;
+    font-weight: 600;
+}
+
+.FamilyMemberboxTitle button {
+    background: var(--button-bg-color-secondary) !important;
+    color: var(--button-text-color-secondary) !important;
+    border-radius: 8px;
+    display: inline-block;
+    border: 0;
+    padding: 10px 15px 10px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.FamilyMemberboxTitle button img {
+    width: 24px;
+    float: left;
+    margin-right: 8px;
+}
+
+.FamilyMemberboxTitle button img {
+    height: auto;
+}
+
+
+
+
+
+
+
+
+/** Table Com Style End **/
+
+@media (max-width: 767px) {}
+
+@media (max-width: 414px) {
+    .FamilyMemberboxTitle h1 {
+        font-size: 16px;
+    }
+
+    .FamilyMemberboxTitle button {
+        font-size: 13px;
+        padding: 8px 8px 8px;
+    }
+
+    .FamilyMemberboxTitle button img {
+        width: 19px;
+    }
+}

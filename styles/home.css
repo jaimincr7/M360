@@ -1,0 +1,139 @@
+
+.bannerdata-cover {
+  display: inline-flex;
+  width: 100%;
+  flex-direction: column;
+  float: left;
+}
+
+.makeappoi-cover {
+  display: inline-block;
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  top: -44px;
+  margin-top: -18px;
+}
+
+.makeappoi-set {
+  display: inline-flex;
+  width: 100%;
+  flex-direction: row;
+  background: #FFFFFF;
+  box-shadow: 0px 10px 69px rgb(0 0 0 / 11%);
+  border-radius: 12px;
+  padding: 20px 25px;
+}
+
+.appoifeild-set {
+  display: inline-flex;
+  width: 20%;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 12px 0 0;
+}
+
+.appoifeild-set label {
+  font-size: 15px;
+  color: #172338;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.appoifeild-set input {
+  background: #FFFFFF;
+  border: 1.5px solid #E5E5E5;
+  border-radius: 6px;
+  height: 42px;
+  font-size: 13px;
+  padding: 5px 10px;
+}
+
+.appoifeild-set button {
+  background: var(--button-bg-color-secondary);
+  border-radius: 6px;
+  border: 0;
+  font-size: 15px;
+  height: 42px;
+  font-weight: 500;
+}
+
+.appoifeild-set button:hover {
+  color: var(--button-text-color-secondary);
+  background-color: var(--button-bg-color-secondary);
+  border-color: var(--button-border-color-secondary);
+}
+
+.btn-check:checked+.btn,
+.btn.active,
+.btn.show,
+.btn:first-child:active,
+:not(.btn-check)+.btn:active {
+  color: var(--button-text-color-secondary);
+  background-color: var(--button-bg-color-secondary);
+}
+
+
+
+
+
+/***** Media Query *****/
+
+@media (max-width: 1024px) {
+  .appoifeild-set button {
+      height: auto;
+      padding: 10px;
+  }
+}
+
+@media (max-width: 950px) {
+  .makeappoi-cover {
+      position: inherit;
+      bottom: 0;
+      padding: 25px 0;
+      top: 0;
+      margin-top: 0;
+      margin-bottom: 8px;
+  }
+
+  .makeappoi-set {
+      flex-wrap: wrap;
+      align-content: stretch;
+      justify-content: space-around;
+  }
+
+  .appoifeild-set {
+      width: 47%;
+      padding: 0 0 15px 0;
+  }
+
+  .appoifeild-set:last-child {
+      padding: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .offbanner-cover {
+      padding: 20px 0;
+  }
+
+}
+
+@media (max-width: 414px) {
+  .appoifeild-set button {
+      font-size: 14px;
+  }
+
+  .appoifeild-set {
+      width: 100%;
+      padding: 0 0 15px 0;
+  }
+
+  
+}
+
+@media (max-width: 360px) {
+  .jointeam-left p {
+      font-size: 14px;
+  }
+}

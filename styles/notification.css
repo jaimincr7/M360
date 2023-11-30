@@ -1,0 +1,70 @@
+.notifdatacomset p {
+    color: var(--primary-color);
+    font-size: 16px;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+.notifdatacomset span {
+    color: #7E7E7E;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.notifdatacomset span svg {
+    color: #7E7E7E;
+    font-size: 16px;
+}
+
+.NotificationboxCov {
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 14px;
+    margin-top: 8px;
+}
+
+.NotificationboxCov h1 {
+    display: inline-block;
+    width: auto;
+    margin: 0;
+    font-size: 18px;
+    color: #2D2424;
+    font-weight: 600;
+}
+
+.NotificationboxCov button {
+    background: #FFD8D6 !important;
+    color: #F44242 !important;
+    border-radius: 8px;
+    display: inline-block;
+    border: 0px;
+    padding: 8px 22px 8px;
+    position: relative;
+    padding-left: 38px;
+    font-weight: 600;
+    font-size: 15px;
+    padding-right: 12px;
+}
+
+.NotificationboxCov button img {
+    position: absolute;
+    left: 11px;
+    top: 10px;
+    width: 18px;
+}
+
+.datetimenotifcov {
+    width: 175px;
+}
+
+@media (max-width: 479px) {
+    .NotificationboxCov h1 {
+        font-size: 16px;
+    }
+
+    .NotificationboxCov {
+        margin-bottom: 5px;
+    }
+}

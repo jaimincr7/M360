@@ -1,0 +1,233 @@
+.HealthRecordsBoxmain {
+    display: inline-block;
+    width: 100%;
+}
+
+.HealthRecordsBoxhed {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.HealthRecorboxhedLeft {
+    display: inline-block;
+    width: auto;
+    float: left;
+}
+
+.HealthRecorboxhedRight {
+    display: inline-block;
+    width: auto;
+    float: right;
+}
+
+.HealthRecorboxhedLeft h1 {
+    display: inline-block;
+    width: 100%;
+}
+
+.HealthRecorboxhedLeft h1 {
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+    font-size: 18px;
+    color: #2D2424;
+    font-weight: 600;
+}
+
+.HealthRecorboxhedRight button {
+    background: var(--button-bg-color-primary) !important;
+    color: var(--button-text-color-primary) !important;
+    border-radius: 8px;
+    display: inline-block;
+    border: 0;
+    padding: 10px 20px 10px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.HealthRecorboxhedRight button svg {
+    float: left;
+    font-size: 17px;
+    margin-top: 3px;
+    margin-right: 8px;
+}
+
+.heltsltboxaminCov {
+    min-height: auto;
+    margin: 0;
+    width: 130px;
+    float: left;
+    margin-top: 7px;
+    margin-right: 15px;
+}
+
+
+.noHealthdatacomno {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+.noHealthdatacomno img {
+    width: 80px;
+}
+
+.noHealthdatacomno p {
+    display: inline-block;
+    width: 100%;
+    color: #172338;
+    font-size: 16px;
+    margin: 0px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    font-weight: 500;
+}
+
+.noHealthdatacomno button {
+    background: var(--button-bg-color-secondary) !important;
+    color: var(--button-text-color-secondary) !important;
+    border-radius: 8px;
+    display: inline-block;
+    border: 0;
+    padding: 10px 10px 10px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.HealRecodataCov {
+    display: inline-block;
+    width: 100%;
+    margin-top: 35px;
+    margin-bottom: 15px;
+    max-height: 550px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.HealRecodataIner {
+    display: inline-block;
+    width: 100%;
+    background: #FFFFFF;
+    border: 2px solid #EBEAEA;
+    border-radius: 15px;
+    padding: 24px;
+    margin-bottom: 20px;
+}
+
+.HealRecodataIner p {
+    display: inline-block;
+    width: 100%;
+    margin: 0px;
+    color: #2D2424;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.HealRecodataIner p span {
+    color: #686868;
+}
+
+.HealRecodataIner a {
+    display: block;
+    width: auto;
+    float: left;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-right: 18px;
+    margin-top: 12px;
+}
+
+.RecodAttachmentcl {
+    color: var(--primary-color);
+}
+
+.RecodDeletecl {
+    color: var(--secondary-color);
+}
+
+.AddHealtrecoBtnset {
+    display: inline-block;
+    /* width: 100%; */
+    margin-top: 10px;
+}
+
+.AddHealtrecoBtnset button {
+    background: var(--button-bg-color-secondary) !important;
+    color: var(--button-text-color-secondary) !important;
+    border-radius: 8px;
+    display: inline-block;
+    border: 0;
+    padding: 10px 10px 10px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.UploadHealthrecov .drop-mainset .drop-updata img {
+    left: 0px;
+    top: 11px;
+}
+
+.UploadHealthrecov .drop-mainset .drop-updata {
+    padding-left: 68px;
+}
+
+.UploadHealthrecov .drop-mainset {
+    padding: 20px 20px;
+}
+
+.UploadHealthrecov .drop-mainset p {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.UploadHealthrecov {
+    margin-bottom: 15px;
+}
+
+@media (max-width: 650px) {
+    .HealthRecordsBoxhed {
+        display: inline-block;
+    }
+
+    .HealthRecorboxhedLeft {
+        width: 100%;
+    }
+
+    .HealthRecorboxhedRight {
+        width: 100%;
+        margin-top: 12px;
+    }
+
+    .HealthRecorboxhedRight button {
+        float: right;
+    }
+}
+
+@media (max-width: 550px) {
+    .HealRecodataCov {
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+
+    .HealthRecorboxhedRight {
+        margin-top: 5px;
+    }
+
+    .HealthRecorboxhedRight button {
+        float: left;
+    }
+}
+
+@media (max-width: 479px) {
+    .HealRecodataIner {
+        border-radius: 10px;
+        padding: 15px;
+    }
+}

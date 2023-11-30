@@ -1,0 +1,1531 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+
+a,
+button,
+input {
+    outline: medium none;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none !important;
+}
+
+* {
+    word-wrap: break-word;
+    text-decoration: none !important;
+    outline: 0 !important;
+    list-style: none !important;
+}
+
+body {
+    color: #172338 !important;
+    background: #ffffff !important;
+    background-color: #ffffff !important;
+}
+
+input, textarea {
+    background: #ffffff;
+    color: #172338;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+a,
+a:hover {
+    transition: 0.6s all !important;
+}
+
+a {
+    cursor: pointer;
+}
+
+p {
+    font-size: 16px;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+label,
+span {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5;
+}
+
+.pt-0 {
+    padding-top: 0px !important;
+}
+
+button:focus,
+a:focus {
+    text-decoration: none;
+    outline: 0
+}
+
+.modal-footer .btn {
+    border: 0px !important;
+}
+
+.modal-header .btn-close {
+    box-shadow: inherit !important;
+}
+
+.btn-check:checked+.btn:focus-visible,
+.btn.active:focus-visible,
+.btn.show:focus-visible,
+.btn:first-child:active:focus-visible,
+:not(.btn-check)+.btn:active:focus-visible {
+    box-shadow: inherit !important;
+}
+
+.m-0 {
+    margin: 0px;
+}
+
+.mr-0 {
+    margin-right: 0px !important;
+}
+
+.form-control:focus {
+    box-shadow: inherit !important;
+    border-color: #000000;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.form-select:focus {
+    box-shadow: none;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+a:hover {
+    /* color: #333; */
+    text-decoration: none
+}
+
+a:focus {
+    text-decoration: none
+}
+
+.btn-close:focus {
+    box-shadow: inherit;
+}
+
+button,
+a {
+    /* -webkit-transition: all .3s ease-out 0;
+	-moz-transition: all .3s ease-out 0;
+	-ms-transition: all .3s ease-out 0;
+	-o-transition: all .3s ease-out 0;
+	transition: all .3s ease-out 0 */
+    transition: transform 250ms;
+    text-decoration: none
+}
+
+button:hover,
+a:hover {
+    transition: transform 250ms;
+    /* transition: transform 250ms; */
+}
+
+::-webkit-scrollbar {
+    background-color: #a0a0a5;
+    width: 5px
+}
+
+::-webkit-scrollbar-track {
+    background-color: #e6e6e6
+}
+
+::-webkit-scrollbar-track:hover {
+    background-color: #e6e6e6
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #babac0;
+    border-radius: 16px;
+    border: 1px solid #e6e6e6
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #a0a0a5;
+    border: 2px solid #f4f4f4
+}
+
+::-webkit-scrollbar-button {
+    display: none
+}
+
+.react-select__control:hover {
+    border-color: var(--secondary-color) !important;
+}
+
+/* Container CSS */
+.CustContainer {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* display: inline-block; */
+    width: 1350px;
+}
+
+/* Container CSS */
+
+/****** Status CSS Start ******/
+
+.BookedStatuscl {
+    background: #ABFFB4;
+    color: #079916 !important;
+}
+
+.CancelledStatuscl {
+    background: #FFB6AB;
+    color: #991907 !important;
+}
+
+.CompletedStatuscl {
+    background: rgba(23, 71, 153, 0.2);
+    color: #174799 !important;
+}
+
+/****** Status CSS End ******/
+
+.CurrencyTagcl {}
+
+.slick-arrow.slick-disabled {
+    opacity: 0.4 !important;
+}
+
+.slick-next:before {
+    content: '' !important;
+    background: url(/assets/images/right-arrow.svg) top center no-repeat;
+    width: 38px;
+    height: 38px;
+    display: inline-block;
+    opacity: 1 !important;
+}
+
+.slick-prev:before {
+    content: '' !important;
+    background: url(/assets/images/left-arrow.svg) top center no-repeat;
+    width: 38px;
+    height: 38px;
+    display: inline-block;
+    opacity: 1 !important;
+}
+
+.custchbox-main {
+    display: inline-block;
+    width: 100%;
+}
+
+
+
+/****** Home Com CSS Start ******/
+.ComHomeTitle-cover {
+    display: inline-flex;
+    width: 100%;
+    flex-direction: column;
+    padding: 0 115px 15px 0;
+}
+
+.ComHomeTitle-cover h2 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.ComHomeTitle-cover p {
+    font-size: 16px;
+    color: #434E60;
+    margin-bottom: 0;
+}
+
+
+.ComHomeTitle-cover {
+    display: inline-flex;
+    width: 100%;
+    flex-direction: column;
+    padding: 0 115px 15px 0;
+}
+
+.ComHomeTitle-cover h2 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.ComHomeTitle-cover p {
+    font-size: 16px;
+    color: #434E60;
+    margin-bottom: 0;
+}
+
+.viewall-btn {
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0 0;
+}
+
+.viewall-btn button {
+    padding: 8px 25px;
+    background: var(--button-bg-color-secondary);
+    color: var(--button-text-color-secondary);
+    border-radius: 6px;
+    border: 0;
+    font-size: 14px;
+}
+
+.viewall-btn button:hover {
+    background: var(--button-bg-color-secondary);
+    color: var(--button-text-color-secondary);
+}
+
+/****** Home Com CSS End ******/
+
+
+/******** Slider Arrow CSS Start ********/
+
+.ComArrowSlidercs .slick-next {
+    top: -50px;
+    right: 18px;
+    width: 38px;
+    height: 38px;
+}
+
+.ComArrowSlidercs .slick-prev {
+    top: -50px;
+    right: 76px;
+    width: 38px;
+    height: 38px;
+    left: inherit;
+}
+
+.ComArrowSlidercs .slick-slide {
+    padding: 10px;
+}
+
+.ComArrowSlidercs .slick-slider {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.slick-prev,
+.slick-next {
+    background: transparent !important;
+    box-shadow: 0px 8px 30px rgb(0 0 0 / 6%);
+    border-radius: 50%;
+    z-index: 9;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: var(--secondary-color) !important;
+    font-size: 30px !important;
+}
+
+.slick-slider .slick-list .slick-track {
+    margin-left: 0px;
+}
+
+/******** Slider Arrow CSS End ********/
+
+/******** Com Flt. CSS Start ********/
+.doclist-title {
+    display: inline-flex;
+    width: 100%;
+    padding-bottom: 20px;
+    margin-top: 35px;
+}
+
+.doclist-title h1 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #172338;
+    margin-bottom: 0;
+}
+
+.searchcitydoc-cover {
+    display: inline-flex;
+    width: 100%;
+    padding-bottom: 30px;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    position: relative;
+    z-index: 2;
+}
+
+.searchbar-left {
+    display: inline-flex;
+    width: 20%;
+    align-items: center;
+    position: relative;
+    border-bottom: 1px solid var(--primary-color);
+}
+
+.searchbar-left .react-select {
+    width: 100%;
+}
+
+.searchbar-left .react-select__input-container {
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.searchbar-left .react-select__control {
+    border: 0px;
+    min-height: 40px;
+}
+
+.searchbar-left svg {
+    position: absolute;
+    left: 0;
+    top: 12px;
+    color: var(--primary-color);
+    font-size: 18px;
+    z-index: 1;
+}
+
+.searchbar-left .react-select__value-container {
+    padding-left: 25px;
+}
+
+.searchbar-left .react-select__indicator svg {
+    left: inherit;
+    right: 0px;
+    top: 9px;
+}
+
+.searchbar-right {
+    display: inline-flex;
+    width: 80%;
+    align-items: center;
+    position: relative;
+    margin-left: 18px;
+}
+
+.searchbar-right svg {
+    position: absolute;
+    left: 0;
+    top: 9px;
+    color: var(--primary-color);
+    font-size: 22px;
+}
+
+.searchbar-right input {
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid var(--primary-color);
+    font-size: 15px;
+    padding: 5px 10px 5px 30px;
+    height: 40px;
+}
+
+/******** Com Flt. CSS End ********/
+
+
+/**** React Select CSS Start ****/
+
+.react-select__control--is-focused {
+    /* border: 0px !important; */
+    box-shadow: inherit !important;
+}
+
+.react-select__menu {
+    font-size: 14px !important;
+}
+
+.react-select__indicator-separator {
+    display: none;
+}
+
+.select__indicator-separator {
+    display: none;
+}
+
+.react-select__control:hover {
+    border-color: var(--secondary-color) !important;
+}
+
+.select__control:hover {
+    border-color: var(--secondary-color) !important;
+}
+
+/**** React Select CSS End ****/
+
+
+/**** Check Radio btn *****/
+.form-check-input:checked {
+    box-shadow: inherit;
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+}
+
+.form-check-input:focus {
+    box-shadow: inherit !important;
+}
+
+/**** check radio btn *****/
+
+.CustModalComcovermain {}
+
+.CustModalComcovermain .modal-content {
+    border-radius: 14px;
+    border: 0;
+    padding: 36px;
+}
+
+.CustModalComcovermain .modal-header {
+    padding: 0;
+    padding-bottom: 10px;
+    border: 0;
+}
+
+.CustModalComcovermain .modal-body {
+    padding: 0px;
+}
+
+.CustModalComcovermain .modal-header .modal-title {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.CustModalComcovermain .modal-header .btn-close {
+    font-size: 13px;
+}
+
+.CustModalComcovermain .modal-header .btn-close:focus {
+    box-shadow: inherit;
+}
+
+.CustModalComcovermain .FormInputcovermain .form-control {
+    background: #fafafa !important;
+}
+
+/***** Form CSS Start ******/
+.FormInputcovermain {
+    display: inline-block;
+    width: 100%;
+    min-height: 90px;
+    margin-bottom: 10px;
+}
+
+.FormInputcovermain .form-label {
+    display: inline-block;
+    width: 100%;
+    color: #2D2424;
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+
+.FormInputcovermain .form-control {
+    color: #000000;
+    background: #ffffff;
+    border: 1px solid #E8E8E8;
+    border-radius: 8px;
+    font-size: 14px;
+    height: 48px;
+    padding: 16px;
+}
+
+.TextareaFormboxset {
+    margin-bottom: 15px;
+}
+
+.TextareaFormboxset textarea {
+    height: 105px !important;
+    resize: none;
+}
+
+.MobilCodeformmaincust {
+    position: relative;
+}
+
+.MobilCodeformmaincust .form-control {
+    padding-left: 125px;
+}
+
+.MobilCodeformmaincust .FormComCountrycodeSet {
+    top: 10px;
+    /* z-index: 1; */
+}
+
+.FormSelectcovermain {
+    display: inline-block;
+    width: 100%;
+    min-height: 90px;
+    margin-bottom: 10px;
+}
+
+.FormSelectcovermain .react-select__control,
+.FormSelectcovermain .select__control {
+    color: #9B9B9B;
+    background: #ffffff;
+    border: 1px solid #E8E8E8;
+    border-radius: 8px;
+    font-size: 14px;
+    height: 48px;
+    box-shadow: inherit !important;
+}
+
+.FormSelectcovermain .select__multi-value {
+    background-color: #e4f1ff;
+    color: var(--secondary-color);
+}
+
+.FormSelectcovermain .select__multi-value .select__multi-value__label {
+    color: var(--secondary-color);
+}
+
+.CustModalComcovermain .FormSelectcovermain .react-select__control {
+    background: #fafafa;
+}
+
+.FormSelectcovermain p {
+    display: inline-block;
+    width: 100%;
+    color: #172338;
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+
+.ComsetFormAddIn {
+    display: inline-block;
+    width: 100%;
+}
+
+.ComsetmodlaForm {
+    display: inline-block;
+    width: 100%;
+    margin-top: 8px;
+}
+
+.ComsetBtnSavebox {
+    display: inline-block;
+    width: 100%;
+}
+
+.ComsetBtnSavebox button {
+    display: inline-block;
+    background: var(--button-bg-color-secondary) !important;
+    color: var(--button-text-color-secondary) !important;
+    border: 0px;
+    font-size: 16px;
+    padding: 10px 48px 10px;
+    margin-top: 23px;
+    font-weight: 600;
+}
+
+.ComsetBtnSaveFull {
+    display: inline-block;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.ComsetBtnSaveFull button {
+    display: inline-block;
+    width: 100%;
+    font-size: 16px;
+    color: var(--button-text-color-secondary) !important;
+    background: var(--button-bg-color-secondary) !important;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    border: 0px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-weight: 500;
+}
+
+.ComsetFormDatepic {
+    display: inline-block;
+    width: 100%;
+}
+
+.ComsetFormDatepic p {
+    display: inline-block;
+    width: 100%;
+}
+
+.ComsetFormDateiner {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+}
+
+.ComsetFormDateiner svg {
+    color: #cbcbcb;
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    font-size: 22px;
+}
+
+.ComsetFormDatepic p {
+    display: inline-block;
+    width: 100%;
+    color: #172338;
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+
+.FormComDateSet {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+}
+
+.FormComDateSet .form-control {
+    height: 55px;
+    width: 100%;
+    border: 1px solid #EBEAEA;
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 18px;
+}
+
+.FormComDateSet svg {
+    color: #cac9c9;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 25px;
+}
+
+.FormComInputSet {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    min-height: 70px;
+    margin-bottom: 5px;
+}
+
+.FormComCountrycodeSet {
+    position: absolute;
+    left: 5px;
+    top: 14px;
+}
+
+.FormComCountrycodeSet .react-select__control {
+    border: 0px;
+    background: transparent;
+    padding: 0;
+    min-height: auto;
+    width: 105px;
+}
+
+.FormComCountrycodeSet .react-select__value-container {
+    padding-left: 2px;
+    padding-right: 0;
+}
+
+.FormComCountrycodeSet .react-select__value-container .react-select__single-value {
+    text-align: center;
+    font-size: 14px;
+}
+
+.FormComCountrycodeSet .react-select__input-container {
+    padding: 0;
+    margin: 0;
+}
+
+.FormComCountrycodeSet .react-select__indicator {
+    padding: 0px;
+}
+
+.FormComCountrycodeSet::after {
+    content: '';
+    background: #c5c5c5;
+    height: 22px;
+    width: 1px;
+    position: absolute;
+    left: 106px;
+    top: 3px;
+}
+
+.FormComCountrycodeSet .react-select__indicators {
+    margin-right: 4px;
+}
+
+.FormComInputSet .form-control {
+    padding: 15px;
+    height: 55px;
+    width: 100%;
+    border: 1px solid #EBEAEA;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.remarnotecomcsnote {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.remarnotecomcsnote p {
+    display: inline-block;
+    width: 100%;
+    font-size: 13px;
+    margin: 0px;
+    color: #7E7E7E;
+    position: relative;
+    padding-left: 24px;
+    padding-top: 1px;
+}
+
+.remarnotecomcsnote p svg {
+    color: var(--primary-color);
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 19px;
+}
+
+.noteloginboxcom {
+    display: inline-block;
+    width: 100%;
+    color: #7E7E7E;
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 6px;
+    margin-bottom: 2px;
+}
+
+
+.Upldnoteboxcom {
+    display: inline-block;
+    width: 100%;
+    color: #FF5959;
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 6px;
+    margin-bottom: 2px;
+}
+
+
+
+
+
+
+
+.UploadFormdataBox {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.UploadFormdataBox .drop-mainset {
+    display: inline-block;
+    width: 100%;
+    border: 1px dashed #E0E0E0;
+    background: #fdfdfd;
+    border-radius: 6px;
+    cursor: pointer;
+    text-align: left;
+    padding: 4px;
+    position: relative;
+    height: 42px;
+}
+
+.UploadFormdataBox .drop-mainset:hover {
+    border-color: #ff8088;
+}
+
+.UploadFormdataBox .drop-mainset h5 {
+    display: inline-flex;
+    width: 100%;
+    margin: 0;
+    font-size: 13px;
+    color: #838383;
+    font-weight: 400;
+    align-items: center;
+    margin-top: 5px;
+    padding-left: 10px;
+}
+
+.UploadFormdataBox .drop-mainset h5 svg {
+    font-size: 22px;
+    float: left;
+    margin-right: 10px;
+}
+
+.uplddataImgbox {
+    display: block;
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+}
+
+.uplddataImgbox img {
+    width: 50px;
+    float: left;
+}
+
+.UploadFormdataBox .form-label {
+    display: inline-block;
+    width: 100%;
+    color: #1F1F1F;
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+.uploaddocfiledata-com .form-label {
+    display: inline-block;
+    width: 100%;
+    color: #1F1F1F;
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+.UplodeddatalistoCov {
+    display: inline-block;
+    width: 100%;
+    margin-top: 12px;
+    margin-bottom: 2px;
+}
+
+.UplodeddatalistoCov h3 {
+    width: 100%;
+    background: #EAECFF;
+    border-radius: 4px;
+    color: #1F1F1F;
+    font-size: 14px;
+    padding: 8px 8px 8px;
+    margin: 0;
+    position: relative;
+    padding-left: 35px;
+    padding-right: 35px;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1.8;
+    height: 38px;
+}
+
+.UplodeddatalistoCov h3 svg {
+    color: #000000;
+    left: 12px;
+    top: 12px;
+    position: absolute;
+}
+
+.UplodeddatalistoCov a {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    font-size: 17px;
+}
+
+.UplodeddatalistoCov a svg {
+    color: var(--secondary-color);
+    position: relative;
+    top: 0px;
+    right: 0px;
+    left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***** Form CSS End ******/
+
+
+
+/**** Hospital Details Start ****/
+.DoctHospitriTitle {
+    display: inline-block;
+    width: 100%;
+}
+
+.DoctHospitriTitle p {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    color: #172338;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.DoctHospitriTitle p svg {
+    float: left;
+    margin-top: 4px;
+    margin-right: 12px;
+}
+
+.DoctHospitriDetails {
+    display: inline-block;
+    width: 100%;
+    background: #FFFFFF;
+    border: 2px solid #EBEAEA;
+    border-radius: 10px;
+    margin-top: 12px;
+    position: relative;
+    margin-bottom: 12px;
+}
+
+.DoctHospiDetTime {
+    padding: 24px;
+    display: inline-block;
+    width: 100%;
+    border-bottom: 2px solid #EBEAEA;
+    padding-bottom: 16px;
+}
+
+.DoctHospiDetTime p {
+    display: inline-block;
+    width: auto;
+    float: left;
+    color: #2D2424;
+    margin: 0px;
+    font-size: 16px;
+}
+
+.DoctHospiDetTime hr {
+    display: inline-block;
+    border: 0;
+    border-left: 2px solid #B4B4B4;
+    height: 22px;
+    float: left;
+    margin: 0;
+    margin-left: 16px;
+    margin-right: 14px;
+    margin-top: 2px;
+}
+
+.DoctHospiDetTime p span {
+    font-weight: 600;
+}
+
+.DoctHospiDetTime p svg {
+    color: #B4B4B4;
+    margin-right: 6px;
+    font-size: 18px;
+    float: left;
+    margin-top: 3px;
+}
+
+.DoctHospiDetTime a {
+    color: var(--secondary-color);
+    text-decoration: underline !important;
+    font-size: 13px;
+    display: inline-block;
+    font-weight: 500;
+    margin-top: 12px;
+}
+
+.DoctHospitDrcov {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    padding-left: 140px;
+    min-height: 140px;
+    padding-top: 25px;
+    border-bottom: 2px solid #EBEAEA;
+    padding-right: 20px;
+}
+
+.DoctHospitDrcov img {
+    width: 98px;
+    height: 98px;
+    border-radius: 12px;
+    object-fit: cover;
+    position: absolute;
+    top: 20px;
+    left: 28px;
+}
+
+.DoctHospitDrcov h4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #172338;
+    margin-bottom: 4px;
+}
+
+.DoctHospitDrcov p {
+    font-size: 14px;
+    color: var(--primary-color);
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.DoctHospitDrstar {
+    display: inline-block;
+    width: 100%;
+}
+
+.DoctHospitDrstar svg {
+    font-size: 16px;
+    color: #FFAA45;
+    float: left;
+}
+
+.DoctHospitDrstar span {
+    color: #7E7E7E;
+    margin: 0 0 0 6px;
+    font-weight: 600;
+    font-size: 13px;
+    float: left;
+}
+
+.HospiDetailCov {
+    display: inline-block;
+    width: 100%;
+    padding: 24px;
+}
+
+.HospiDetailCov h3 {
+    display: inline-block;
+    width: 100%;
+    color: #172338;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.HospiDetailCov p {
+    display: inline-block;
+    width: 100%;
+    font-size: 15px;
+    color: #676767;
+    margin: 0;
+    font-weight: 400;
+}
+
+/**** Hospital Details End ****/
+
+
+
+/**** Cancel Appointment Start ****/
+.CancelAppointmentModalcov {}
+
+.CancelAppointmentModalcov .modal-dialog {
+    max-width: 440px;
+}
+
+.CanAppoinMintextrembox {
+    display: inline-block;
+    width: 100%;
+}
+
+.CanAppoinMintextrembox .FormInputcovermain textarea {
+    height: 120px !important;
+    resize: none;
+}
+
+.CanAppoinMintextrembox .FormInputcovermain .form-label {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.CanAppoinMintextrembox .ComsetBtnSavebox {}
+
+.CanAppoinMintextrembox .ComsetBtnSavebox button {
+    width: 100%;
+    margin-top: 14px;
+}
+
+.CanAppoinMintextrembox .FormInputcovermain {
+    margin-bottom: 18px;
+}
+
+/**** Cancel Appointment End ****/
+
+
+
+
+/**** Upload CSS Start ****/
+.uploaddocfileComcov {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.uploaddocfileComcov .drop-mainset {
+    display: inline-block;
+    width: 100%;
+    border: 2px dashed #E0E0E0;
+    background: #fdfdfd;
+    border-radius: 6px;
+    cursor: pointer;
+    text-align: left;
+    padding: 8px;
+    position: relative;
+    height: 48px;
+}
+
+.uploaddocfileComcov .drop-mainset:hover {
+    border-color: #ff8088;
+}
+
+.uploaddocfileComcov .drop-mainset h5 {
+    display: inline-flex;
+    width: 100%;
+    margin: 0;
+    font-size: 13px;
+    color: #838383;
+    font-weight: 400;
+    align-items: center;
+    margin-top: 5px;
+    padding-left: 10px;
+}
+
+.uploaddocfileComcov .drop-mainset h5 svg {
+    font-size: 22px;
+    float: left;
+    margin-right: 10px;
+}
+
+.uploaddocfileComcov .form-label {
+    display: inline-block;
+    width: 100%;
+    color: #2D2424;
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+
+.UplddataImgBox {
+    display: block;
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+}
+
+.UplddataImgBox img {
+    width: 150px;
+    height: 90px;
+    float: left;
+    object-fit: contain;
+    border: 1px solid #dddddd;
+}
+
+.noteupldtext {
+    display: inline-block;
+    width: 100%;
+    font-size: 13px;
+    color: #ABA6A6;
+    margin-bottom: 5px;
+    margin-top: 6px;
+}
+
+/**** Upload CSS End ****/
+
+
+
+
+
+/** Table Com Style Start **/
+
+.montfltmaindahtlrec .react-select__control {
+    border: 0;
+    width: 138px;
+}
+
+.montfltmaindahtlrec .react-select__control .react-select__single-value {
+    color: #686868;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.montfltmaindahtlrec {
+    display: block;
+    width: auto;
+    float: left;
+    margin-right: 12px;
+    margin-top: 2px;
+}
+
+.montfltmaindahtlrec .react-select__value-container {
+    padding-left: 0px;
+}
+
+
+.ComallTblcovlst {
+    display: inline-block;
+    width: 100%;
+    overflow: hidden;
+    overflow: auto;
+}
+
+.ComallTblcovlst table {
+    margin-bottom: 0px;
+    vertical-align: middle;
+
+}
+
+table.TableaminCust {
+    border-spacing: 1px 1rem !important;
+    border-collapse: separate;
+}
+
+.ComallTblcovlst thead {
+    border: 0px !important;
+}
+
+.ComallTblcovlst thead tr {
+    border: 0px;
+}
+
+.ComallTblcovlst thead tr th {
+    background-color: #ffffff;
+    border: 0;
+    color: #818181;
+    padding: 4px 12px 4px;
+    box-shadow: inherit;
+    font-size: 16px;
+    font-weight: 600;
+    vertical-align: middle;
+}
+
+.ComallTblcovlst tbody {
+    background-color: #ffffff;
+    border: 0 !important;
+}
+
+.ComallTblcovlst tbody tr {
+    background-color: #ffffff !important;
+    border: 0px !important;
+    box-shadow: 0px 0px 0px 1px #ebeaea;
+    border-radius: 10px;
+    --bs-table-bg: #ffffff !important;
+}
+
+.ComallTblcovlst tbody tr td {
+    border: 0 !important;
+    background: #ffffff !important;
+    color: #2D2424 !important;
+    font-size: 15px;
+    border-top: 0 !important;
+    padding: 12px 12px 12px;
+    font-weight: 500;
+    --bs-table-accent-bg: inherit !important;
+}
+
+.ComallTblcovlst td:first-child {
+    border-top-left-radius: 10px !important;
+    border-bottom-left-radius: 10px !important;
+}
+
+.ComallTblcovlst td:last-child {
+    border-top-right-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+}
+
+.ComallTblcovlst tbody tr {}
+
+.ComallTblcovlst tbody tr td:first-child {}
+
+.ComallTblcovlst tbody tr td:last-child {}
+
+.ComallTblcovlst .btn {
+    background-color: transparent !important;
+}
+
+.DeleteBtnset {
+    color: var(--secondary-color) !important;
+    padding: 0 !important;
+    font-size: 22px;
+    min-height: auto;
+    height: auto;
+    padding-left: 2px !important;
+    padding-right: 2px !important;
+}
+
+.EditBtnset {
+    color: #FF4040 !important;
+    padding: 0 !important;
+    font-size: 22px;
+    min-height: auto;
+    height: auto;
+    padding-left: 2px !important;
+    padding-right: 2px !important;
+}
+
+/** Table Com Style End **/
+
+
+/* Pagination CSS Start */
+.paginationlist-cover {
+    display: inline-flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.totalpaglist-set {
+    display: inline-flex;
+    width: 40%;
+    align-items: center;
+}
+
+.totalpaglist-set p {
+    font-size: 15px;
+    color: #838383;
+    margin-bottom: 0;
+}
+
+.pagelistnum-set {
+    display: inline-flex;
+    width: 60%;
+    justify-content: end;
+}
+
+.pagelistnum-set ul {
+    display: inline-flex;
+    padding-left: 0;
+    margin-bottom: 0;
+    flex-wrap: wrap;
+}
+
+.pagelistnum-set ul li {
+    display: inline-flex;
+}
+
+.pagelistnum-set ul li a {
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    color: #BCBCBC;
+    padding: 5px;
+    height: 40px;
+    width: 40px;
+    border: 2px solid #BCBCBC;
+    border-radius: 4px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+.pagelistnum-set ul li a svg {
+    font-size: 30px;
+}
+
+.pagelistnum-set ul li a:hover {
+    background: var(--button-bg-color-secondary);
+    border: 1px solid var(--button-border-color-secondary) !important;
+    color: var(--button-text-color-secondary) !important;
+}
+
+.pageactive {
+    background: var(--button-bg-color-secondary);
+    border: 1px solid var(--button-border-color-secondary) !important;
+    color: var(--button-text-color-secondary) !important;
+}
+
+.paginationlist-cover .page-item .page-link {
+    color: var(--primary-color);
+    box-shadow: inherit !important;
+}
+
+.paginationlist-cover .page-item.active .page-link {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    color: #ffffff;
+}
+
+.paginationlist-cover {
+    display: inline-flex !important;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.paginationlist-cover .px-3 {
+    padding-left: 15px !important;
+    padding-right: 0px !important;
+}
+
+.paginationlist-cover .pagination {
+    padding-right: 15px;
+    margin-bottom: 0px;
+}
+
+/* Pagination CSS End */
+
+.AllContpageCoverset {
+    display: inline-block;
+    width: 100%;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    height: calc(100vh - 275px);
+}
+
+.AllContpageCoverset h1 {
+    display: inline-block;
+    width: 100%;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #172338;
+}
+
+.AllContpageCoverData {
+    display: inline-block;
+    width: 100%;
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #172338;
+}
+
+.PrimaryColor {
+    color: var(--primary-color);
+}
+
+.AllContpageCoverData .h1,
+.AllContpageCoverData .h2,
+.AllContpageCoverData .h3,
+.AllContpageCoverData .h4,
+.AllContpageCoverData .h5,
+.AllContpageCoverData .h6,
+.AllContpageCoverData h1,
+.AllContpageCoverData h2,
+.AllContpageCoverData h3,
+.AllContpageCoverData h4,
+.AllContpageCoverData h5,
+.AllContpageCoverData h6 {}
+
+.maxHeight {
+    max-height: 550px !important;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+
+
+@media (prefers-color-scheme: dark) {
+    body {
+        color: #172338 !important;
+        background: #ffffff !important;
+        background-color: #ffffff !important;
+    }
+}

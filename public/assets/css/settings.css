@@ -1,0 +1,114 @@
+.SettingsMainBgcov {
+    display: inline-block;
+    width: 100%;
+    background: #F2F2F2;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.UserSettingsMaincov {
+    display: inline-block;
+    width: 100%;
+}
+
+.UsersettiLeftSide {
+    display: block;
+    width: 25%;
+    float: left;
+}
+
+.UsersettiRightData {
+    display: block;
+    width: 75%;
+    float: left;
+    padding-left: 25px;
+}
+
+.CardBoxProfSeting {
+    display: inline-block;
+    width: 100%;
+    background: #FFFFFF;
+    border: 2px solid #EBEAEA;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.CardBoxProfSetititle {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+.CardBoxProfSetititle h1 {
+    display: inline-block;
+    width: 100%;
+    font-size: 18px;
+    color: #2D2424;
+    font-weight: 600;
+    margin: 0;
+}
+
+.SaveformBtnmaincov {
+    display: inline-block;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.SaveformBtnmaincov a,
+.SaveformBtnmaincov button {
+    display: inline-block;
+    width: auto;
+    font-size: 16px;
+    color: var(--button-text-color-secondary) !important;
+    background: var(--button-bg-color-secondary) !important;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    border: 0px;
+    font-weight: 500;
+    padding: 12px 28px 12px;
+}
+
+.HrLineboxcov {
+    display: block;
+    width: 100%;
+    border: 0;
+    border-top: 2px solid #c8c8c8;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    float: left;
+}
+
+.editforminputCov {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+}
+
+.editforminputCov a {
+    color: var(--secondary-color);
+    position: absolute;
+    right: 12px;
+    top: 11px;
+    font-size: 19px;
+}
+
+.editforminputCov a svg {}
+
+.editforminputCov .form-control {
+    padding-right: 32px;
+}
+
+@media (max-width: 991px) {
+    .UsersettiRightData {
+        width: 100%;
+        padding-left: 0px;
+        margin-top: 25px;
+    }
+}
+
+@media (max-width: 479px) {
+    .CardBoxProfSeting {
+        padding: 20px;
+    }
+}

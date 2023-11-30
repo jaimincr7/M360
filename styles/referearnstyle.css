@@ -1,0 +1,324 @@
+.ReferandEarnboxTitle {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.ReferandEarnboxTitle {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.ReferandEarnboxTitle h1 {
+    display: inline-block;
+    width: 100%;
+    font-size: 20px;
+    margin: 0px;
+    color: #172338;
+    font-weight: 600;
+}
+
+.ReferandEarnboxCov {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.ReferandEarnboxIner {
+    display: inline-block;
+    width: 610px;
+}
+
+.ReferandEarninerTop {
+    display: inline-block;
+    width: 100%;
+    background: #4285F4;
+    box-shadow: 0px 7.37255px 24.5752px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 24px;
+    margin-bottom: 22px;
+}
+
+.ReferandEarninerTop h2 {
+    display: inline-block;
+    width: 100%;
+    margin: 0px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+
+.ReferandEarninerTop p {
+    display: inline-block;
+    width: 100%;
+    margin: 0px;
+    font-size: 13px;
+    color: #ffffff;
+    margin-bottom: 22px;
+    margin-top: 2px;
+}
+
+.ReferandEarninerTop img {
+    width: 320px;
+    height: auto;
+}
+
+.ReferandEarninerBot {
+    display: inline-block;
+    width: 100%;
+    background: #FFFFFF;
+    border: 1px dashed #E0E0E0;
+    box-shadow: 0px 7.37255px 24.5752px rgba(0, 0, 0, 0.08);
+    border-radius: 6px;
+    padding: 18px;
+}
+
+.ReferandEarninerBot hr {
+    border-top: 2px solid #d5d5d5;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.ReferEarninerboxMain {
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+}
+
+.ReferEarninerboxdata {
+    display: block;
+    width: 50%;
+    float: left;
+    position: relative;
+    padding-left: 62px;
+    padding-right: 10px;
+    min-height: 65px;
+    margin-bottom: 10px;
+}
+
+.ReferEarninerboxdata img {
+    width: 52px;
+    position: absolute;
+    left: 0;
+    top: 4px;
+}
+
+.ReferEarninerboxdata h3 {
+    display: inline-block;
+    width: 100%;
+    margin: 0px;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+
+.ReferEarninerboxdata p {
+    display: inline-block;
+    width: 100%;
+    margin: 0px;
+    color: #7E7E7E;
+    font-size: 12px;
+}
+
+.ReferEarninerboxCodecp {
+    display: inline-flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 4px;
+}
+
+.ReferEarninoxcoecp1 {
+    display: block;
+    width: auto;
+    float: left;
+    text-align: right;
+    border-right: 2px solid #d5d5d5;
+    padding-right: 28px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.ReferEarninoxcoecp1 h3 {
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    color: #7E7E7E;
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+    word-break: break-all;
+}
+
+.ReferEarninoxcoecp1 span {
+    display: block;
+    width: 100%;
+    color: #1F1F1F;
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.ReferEarninoxcoecp2 {
+    display: block;
+    width: auto;
+    float: left;
+    text-align: left;
+    padding-left: 28px;
+}
+
+.ReferEarninoxcoecp2 button {
+    border: 0 !important;
+    background-color: transparent !important;
+    color: var(--primary-color) !important;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+}
+
+.ReferEarninoxcoecp2 svg {
+    float: left;
+    width: 25px;
+    height: 26px;
+    margin-top: 8px;
+    margin-right: 8px;
+}
+
+.ReferEarninoxcoecp2 span {
+    display: block;
+    width: auto;
+    float: left;
+    font-size: 25px ;
+}
+
+.ShareReferralcodebox {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.ShareReferralcodebox p {
+    display: inline-block;
+    width: 100%;
+    color: #1F1F1F;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.ShareReferralcodebox a {
+    display: inline-block;
+    width: auto;
+    margin-right: 8px;
+    margin-left: 8px;
+    margin-bottom: 10px;
+}
+
+.ShareReferralcodebox a img {
+    width: 140px;
+}
+
+@media (max-width: 767px) {
+    .ReferandEarnboxIner {
+        width: 100%;
+    }
+}
+
+@media (max-width: 510px) {
+    .ReferandEarninerTop p {
+        font-size: 12px;
+    }
+
+    .ReferandEarninerTop h2 {
+        font-size: 18px;
+    }
+
+    .ReferandEarninerTop p br {
+        display: none;
+    }
+
+    .ShareReferralcodebox a img {
+        width: 110px;
+    }
+}
+
+@media (max-width: 479px) {
+    .ReferandEarnboxTitle h1 {
+        font-size: 18px;
+    }
+
+    .ReferandEarnboxTitle {
+        margin-bottom: 18px;
+    }
+
+    .ReferEarninerboxdata img {
+        width: 36px;
+    }
+
+    .ReferEarninerboxdata {
+        padding-left: 45px;
+    }
+
+    .ReferEarninerboxdata {
+        width: 100%;
+    }
+
+    .ReferEarninerboxdata {
+        margin-bottom: 16px;
+    }
+
+    .ReferEarninerboxdata {
+        min-height: 48px;
+    }
+}
+
+@media (max-width: 414px) {
+    .ReferandEarnboxTitle {
+        margin-top: 25px;
+    }
+
+    .ReferandEarnboxCov {
+        margin-bottom: 32px;
+    }
+
+    .ReferEarninoxcoecp1 {
+        padding-right: 12px;
+    }
+
+    .ReferEarninoxcoecp2 {
+        padding-left: 12px;
+    }
+
+    .ReferandEarninerTop img {
+        width: 200px;
+    }
+
+    .ReferEarninoxcoecp1 span {
+        font-size: 16px;
+    }
+
+    .ReferEarninoxcoecp1 h3 {
+        font-size: 12px;
+    }
+
+    .ReferEarninoxcoecp2 button {
+        font-size: 12px;
+    }
+
+    .ReferEarninoxcoecp2 svg {
+        width: 20px;
+        height: 20px;
+        margin-right: 5px;
+    }
+}

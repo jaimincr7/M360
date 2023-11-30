@@ -1,0 +1,685 @@
+.DoctordetailsCover {
+    display: inline-block;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.DoctordetailsLeft {
+    display: block;
+    width: 63%;
+    float: left;
+    padding-right: 35px;
+}
+
+.DoctordetailsRight {
+    display: block;
+    width: 37%;
+    float: left;
+}
+
+/***** Aboutme CSS *****/
+
+.docaboutme-cover {
+    display: inline-flex;
+    width: 100%;
+    padding-bottom: 35px;
+    flex-direction: column;
+}
+
+.docpersonal-info {
+    display: inline-flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    background: #F6F7FA;
+    border-radius: 10px;
+    padding: 25px;
+    margin-bottom: 20px;
+}
+
+.docpersonal-info img {
+    width: 174px;
+    height: 174px;
+    border-radius: 13px;
+    object-fit: cover;
+    position: absolute;
+    left: 25px;
+}
+
+.docinfo-left {
+    display: inline-flex;
+    width: 100%;
+    flex-direction: column;
+    padding-left: 195px;
+    min-height: 175px;
+}
+
+.docinfo-left h5 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #172338;
+}
+
+.docspe-info {
+    font-size: 14px;
+    color: var(--primary-color);
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+.docspe-info span {
+    font-weight: 500;
+}
+
+.docdegree-info {
+    font-size: 14px;
+    color: #7E7E7E;
+    margin-bottom: 8px;
+}
+
+.doclangu-info {
+    font-size: 15px;
+    color: #7E7E7E;
+    margin-bottom: 0;
+    position: relative;
+    padding: 0 0 8px 20px;
+}
+
+.doclangu-info svg {
+    font-size: 16px;
+    position: absolute;
+    left: 0;
+    top: 3px;
+}
+
+.docrateinfo-set {
+    display: inline-flex;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.docrateinfo-set svg {
+    font-size: 16px;
+    color: #FFAA45;
+    float: left;
+}
+
+.docrateinfo-set span {
+    color: #7E7E7E;
+    margin: 0 0 0 6px;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.docinfo-left a {
+    display: inline-flex;
+    width: 100%;
+    align-items: center;
+    color: #7E7E7E;
+    font-size: 15px;
+}
+
+.docinfo-left a svg {
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+.docheader-nav {
+    display: inline-flex;
+    width: 100%;
+    border-bottom: 1.5px solid #d3d3d3;
+    margin-bottom: 20px;
+}
+
+.docheader-nav .nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background: #ffffff;
+    color: var(--secondary-color);
+    border-radius: 0;
+}
+
+.docheader-nav .nav-item {
+    display: inline-flex;
+    position: relative;
+    margin-bottom: -1px;
+}
+
+.docheader-nav .nav-pills .active::after {
+    content: '';
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 1px;
+    border-radius: 20px 20px 0 0;
+    height: 3px;
+    background: var(--secondary-color);
+}
+
+.docheader-nav .nav-pills .nav-link {
+    border-radius: 0;
+    font-size: 15px;
+    color: #2D2424;
+    font-weight: 500;
+}
+
+.aboutmedoc-det {
+    display: inline-flex;
+    width: 100%;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+
+.aboutdoc-title {
+    font-size: 16px;
+    color: #2D2424;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 12px;
+}
+
+.aboutdoc-title svg {
+    color: var(--secondary-color);
+    position: absolute;
+    left: 0;
+    top: 2px;
+    font-size: 18px;
+}
+
+.aboutdoc-text {
+    display: inline-flex;
+    width: 100%;
+    background: #FFFFFF;
+    border: 1.5px solid #EBEAEA;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.aboutdoc-text p {
+    font-size: 14px;
+    color: #686868;
+    margin-bottom: 5px;
+}
+
+.specializlist-set {
+    display: inline-flex;
+    width: 100%;
+    background: #FFFFFF;
+    border: 1.5px solid #EBEAEA;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.specializlist-set ul {
+    display: inline-flex;
+    padding-left: 0;
+    margin-bottom: 0;
+    flex-wrap: wrap;
+}
+
+.specializlist-set ul li {
+    display: inline-flex;
+    list-style: none;
+    background: #D8E7FF;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 13px;
+    padding: 5px 10px;
+    color: #686868;
+    margin-right: 10px;
+    margin-bottom: 2px;
+    margin-top: 3px;
+}
+
+.educationlist-set {
+    display: inline-flex;
+    width: 100%;
+    background: #FFFFFF;
+    border: 1.5px solid #EBEAEA;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.educationlist-set ul {
+    display: inline-flex;
+    width: 100%;
+    flex-direction: column;
+    margin-bottom: 0;
+    padding-left: 25px;
+}
+
+.educationlist-set ul li {
+    width: 100%;
+    list-style: disc !important;
+    align-items: center;
+    font-size: 14px;
+    color: #686868;
+    padding-bottom: 2px;
+    padding-top: 3px;
+}
+
+.hospitaltab-list {
+    display: inline-flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.hospitaldet-tab {
+    display: inline-block;
+    width: 100%;
+    padding: 15px;
+    background: #FFFFFF;
+    border: 1.5px solid #EBEAEA;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.hospitaldet-left {
+    display: block;
+    width: 50%;
+    float: left;
+}
+
+.hospitaldet-left h5 {
+    display: block;
+    font-size: 15px;
+    color: #172338;
+    position: relative;
+    padding-left: 24px;
+    float: left;
+    padding-right: 10px;
+}
+
+.hospitaldet-left h5 svg {
+    font-size: 15px;
+    position: absolute;
+    left: 0;
+    top: 3px;
+}
+
+.hospitaldet-left h6 {
+    display: block;
+    width: auto;
+    float: left;
+    color: var(--secondary-color);
+    font-weight: 600;
+}
+
+.hospitaldet-left h6 span {
+    font-size: 18px;
+    margin-right: 2px;
+    line-height: 1.2;
+    float: left;
+    margin-top: 2px;
+}
+
+.hospitaldet-left p {
+    display: inline-block;
+    width: 100%;
+    align-items: center;
+    font-size: 14px;
+    color: #7E7E7E;
+    position: relative;
+    padding-left: 24px;
+    margin-bottom: 0;
+}
+
+.hospitaldet-left p svg {
+    font-size: 16px;
+    position: absolute;
+    left: 0;
+    top: 2px;
+}
+
+
+.hospitaldet-right {
+    display: block;
+    width: auto;
+    float: right;
+}
+
+.hospitaldet-right img {
+    width: 65px;
+    height: 60px;
+    object-fit: cover;
+    margin-right: 15px;
+    border-radius: 10px;
+    float: left;
+}
+
+.hospitaldet-right a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 67px;
+    background: var(--button-bg-color-secondary);
+    color: var(--button-text-color-secondary) !important;
+    border-radius: 4px;
+    text-decoration: none;
+    flex-direction: column;
+    border-radius: 8px;
+    font-size: 12px;
+    padding: 5px;
+    text-align: center;
+}
+
+.patientfeed-set {
+    display: inline-flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.patientrate-left {
+    display: inline-flex;
+    width: 50%;
+}
+
+.patientrate-left p {
+    font-size: 15px;
+    color: #172338;
+    margin-bottom: 0;
+    font-weight: 600;
+}
+
+.patientrate-right {
+    display: inline-flex;
+    width: 50%;
+    justify-content: end;
+    align-items: center;
+}
+
+.patientrate-right p {
+    font-size: 14px;
+    color: #172338;
+    margin-bottom: 0;
+    padding-right: 10px;
+    font-weight: 600;
+}
+
+.patientrate-right .react-select__control {
+    border: 1px solid hsl(0, 0%, 80%);
+    border-radius: 5px;
+    width: 160px;
+}
+
+/* .patientrate-right select {
+    font-size: 13px;
+    color: #7E7E7E;
+    padding: 6px;
+    width: 170px;
+    border: 2px solid #bbbbbb;
+    border-radius: 5px;
+}
+
+.patientrate-right select:focus-visible {
+    outline: none;
+} */
+
+.userreview-box {
+    display: inline-flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.userreview-add {
+    display: inline-flex;
+    width: 100%;
+    flex-direction: column;
+    background: #FFFFFF;
+    border: 1.5px solid #EBEAEA;
+    border-radius: 10px;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+}
+
+.username-set {
+    display: inline-block;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.username-set h5 img {
+    width: 32px;
+    margin-right: 10px;
+}
+
+.username-set h5 {
+    display: inline-block;
+    width: auto;
+    float: left;
+    font-size: 15px;
+    color: #172338;
+    font-weight: 600;
+    position: relative;
+    margin-bottom: 0;
+    padding-right: 10px;
+}
+
+.userrate-icon {
+    display: block;
+    float: left;
+    width: auto;
+    margin-top: 3px;
+}
+
+.userrate-icon svg {
+    font-size: 17px;
+    color: #FFAA45;
+    float: left;
+}
+
+.userreview-add p {
+    display: inline-block;
+    width: auto;
+    float: right;
+    font-size: 14px;
+    color: #686868;
+    margin-bottom: 0;
+    margin-left: auto;
+}
+
+/***** End Aboutme CSS *****/
+
+/***** Offer CSS *****/
+
+.offercode-list {
+    display: inline-flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.promodata-box {
+    display: inline-flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    padding: 8px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.promodata-box {
+    background: #EFFFF1;
+    border: 1px dashed #55CE63;
+}
+
+/* .promodata-box:nth-child(1) {
+    background: #FFF7E7;
+    border: 1px dashed #FFB623;
+}
+
+.promodata-box:nth-child(2) {
+    background: #EFFFF1;
+    border: 1px dashed #55CE63;
+} */
+
+.offerlogo-icon1 {
+    color: #55CE63;
+}
+
+.offerlogo-icon2 {
+    color: #55CE63;
+}
+
+.promodata-box svg {
+    font-size: 30px;
+    position: absolute;
+    left: 16px;
+}
+
+.promocode-title {
+    display: inline-flex;
+    width: 100%;
+    flex-direction: column;
+    padding-left: 65px;
+    position: relative;
+}
+
+.promocode-title h4 {
+    font-size: 15px;
+    color: #1F1F1F;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.promocode-title p {
+    color: #838383;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.promocode-title::after {
+    content: '';
+    display: inline-flex;
+    border-left: 1px solid #51C05D;
+    height: 100%;
+    position: absolute;
+    left: 50px;
+    top: 0;
+}
+
+.secondpromo-set::after {
+    border-left: 1px solid #51C05D;
+}
+
+@media (max-width: 1199px) {
+    .DoctordetailsLeft {
+        width: 60%;
+    }
+
+    .DoctordetailsRight {
+        width: 40%;
+    }
+}
+
+@media (max-width: 1100px) {
+    .DoctordetailsRight .tabbingdatabox-set ul li .ourservices-set {
+        padding-left: 28px;
+    }
+
+    .DoctordetailsRight .tabbingdatabox-set ul li a svg {
+        left: 9px;
+        width: 14px;
+        height: 14px;
+        top: 15px;
+    }
+}
+
+@media (max-width: 1080px) {
+    .DoctordetailsLeft {
+        width: 100%;
+        padding-right: 0px;
+    }
+
+    .DoctordetailsRight {
+        width: 100%;
+    }
+}
+
+@media (max-width: 550px) {
+    .docinfo-left {
+        min-height: auto;
+    }
+
+    .docpersonal-info {
+        padding: 15px;
+    }
+
+    .docinfo-left {
+        padding-left: 135px;
+    }
+
+    .docpersonal-info img {
+        width: 120px;
+        height: 120px;
+        border-radius: 10px;
+        left: 15px;
+        top: 15px;
+    }
+
+    .hospitaldet-left {
+        width: 100%;
+    }
+
+    .hospitaldet-right {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .hospitaldet-right img {
+        width: 55px;
+        height: 55px;
+        border-radius: 6px;
+    }
+
+    .hospitaldet-right a {
+        width: 55px;
+        height: 55px;
+    }
+}
+
+@media (max-width: 480px) {
+    .DoctordetailsRight .tabbingdatabox-set ul li a svg {
+        left: 6px;
+        width: 14px;
+        height: 14px;
+        top: 12px;
+    }
+
+    .DoctordetailsRight .tabbingdatabox-set ul li .ourservices-set {
+        padding-left: 23px;
+    }
+
+    .DoctordetailsRight .selectdaytext-set {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media (max-width: 430px) {
+    .DoctordetailsRight .tabbingdatabox-set ul li .ourservices-set {
+        padding-left: 6px;
+    }
+}
+
+@media (max-width: 414px) {
+    .docpersonal-info img {
+        left: 0;
+        top: 0;
+        position: relative;
+    }
+
+    .docinfo-left {
+        padding-left: 0;
+        padding-top: 12px;
+    }
+
+    .docheader-nav .nav-pills .nav-link {
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 14px;
+    }
+}

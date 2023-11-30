@@ -1,0 +1,190 @@
+    /***** Doctor listing CSS *****/
+
+    .filterbox-cover {
+        display: inline-flex;
+        width: 100%;
+        background: #F4F4F4;
+        border: 1px solid #E5E5E5;
+        border-radius: 8px;
+        padding: 15px 20px;
+        flex-wrap: wrap;
+        align-content: stretch;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .sortby-filter {
+        display: inline-flex;
+        align-items: center;
+    }
+
+    .sortby-filter svg {
+        font-size: 22px;
+        color: #172338;
+        float: left;
+    }
+
+    .sortby-filter p {
+        font-size: 15px;
+        color: #172338;
+        margin-bottom: 0;
+        float: left;
+    }
+
+    .sortby-filter p a {
+        color: var(--primary-color);
+    }
+
+    .sortby-filter p a svg {
+        font-size: 18px;
+    }
+
+    .selectsortbycov {
+        display: inline-block;
+        width: auto;
+        float: left;
+    }
+
+    .selectsortbycov .react-select__control {
+        border: 0;
+        background: transparent;
+        border-radius: 0;
+    }
+
+    .selectsortbycov .react-select__single-value {
+        color: var(--primary-color);
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .selectsortbycov .react-select__indicator {
+        padding: 0;
+        margin: 0;
+        margin-top: 3px;
+    }
+
+    .selectsortbycov .react-select__indicator svg {
+        color: var(--primary-color);
+    }
+
+    .consult-filter {
+        display: inline-flex;
+    }
+
+    .consultbox-set {
+        display: inline-flex;
+        width: auto;
+        padding-right: 22px;
+        align-items: center;
+    }
+
+    .consultbox-set input {
+        /* width: 20px;
+        height: 17px; */
+        top: 5px;
+        position: absolute;
+        left: 0;
+        margin: 0 !important;
+    }
+
+    .consultbox-set .form-check {
+        position: relative;
+        padding: 0;
+        margin: 0;
+        padding-left: 24px;
+    }
+
+    .consultbox-set label {
+        font-size: 14px;
+        color: #172338;
+        font-weight: 500;
+    }
+
+    .consultbox-set input[type="checkbox"] {
+        accent-color: var(--primary-color);
+    }
+
+    .filter-sec {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .filter-sec button {
+        display: inline-flex;
+        align-items: center;
+        font-size: 15px;
+        color: var(--primary-color);
+        padding: 0;
+        font-weight: 600;
+    }
+
+    .filter-sec button:hover {
+        color: var(--primary-color);
+    }
+
+    .filter-sec button:active {
+        background-color: transparent !important;
+        color: var(--primary-color) !important;
+        box-shadow: none !important;
+    }
+
+    .filter-sec button svg {
+        font-size: 16px;
+        margin-right: 5px;
+    }
+
+    
+    /***** End Doctor listing CSS *****/
+
+
+
+    /*** Media Query CSS***/
+
+    @media (max-width: 1024px) {}
+
+    @media (max-width: 991px) {
+        .consult-filter {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        .filterbox-cover {
+            padding: 18px;
+            align-content: stretch;
+            justify-content: space-between;
+            flex-direction: column;
+        }
+
+    }
+
+    @media (max-width: 800px) {
+        .sortby-filter {
+            justify-content: center;
+            padding-bottom: 10px;
+        }
+
+        .consult-filter {
+            justify-content: center;
+            padding-bottom: 10px;
+        }
+
+        .filter-sec {
+            align-items: center;
+            justify-content: center;
+        }
+
+    }
+
+    @media (max-width: 575px) {}
+
+    @media (max-width: 479px) {
+
+
+        .consult-filter {
+            text-align: center;
+        }
+    }
+
+    /*** End Media Query CSS***/

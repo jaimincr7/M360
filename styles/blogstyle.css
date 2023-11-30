@@ -1,0 +1,533 @@
+.blogListdataBgmain {
+    display: inline-block;
+    width: 100%;
+    background: #F3FFFF;
+    padding-top: 25px;
+    padding-bottom: 32px;
+}
+
+.blogListdataCover {
+    display: inline-block;
+    width: 100%;
+}
+
+.blogListdataIner {
+    display: block;
+    width: 33.33%;
+    float: left;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.BlogslstdataTitle {
+    display: inline-flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.BlogslstdataTitle h1 {
+    display: inline-flex;
+    font-size: 22px;
+    font-weight: 600;
+    margin: 0px;
+    color: #172338;
+}
+
+.BlogslsttitleSearch {}
+
+
+.BlogslstSearchIner {
+    display: inline-block;
+    width: auto;
+    position: relative;
+}
+
+.BlogslstSearchIner .form-control {
+    color: #000000;
+    background: #ffffff;
+    border: 1px solid #E8E8E8;
+    border-radius: 8px;
+    font-size: 14px;
+    height: 38px;
+    padding: 8px;
+    width: 290px;
+    padding-left: 35px;
+}
+
+.BlogslstSearchIner svg {
+    position: absolute;
+    top: 10px;
+    left: 12px;
+    font-size: 20px;
+    color: #7E7E7E;
+}
+
+
+.Blogceteglistcovbox {
+    display: block;
+    width: 100%;
+    float: left;
+}
+
+.Blogceteglistcovbox ul {
+    display: block;
+    width: 100%;
+    float: left;
+    padding: 0px;
+    margin: 0px;
+}
+
+.Blogceteglistcovbox ul li {
+    display: block;
+    width: auto;
+    float: left;
+}
+
+.Blogceteglistcovbox ul li a {
+    background: #FFFFFF;
+    border: 1px solid #E0E0E0;
+    border-radius: 4px;
+    color: #7E7E7E;
+    padding: 5px 10px 5px;
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.Blogceteglistcovbox ul li a:hover {
+    background: var(--button-bg-color-secondary);
+    color: var(--button-text-color-secondary) !important;
+}
+
+.Blogceteglistcovbox .active {
+    background: var(--button-bg-color-secondary);
+    color: var(--button-text-color-secondary) !important;
+}
+
+.Blogceteglistcovbox ul li.active a {
+    background: var(--button-bg-color-secondary);
+    color: var(--button-text-color-secondary) !important;
+}
+
+
+
+
+/*** Blog Details CSS Start ***/
+.BlogDetailsmainCov {
+    display: inline-block;
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.BlogDetailsmainLeft {
+    display: block;
+    width: 65%;
+    float: left;
+}
+
+.BlogDetailsleftImgset {
+    display: inline-block;
+    width: 100%;
+}
+
+.BlogDetailsleftImgset img {
+    width: 100%;
+    height: 530px !important;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+.BlogDetailsleftTitle {
+    display: inline-block;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.BlogDetailsleftTitle h1 {
+    display: inline-block;
+    width: 100%;
+    margin: 0px;
+    color: #222222;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.BlogDetailsleftTitle p {
+    color: #777777;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.BlogDetailsleftTitle p svg {
+    color: #555555;
+    width: 16px;
+    float: left;
+    margin-top: 3px;
+    margin-right: 3px;
+}
+
+.BlogDetailsDataCov {
+    display: inline-block;
+    width: 100%;
+}
+
+.BlogDetailsDataCov p {
+    color: #848484;
+}
+
+.BlogDetailsDataCov ol,
+.BlogDetailsDataCov ul {
+    list-style: auto !important;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.BlogDetailsDataCov li {
+    color: #848484;
+    list-style: auto !important;
+    margin-bottom: 4px;
+}
+
+.sharenewxtprbtncov {
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sharenewxtprbtnLeft {
+    display: inline-block;
+    width: auto;
+}
+
+.sharenewxtprbtnLeft p {
+    display: inline-block;
+    width: 100%;
+    font-weight: 500;
+    font-size: 17px;
+    color: #000000;
+    margin-bottom: 12px;
+}
+
+.sharenewxtprbtnLeft ul {
+    display: inline-block;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.sharenewxtprbtnLeft ul li {
+    display: block;
+    width: auto;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.sharenewxtprbtnLeft ul li a {
+    display: inline-block;
+}
+
+.sharenewxtprbtnLeft ul li a img {
+    width: 30px;
+}
+
+.sharenewxtprbtnRight {
+    display: inline-block;
+    width: auto;
+}
+
+.sharenewxtprbtnRight button {
+    background: var(--button-bg-color-secondary) !important;
+    color: var(--button-text-color-secondary) !important;
+    border-radius: 6px;
+    border: 0px;
+    width: 130px;
+    padding: 10px 12px 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.sharenewxtprbtnRight button svg {}
+
+.PreviousBtnlft svg,
+.NextBtnrit svg {
+    position: relative;
+    font-size: 16px;
+    top: -1px;
+}
+
+.PreviousBtnlft svg {
+    margin-right: 5px;
+}
+
+.NextBtnrit svg {
+    margin-left: 5px;
+}
+
+.NextBtnrit {
+    margin-left: 18px;
+}
+
+button.DisabledBtn {
+    background: #BDBDBD !important;
+}
+
+
+.BlogDetailsmainRight {
+    display: block;
+    width: 35%;
+    float: left;
+    padding-left: 30px;
+}
+
+.BlogDetailsmainRight h2 {
+    display: inline-block;
+    width: 100%;
+    color: #172338;
+    margin: 0px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.BlogDetailsListrightCov {
+    display: inline-block;
+    width: 100%;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 40px rgb(0 0 0 / 8%);
+    border-radius: 10px;
+    padding: 18px;
+}
+
+.BlogDetailsListrightCov hr {
+    border-top: 2px solid #d2cece;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.BlogDetailsListrightIner {
+    display: inline-block;
+    width: 100%;
+}
+
+.BlogDetailsListrightIner a {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    padding-left: 110px;
+    min-height: 80px;
+}
+
+.BlogDetailsListrightIner img {
+    width: 100px !important;
+    height: 80px !important;
+    border-radius: 9px;
+    object-fit: cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.BlogDetailsListrightIner h4 {
+    display: inline-block;
+    width: 100%;
+    font-size: 16px;
+    color: #172338;
+    margin: 0;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.BlogDetailsListrightIner p {
+    display: inline-block;
+    width: 100%;
+    font-size: 14px;
+    color: #636363;
+    margin: 0;
+    font-weight: 400;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/*** Blog Details CSS End ***/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 991px) {
+    .BlogDetailsmainLeft {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .BlogDetailsmainRight {
+        width: 100%;
+        padding-left: 0px;
+    }
+}
+
+@media (max-width: 767px) {
+    .BlogDetailsmainCov {
+        margin-top: 30px;
+    }
+
+    .BlogDetailsleftTitle h1 {
+        font-size: 18px;
+    }
+
+    .BlogDetailsleftImgset img {
+        height: auto;
+    }
+}
+
+@media (max-width: 650px) {
+    .blogListdataIner {
+        width: 50%;
+    }
+}
+
+@media (max-width: 600px) {
+    .sharenewxtprbtnRight button {
+        width: 112px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 530px) {
+    .sharenewxtprbtncov {
+        display: inline-block;
+    }
+
+    .sharenewxtprbtnLeft ul {
+        display: block;
+    }
+
+    .sharenewxtprbtnLeft {
+        float: left;
+    }
+
+    .sharenewxtprbtnRight {
+        float: right;
+        margin-top: 10px;
+    }
+
+    .sharenewxtprbtnRight button {
+        margin-top: 12px;
+    }
+}
+
+@media (max-width: 479px) {
+    .BlogDetailsleftImgset img {
+        height: 420px !important;
+    }
+
+    .BlogDetailsleftTitle {
+        margin-top: 12px;
+    }
+
+    .BlogDetailsleftImgset img {
+        border-radius: 10px;
+    }
+
+    .BlogslstdataTitle h1 {
+        font-size: 20px;
+    }
+
+    .blogListdataIner {
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+}
+
+@media (max-width: 440px) {
+    .sharenewxtprbtnLeft {
+        width: 100%;
+    }
+
+    .sharenewxtprbtnRight {
+        width: 100%;
+    }
+
+    .sharenewxtprbtnRight button {
+        float: left;
+    }
+
+    .sharenewxtprbtnRight {
+        margin-top: 2px;
+    }
+}
+
+@media (max-width: 414px) {
+    .BlogDetailsleftImgset img {
+        height: 350px !important;
+    }
+
+    .BlogDetailsmainRight h2 {
+        font-size: 18px;
+    }
+
+    .BlogDetailsListrightIner h4 {
+        font-size: 15px;
+    }
+
+    .BlogDetailsListrightIner p {
+        font-size: 13px;
+    }
+
+    .BlogDetailsListrightIner a {
+        padding-left: 90px;
+        min-height: 66px;
+    }
+
+    .BlogDetailsListrightIner img {
+        width: 80px !important;
+        height: 62px !important;
+    }
+
+    .blogListdataIner {
+        width: 100%;
+    }
+
+    .BlogslstdataTitle {
+        display: inline-block;
+    }
+
+    .BlogslstdataTitle h1 {
+        width: 100%;
+    }
+
+    .BlogslsttitleSearch {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .BlogslstSearchIner {
+        width: 100%;
+    }
+
+    .BlogslstSearchIner .form-control {
+        width: 100%;
+    }
+}

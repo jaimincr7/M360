@@ -1,0 +1,29 @@
+.AddressmodlaMain {
+    display: inline-block;
+    width: 100%;
+}
+
+.AddressmodlaMain .modal-dialog {
+    max-width: 840px;
+}
+
+/* .AddressFormAddIn {
+    display: inline-block;
+    width: 100%;
+} */
+
+.makedeualadder {
+    display: inline-block;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.makedeualadder .form-check-label {
+    font-size: 14px;
+    color: #686868;
+}
+
+.FormInputcovermain .form-control:focus {
+    border-color: var(--secondary-color) !important;
+}
+

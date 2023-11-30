@@ -1,0 +1,33 @@
+.InsuranceDetailModalbox .modal-dialog {
+    max-width: 580px;
+}
+
+.ClamInsunceTncbox {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 30px;
+}
+
+.ClamInsunceTncbox .form-check {
+    display: block;
+    width: auto;
+    float: left;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin: 0;
+}
+
+.ClamInsunceTncbox p {
+    display: block;
+    width: auto;
+    float: left;
+    color: #9B9B9B;
+    margin: 0px;
+}
+
+.ClamInsunceTncbox p a {
+    color: var(--primary-color);
+}

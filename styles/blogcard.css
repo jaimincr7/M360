@@ -1,0 +1,156 @@
+.tophealthbox-cover {
+    display: inline-flex !important;
+    width: 100% !important;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.healthnamedet-set {
+    display: inline-flex;
+    width: 100%;
+    flex-direction: column;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 12px rgb(218 218 218);
+    border-radius: 12px;
+}
+
+.healthnamedet-img {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+}
+
+.healthnamedet-img img {
+    width: 100%;
+    border-radius: 10px;
+    height: 285px !important;
+    object-fit: cover;
+}
+
+.healthdata-set {
+    display: inline-flex;
+    width: 100%;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.healthdata-set span {
+    font-size: 13px;
+    color: #9B9B9B;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+
+.healthdata-set h5 {
+    font-size: 14px;
+    color: #2D2424;
+    font-weight: 500;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1.5;
+}
+
+.healthdata-set p {
+    font-size: 13px;
+    color: #636363;
+    margin-bottom: 8px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    min-height: 59px;
+}
+
+.healthdata-set a {
+    display: inline-flex;
+    font-size: 14px;
+    color: var(--secondary-color);
+    font-weight: 500;
+}
+
+.healthdata-set a svg {
+    font-size: 22px;
+    margin-left: 6px;
+}
+
+.BlogDatecov {
+    display: inline-block;
+    width: 88px;
+    height: 70px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background: #FFFFFF;
+    opacity: 0.97;
+    box-shadow: 0px 3px 12px rgb(0 0 0 / 6%);
+    backdrop-filter: blur(20px);
+    border-radius: 8px;
+    text-align: center;
+    padding-top: 9px;
+}
+
+.BlogDatecov h6 {
+    display: inline-block;
+    width: 100%;
+    color: #636363;
+    font-size: 22px;
+    font-weight: 800;
+    margin-bottom: 0;
+    line-height: 1.2;
+}
+
+.BlogDatecov p {
+    color: #9B9B9B;
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+    font-size: 14px;
+}
+
+@media (max-width: 767px) {
+    .tophealthbox-cover {
+        padding: 8px;
+    }
+
+    .tophealthbox-cover {
+        width: 100% !important;
+    }
+
+    .BlogDatecov {
+        width: 75px;
+        height: 60px;
+        padding-top: 7px;
+    }
+
+    .BlogDatecov h6 {
+        font-size: 18px;
+    }
+
+    .BlogDatecov p {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 575px) {
+    .healthdata-set h5 {
+        font-size: 13px;
+    }
+
+    .healthdata-set p {
+        font-size: 12px;
+    }
+
+    .healthdata-set a {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 479px) {
+    .healthnamedet-img img {
+        height: 145px !important;
+    }
+}

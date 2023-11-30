@@ -1,0 +1,85 @@
+.tophealth-cover {
+    display: inline-flex;
+    width: 100%;
+    background: #FFFFFF;
+    padding: 30px 0;
+}
+
+.healthexp-title {
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.healthexp-title h2 {
+    font-size: 24px;
+    color: #172338;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+/* .healthlist-set {
+    display: inline-flex;
+    width: 100%;
+} */
+
+.healthlist-set .slick-slider .slick-prev {
+    width: 38px;
+    height: 38px;
+    left: 0px;
+}
+
+.healthlist-set .slick-slider .slick-next {
+    width: 38px;
+    height: 38px;
+    right: 0px;
+}
+
+
+/**** Media Query ****/
+
+@media (max-width: 991px) {
+    .healthlist-set .slick-slider .slick-prev {
+        left: 0px;
+    }
+    .healthlist-set .slick-slider .slick-next{
+        right: 0px;
+    }
+}
+
+@media (max-width: 767px) {
+    .healthexp-title {
+        padding: 0 0 15px 0;
+    }
+
+    .healthexp-title h2 {
+        font-size: 20px;
+    }
+
+    .healthexp-title p {
+        font-size: 15px;
+    }
+
+    .healthexp-title {
+        padding: 0 0 15px 0;
+    }
+
+}
+
+@media (max-width: 650px) {
+    .healthexp-title {
+        text-align: center;
+    }
+
+    .healthexp-title h2 {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    /* .healthlist-set {
+        flex-direction: column;
+    } */
+}
+
+/**** End Media Query ****/

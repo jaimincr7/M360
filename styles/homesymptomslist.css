@@ -1,0 +1,84 @@
+.topconsult-cover {
+  display: inline-flex;
+  width: 100%;
+  background: #ffffff;
+  padding: 25px 0;
+}
+
+/**** Media Query ****/
+
+@media (max-width: 767px) {
+}
+
+@media (max-width: 767px) {
+}
+
+@media (max-width: 650px) {
+}
+
+/**** End Media Query ****/
+
+.topcosultbox-cover {
+  display: inline-flex !important;
+  width: 100% !important;
+  flex-direction: column;
+  background: #ffffff;
+  box-shadow: 0px 0px 25px rgb(0 0 0 / 6%);
+  border-radius: 12px;
+  padding: 0;
+}
+
+.consultnamedet-set {
+  display: inline-flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.consultnamedet-set img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.consultdata-set {
+  display: inline-flex;
+  width: 100%;
+  flex-direction: column;
+  padding: 15px;
+}
+
+.consultdata-set h5 {
+  font-size: 15px;
+  color: #2d2424;
+  font-weight: 500;
+
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.5;
+}
+
+.consultdata-set p {
+  font-size: 14px;
+  color: #636363;
+  margin-bottom: 8px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.5;
+}
+
+.consultdata-set a {
+  display: inline-flex;
+  font-size: 14px;
+  color: var(--secondary-color);
+  font-weight: 500;
+}
+
+.consultdata-set a svg {
+  font-size: 22px;
+  margin-left: 6px;
+}

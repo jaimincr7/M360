@@ -1,0 +1,155 @@
+/***** Jointeam CSS *****/
+
+.jointeam-cover {
+    display: inline-flex;
+    width: 100%;
+    padding: 30px 0;
+    padding-bottom: 45px;
+}
+
+.jointeam-set {
+    display: inline-flex;
+    width: 100%;
+    flex-direction: column;
+    background-image: url(/assets/images/home/jointeambgimg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.jointeam-set .col-lg-6 {
+    display: inline-flex;
+    align-items: center;
+}
+
+.jointeam-left {
+    display: inline-flex;
+    width: 100%;
+    flex-direction: column;
+    padding: 0 40px;
+}
+
+.jointeam-left h2 {
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.jointeam-left p {
+    font-size: 15px;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.dochosp-btn {
+    display: inline-flex;
+    width: 100%;
+}
+
+.dochosp-btn button {
+    background: var(--button-bg-color-secondary);
+    color: var(--button-text-color-secondary);
+    border-radius: 5px;
+    border: 0;
+    margin-right: 8px;
+    font-size: 11px;
+    font-weight: 700;
+    position: relative;
+    padding: 4px 10px 4px 28px;
+    height: 40px;
+}
+
+.dochosp-btn button svg {
+    font-size: 14px;
+    position: absolute;
+    left: 9px;
+    top: 13px;
+}
+
+.dochosp-btn .joinhos-btn {
+    background: var(--button-text-color-secondary);
+    color: var(--button-bg-color-secondary);
+    margin-right: 12px;
+    font-weight: 700;
+}
+
+.dochosp-btn button:hover {
+    background: var(--button-bg-color-secondary);
+    color: var(--button-text-color-secondary);
+}
+
+.dochosp-btn .joinhos-btn:hover {
+    background: var(--button-text-color-secondary);
+    color: var(--button-bg-color-secondary);
+}
+
+.jointeam-right {
+    display: inline-flex;
+    width: 100%;
+}
+
+.jointeam-right img {
+    width: 100%;
+}
+
+/***** End Jointeam CSS *****/
+
+@media (max-width: 1199px) {
+    .jointeam-left{
+        padding-top: 28px;
+        padding-bottom: 28px;
+        padding-right: 20px;
+    }
+    .jointeam-right img{
+        margin-top: 58px;
+    }
+    .jointeam-left p br{
+        display: none;
+    }
+}
+@media (max-width: 991px) {
+    .jointeam-left p br {
+        display: none;
+    }
+
+    .jointeam-left h2 {
+        font-size: 22px;
+    }
+
+    .dochosp-btn {
+        justify-content: center;
+    }
+
+    .jointeam-left {
+        padding: 20px 60px;
+        text-align: center;
+    }
+
+    .jointeam-right {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .jointeam-cover {
+        padding: 10px 0 30px;
+    }
+}
+
+@media (max-width: 575px) {
+    .jointeam-left {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 360px) {
+    .dochosp-btn button {
+        height: 48px;
+    }
+
+    .dochosp-btn button svg {
+        top: 18px;
+    }
+}

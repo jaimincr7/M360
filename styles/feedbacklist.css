@@ -1,0 +1,46 @@
+.FeedbackboxCovTitle {
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.FeedbackboxTitleLeft {
+    display: block;
+    width: auto;
+    float: left;
+}
+
+.FeedbackboxTitleLeft h1 {
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+    font-size: 18px;
+    color: #2D2424;
+    font-weight: 600;
+}
+
+.FeedbackboxTitleRight .montfltmaindahtlrec {
+    margin-right: 0px;
+    margin-top: 0px;
+}
+
+.Ratingboxstarbox {
+    display: inline-flex;
+}
+
+.Ratingboxstarbox svg {
+    color: #FFAA45;
+    font-size: 18px;
+}
+
+.Drnamerating{
+    width: 150px;
+}
+
+
+@media (max-width: 479px) {
+    .FeedbackboxTitleLeft h1{
+        font-size: 16px;
+    }
+}

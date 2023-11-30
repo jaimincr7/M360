@@ -1,0 +1,23 @@
+.healthconcern-cover {
+    display: inline-flex;
+    width: 100%;
+    background: #FFF4F4;
+    padding: 25px 0;
+}
+
+
+
+
+
+
+/***** Media Query *****/
+
+@media (max-width: 767px) {}
+
+@media (max-width: 650px) {}
+
+@media (max-width: 767px) {}
+
+@media (max-width: 480px) {}
+
+/***** End Media Query *****/

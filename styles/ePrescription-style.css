@@ -1,0 +1,59 @@
+.eprescriptionmodalCov .modal-dialog {
+    width: 650px;
+    max-width: 650px;
+}
+
+.eprescriptionmodalCov .modal-content {
+    position: relative;
+    border-radius: 5px;
+    border: 0;
+    padding: 20px;
+    padding-bottom: 0;
+}
+
+.eprescriptionmodalCov .modal-header {
+    padding: 0;
+    border: 0;
+    margin: 0px;
+}
+
+.eprescriptionmodalCov .btn-close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1;
+}
+
+.eprescriptionmodalMain {
+    display: inline-block;
+    width: 100%;
+    overflow: auto;
+}
+
+.eprescription-loader{
+    text-align: center;
+    color: #991907;
+}
+
+@media (max-width: 767px) {
+    .eprescriptionmodalCov .modal-dialog {
+        width: 585px;
+    }
+}
+
+@media (max-width: 620px) {
+    .eprescriptionmodalCov {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+
+    .eprescriptionmodalCov .modal-dialog {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .eprescriptionmodalBox {
+        display: inline-block;
+        width: 560px;
+    }
+}

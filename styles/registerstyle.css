@@ -1,0 +1,271 @@
+.RegithospitFormCov {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.RegithospitFormLeft {
+    width: 25%;
+    float: left;
+    padding-right: 20px;
+    padding-top: 70px;
+}
+
+.RegithospitFormRight {
+    width: 75%;
+    float: left;
+}
+
+.RegithospitFormLeft h1 {
+    display: inline-block;
+    width: 100%;
+    color: #FFFFFF;
+    font-size: 26px;
+    margin: 0px;
+    font-weight: 500;
+    margin-bottom: 24px;
+}
+
+.RegithospitFormLeft p {
+    display: inline-block;
+    width: 100%;
+    color: #FFFFFF;
+    font-size: 15px;
+    margin: 0px;
+    margin-bottom: 0;
+}
+
+.RgithositBoxformCard {
+    display: inline-block;
+    width: 100%;
+    background: #FFFFFF;
+    border: 1px solid #E8EAEC;
+    box-shadow: 0px 4px 26px rgba(231, 244, 255, 0.4);
+    border-radius: 6px;
+    padding: 30px;
+    min-height: 750px;
+}
+
+.FormBgcovmainbox {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    /* min-height: 840px; */
+}
+
+.FormBgcovmaiImg {
+    display: inline-flex;
+    flex-direction: column-reverse;
+    width: 45%;
+    background: url(../public/assets/images/form-bg.png) top center no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+}
+
+.FormBgcovmaiImg img {
+    width: 58%;
+    margin-bottom: 70px;
+}
+
+.Doctorimgsetmainvbox img {
+    margin-bottom: 0px;
+}
+
+.RegirDoctdataStepbox {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.RegirDoctdataStepmain {
+    display: inline-block;
+    width: auto;
+}
+
+.RegirDoctdataStepIner {
+    display: inline-block;
+    width: 180px;
+    padding-left: 10px;
+    padding-right: 10px;
+    float: left;
+}
+
+.RegirDoctdataStepIner svg {
+    font-size: 32px;
+    color: #7E7E7E;
+    margin-bottom: 5px;
+    position: relative;
+    z-index: 11;
+}
+
+.RegirDoctdataStepIner p {
+    color: #7E7E7E;
+    margin: 0;
+    display: inline-block;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.RegirDoctdataStepIner.ActiveStep svg {
+    color: var(--primary-color);
+
+}
+
+.RegirDoctdataStepIner.ActiveStep p {
+    color: var(--primary-color);
+}
+
+.rightBorderStep {
+    position: relative;
+}
+
+.rightBorderStep::after {
+    content: '';
+    position: absolute;
+    right: 107px;
+    width: 145px;
+    border-top: 2px dashed #E5E5E5;
+    top: 17px;
+    z-index: 9;
+    display: inline-block;
+}
+
+.ActiveStep::after {
+    border-color: var(--primary-color);
+}
+
+@media (max-width: 1024px) {
+    .FormBgcovmaiImg img {
+        display: none;
+    }
+
+    .RegithospitFormLeft {
+        width: 100%;
+    }
+
+    .RegithospitFormRight {
+        width: 100%;
+    }
+
+    .FormBgcovmaiImg {
+        width: 100%;
+    }
+
+    .RegithospitFormLeft {
+        padding-right: 0;
+        padding-top: 5px;
+        margin-bottom: 22px;
+    }
+
+    .RegithospitFormLeft h1 {
+        font-size: 24px;
+        margin-bottom: 8px;
+    }
+}
+
+@media (max-width: 767px) {
+
+
+    .RegirDoctdataStepIner {
+        width: 140px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .RegirDoctdataStepIner p {
+        font-size: 14px;
+    }
+
+    .rightBorderStep::after {
+        right: 95px;
+        width: 120px;
+    }
+
+
+}
+
+@media (max-width: 600px) {
+
+
+    .RegirDoctdataStepIner p {
+        font-size: 14px;
+    }
+
+    .RegirDoctdataStepIner svg {
+        font-size: 24px;
+    }
+
+    .RegirDoctdataStepIner {
+        width: 130px;
+    }
+
+    .rightBorderStep::after {
+        right: 80px;
+        width: 99px;
+        top: 12px;
+    }
+
+}
+
+@media (max-width: 500px) {
+    .rightBorderStep::after {
+        right: 68px;
+        width: 80px;
+        top: 14px;
+    }
+
+    .RegirDoctdataStepIner svg {
+        margin-bottom: 0px;
+    }
+
+    .RegirDoctdataStepIner {
+        width: 108px;
+    }
+
+    .RegirDoctdataStepIner p {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 479px) {
+
+
+    .RegithospitFormCov {
+        padding-top: 25px;
+        padding-bottom: 30px;
+    }
+
+    .RegithospitFormLeft h1 {
+        font-size: 22px;
+    }
+
+    .RegithospitFormLeft p {
+        font-size: 13px;
+    }
+
+    .RgithositBoxformCard {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 414px) {
+    .rightBorderStep::after {
+        right: 55px;
+        width: 50px;
+    }
+
+    .RegirDoctdataStepIner p {
+        font-size: 11px;
+    }
+
+    .RegirDoctdataStepIner {
+        width: 80px;
+    }
+}

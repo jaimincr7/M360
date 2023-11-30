@@ -1,0 +1,16 @@
+.breadcrumb-title {
+    display: inline-flex;
+    width: 100%;
+    padding: 12px 0;
+}
+
+.breadcrumb-title ul {
+    display: inline-flex;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.breadcrumb-title ul li {
+    font-size: 14px;
+    color: #434E60;
+}
